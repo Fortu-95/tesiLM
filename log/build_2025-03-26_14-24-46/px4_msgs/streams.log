@@ -1,0 +1,23 @@
+[0.018s] Invoking command in '/home/fortunato/ros2_ws/build/px4_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/fortunato/ros2_ws/install/cameras /usr/bin/cmake --build /home/fortunato/ros2_ws/build/px4_msgs -- -j8 -l8
+[0.899s] [  0%] Built target px4_msgs__cpp
+[0.945s] [ 12%] Built target px4_msgs__rosidl_generator_c
+[1.041s] [ 25%] Built target px4_msgs__rosidl_typesupport_c
+[1.083s] [ 37%] Built target px4_msgs__rosidl_typesupport_cpp
+[1.098s] [ 37%] Built target ament_cmake_python_copy_px4_msgs
+[1.106s] [ 50%] Built target px4_msgs__rosidl_typesupport_introspection_c
+[1.107s] [ 63%] Built target px4_msgs__rosidl_typesupport_introspection_cpp
+[1.115s] [ 75%] Built target px4_msgs__rosidl_typesupport_fastrtps_cpp
+[1.124s] [ 88%] Built target px4_msgs__rosidl_typesupport_fastrtps_c
+[1.147s] [ 88%] Built target px4_msgs
+[1.179s] [ 88%] Built target px4_msgs__py
+[1.292s] [100%] Built target px4_msgs__rosidl_generator_py
+[1.324s] [100%] Built target px4_msgs__rosidl_typesupport_introspection_c__pyext
+[1.324s] [100%] Built target px4_msgs__rosidl_typesupport_c__pyext
+[1.324s] [100%] Built target px4_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.361s] running egg_info
+[1.361s] writing px4_msgs.egg-info/PKG-INFO
+[1.362s] writing dependency_links to px4_msgs.egg-info/dependency_links.txt
+[1.362s] writing top-level names to px4_msgs.egg-info/top_level.txt
+[1.366s] reading manifest file 'px4_msgs.egg-info/SOURCES.txt'
+[1.370s] writing manifest file 'px4_msgs.egg-info/SOURCES.txt'
+[1.392s] [100%] Built target ament_cmake_python_build_px4_msgs_egg

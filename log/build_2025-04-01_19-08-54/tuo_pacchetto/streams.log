@@ -1,0 +1,11 @@
+[0.024s] Invoking command in '/home/fortunato/ros2_ws/build/tuo_pacchetto': /usr/bin/cmake --build /home/fortunato/ros2_ws/build/tuo_pacchetto -- -j8 -l8
+[0.070s] [35m[1mConsolidate compiler generated dependencies of target nodo[0m
+[0.108s] [ 50%] [32mBuilding CXX object CMakeFiles/nodo.dir/src/nodo.cpp.o[0m
+[0.590s] [01m[K/home/fortunato/ros2_ws/src/nodi/src/nodo.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kexample_interfaces/msg/float64_multi_array.hpp: File o directory non esistente
+[0.590s]     3 | #include [01;31m[K"example_interfaces/msg/float64_multi_array.hpp"[m[K
+[0.590s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.590s] compilation terminated.
+[0.593s] gmake[2]: *** [CMakeFiles/nodo.dir/build.make:76: CMakeFiles/nodo.dir/src/nodo.cpp.o] Errore 1
+[0.594s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/nodo.dir/all] Errore 2
+[0.594s] gmake: *** [Makefile:146: all] Errore 2
+[0.597s] Invoked command in '/home/fortunato/ros2_ws/build/tuo_pacchetto' returned '2': /usr/bin/cmake --build /home/fortunato/ros2_ws/build/tuo_pacchetto -- -j8 -l8

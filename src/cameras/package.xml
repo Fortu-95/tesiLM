@@ -1,0 +1,12 @@
+<package format="3">
+  <name>cameras</name>
+  <version>0.0.1</version>
+  <description>Percorso di esempio per Gazebo con ROS2</description>
+
+  <maintainer email="fortunato.rocco95@gmail.com">fortunato</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <exec_depend>gazebo_ros</exec_depend>
+</package>
+

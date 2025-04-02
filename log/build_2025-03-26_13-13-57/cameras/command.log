@@ -1,0 +1,1 @@
+Invoking command in '/home/fortunato/ros2_ws/build/cameras': /usr/bin/cmake /home/fortunato/ros2_ws/src/cameras -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fortunato/ros2_ws/install/cameras

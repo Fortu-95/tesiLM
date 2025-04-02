@@ -1,0 +1,302 @@
+[0.000000] (-) TimerEvent: {}
+[0.000109] (cameras) JobQueued: {'identifier': 'cameras', 'dependencies': OrderedDict()}
+[0.000135] (px4) JobQueued: {'identifier': 'px4', 'dependencies': OrderedDict()}
+[0.000153] (px4_msgs) JobQueued: {'identifier': 'px4_msgs', 'dependencies': OrderedDict()}
+[0.000168] (px4_ros_com) JobQueued: {'identifier': 'px4_ros_com', 'dependencies': OrderedDict([('px4_msgs', '/home/fortunato/ros2_ws/install/px4_msgs')])}
+[0.000185] (px4_msgs) JobStarted: {'identifier': 'px4_msgs'}
+[0.005595] (cameras) JobStarted: {'identifier': 'cameras'}
+[0.008011] (px4) JobStarted: {'identifier': 'px4'}
+[0.012285] (px4_msgs) JobProgress: {'identifier': 'px4_msgs', 'progress': 'cmake'}
+[0.013098] (px4_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/fortunato/ros2_ws/src/px4_msgs', '-DCMAKE_INSTALL_PREFIX=/home/fortunato/ros2_ws/install/px4_msgs'], 'cwd': '/home/fortunato/ros2_ws/build/px4_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fortunato'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fortunato'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2468'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c74ba0056d1a42ffd8fa8c3767e3e964'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/fortunato/ros2_install'), ('MAVLINK_DIR', '/home/fortunato/ros2_ws/src/PX4-Autopilot/mavlink/include/mavlink/v2.0'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fortunato'), ('_', '/home/fortunato/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fortunato'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/fortunato/ros2_ws/src/PX4-Autopilot/Tools/sitl_gazebo/models:/home/fortunago/ros2_ws//PX4-Autopilot/Tools/sitl_gazebo/models:/home/fortunato/ros2_ws/install/cameras/share/cameras/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/fortunato/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fortunato-Swift-SF314-54:@/tmp/.ICE-unix/2468,unix/fortunato-Swift-SF314-54:/tmp/.ICE-unix/2468'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2047b2d5_3560_470b_ae61_c15ef6c2d097'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'it_IT.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WU4432'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.114'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/fortunato/ros2_ws/install/cameras'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fortunato/ros2_ws/build/px4_msgs'), ('LC_ALL', 'it_IT.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/home/fortunato/ros2_ws/src/PX4-Autopilot/build/px4_sitl_default/build_gazebo-classic:'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c74ba0056d1a42ffd8fa8c3767e3e964'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:/home/fortunato/ros2_ws/install/cameras')]), 'shell': False}
+[0.016092] (cameras) JobProgress: {'identifier': 'cameras', 'progress': 'cmake'}
+[0.016389] (cameras) Command: {'cmd': ['/usr/bin/cmake', '/home/fortunato/ros2_ws/src/cameras', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/fortunato/ros2_ws/install/cameras'], 'cwd': '/home/fortunato/ros2_ws/build/cameras', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fortunato'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fortunato'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2468'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c74ba0056d1a42ffd8fa8c3767e3e964'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/fortunato/ros2_install'), ('MAVLINK_DIR', '/home/fortunato/ros2_ws/src/PX4-Autopilot/mavlink/include/mavlink/v2.0'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fortunato'), ('_', '/home/fortunato/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fortunato'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/fortunato/ros2_ws/src/PX4-Autopilot/Tools/sitl_gazebo/models:/home/fortunago/ros2_ws//PX4-Autopilot/Tools/sitl_gazebo/models:/home/fortunato/ros2_ws/install/cameras/share/cameras/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/fortunato/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fortunato-Swift-SF314-54:@/tmp/.ICE-unix/2468,unix/fortunato-Swift-SF314-54:/tmp/.ICE-unix/2468'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2047b2d5_3560_470b_ae61_c15ef6c2d097'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'it_IT.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WU4432'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.114'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/fortunato/ros2_ws/install/cameras'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fortunato/ros2_ws/build/cameras'), ('LC_ALL', 'it_IT.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/home/fortunato/ros2_ws/src/PX4-Autopilot/build/px4_sitl_default/build_gazebo-classic:'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c74ba0056d1a42ffd8fa8c3767e3e964'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.020167] (px4) JobProgress: {'identifier': 'px4', 'progress': 'cmake'}
+[0.020654] (px4) Command: {'cmd': ['/usr/bin/cmake', '/home/fortunato/ros2_ws/src/PX4-Autopilot', '-DCMAKE_INSTALL_PREFIX=/home/fortunato/ros2_ws/install/px4'], 'cwd': '/home/fortunato/ros2_ws/build/px4', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fortunato'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fortunato'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2468'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c74ba0056d1a42ffd8fa8c3767e3e964'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/fortunato/ros2_install'), ('MAVLINK_DIR', '/home/fortunato/ros2_ws/src/PX4-Autopilot/mavlink/include/mavlink/v2.0'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fortunato'), ('_', '/home/fortunato/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fortunato'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/fortunato/ros2_ws/src/PX4-Autopilot/Tools/sitl_gazebo/models:/home/fortunago/ros2_ws//PX4-Autopilot/Tools/sitl_gazebo/models:/home/fortunato/ros2_ws/install/cameras/share/cameras/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/fortunato/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fortunato-Swift-SF314-54:@/tmp/.ICE-unix/2468,unix/fortunato-Swift-SF314-54:/tmp/.ICE-unix/2468'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2047b2d5_3560_470b_ae61_c15ef6c2d097'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'it_IT.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WU4432'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.114'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/fortunato/ros2_ws/install/cameras'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fortunato/ros2_ws/build/px4'), ('LC_ALL', 'it_IT.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/home/fortunato/ros2_ws/src/PX4-Autopilot/build/px4_sitl_default/build_gazebo-classic:'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c74ba0056d1a42ffd8fa8c3767e3e964'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:/home/fortunato/ros2_ws/install/cameras')]), 'shell': False}
+[0.039080] (px4) StdoutLine: {'line': b'-- PX4_GIT_TAG: v1.16.0-beta1-27-g9e99bd3b7a\n'}
+[0.066979] (px4) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3") \n'}
+[0.084568] (cameras) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.093313] (px4_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099390] (-) TimerEvent: {}
+[0.108216] (px4) StdoutLine: {'line': b'-- PX4 config file: /home/fortunato/ros2_ws/src/PX4-Autopilot/boards/px4/ros2/default.px4board\n'}
+[0.160354] (cameras) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.167447] (px4_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.169812] (cameras) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.176663] (px4_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199509] (-) TimerEvent: {}
+[0.257321] (cameras) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.264958] (px4_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.269081] (cameras) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.269406] (cameras) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.269949] (cameras) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.273870] (cameras) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.275245] (px4_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.275649] (px4_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.276273] (px4_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.280160] (px4_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299616] (-) TimerEvent: {}
+[0.365860] (px4) StdoutLine: {'line': b'-- PLATFORM ros2\n'}
+[0.366292] (px4) StdoutLine: {'line': b'-- ROMFSROOT px4fmu_common\n'}
+[0.368544] (px4) StdoutLine: {'line': b'-- ROOT_PATH /fs/microsd\n'}
+[0.368773] (px4) StdoutLine: {'line': b'-- PARAM_FILE /fs/mtd_params\n'}
+[0.377444] (cameras) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.383990] (px4_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.387704] (cameras) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.388089] (cameras) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.388691] (cameras) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.391312] (cameras) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.392886] (px4) StdoutLine: {'line': b'-- PX4 config: px4_ros2_default\n'}
+[0.393071] (px4) StdoutLine: {'line': b'-- PX4 platform: ros2\n'}
+[0.394385] (px4_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.394729] (px4_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.395395] (px4_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.397886] (px4_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399696] (-) TimerEvent: {}
+[0.476540] (px4) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.488083] (px4) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.499812] (-) TimerEvent: {}
+[0.588062] (cameras) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.591872] (px4) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.597388] (px4_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.599915] (-) TimerEvent: {}
+[0.604392] (px4) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.604723] (px4) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.605426] (px4) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.608132] (px4) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.700057] (-) TimerEvent: {}
+[0.700300] (cameras) StdoutLine: {'line': b'-- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[0.710829] (px4_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[0.753951] (px4_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.758489] (cameras) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.760551] (px4_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.764336] (cameras) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.771201] (px4_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.775174] (cameras) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.787662] (px4_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.790747] (cameras) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.800189] (-) TimerEvent: {}
+[0.805723] (px4) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.808300] (px4_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.814138] (cameras) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.827723] (px4_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.873244] (cameras) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.876234] (cameras) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.900327] (-) TimerEvent: {}
+[0.923666] (px4) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.924301] (px4) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_core/cmake/core/normalize_path.cmake:52 (while):\n'}
+[0.924512] (px4) StderrLine: {'line': b'  had incorrect arguments:\n'}
+[0.924601] (px4) StderrLine: {'line': b'\n'}
+[0.924677] (px4) StderrLine: {'line': b'    "TRUE"\n'}
+[0.924752] (px4) StderrLine: {'line': b'\n'}
+[0.924823] (px4) StderrLine: {'line': b'  An argument named "TRUE" appears in a conditional statement.  Policy\n'}
+[0.924923] (px4) StderrLine: {'line': b'  CMP0012 is not set: if() recognizes numbers and boolean constants.  Run\n'}
+[0.924998] (px4) StderrLine: {'line': b'  "cmake --help-policy CMP0012" for policy details.  Use the cmake_policy\n'}
+[0.925069] (px4) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[0.925139] (px4) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.925209] (px4) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/normalize_path.cmake:34 (_normalize_path__collapse_redundant)\n'}
+[0.925280] (px4) StderrLine: {'line': b'  /opt/ros/humble/share/rclcpp/cmake/ament_cmake_export_include_directories-extras.cmake:13 (normalize_path)\n'}
+[0.925350] (px4) StderrLine: {'line': b'  /opt/ros/humble/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)\n'}
+[0.925420] (px4) StderrLine: {'line': b'  platforms/ros2/cmake/init.cmake:38 (find_package)\n'}
+[0.925506] (px4) StderrLine: {'line': b'  CMakeLists.txt:224 (include)\n'}
+[0.925578] (px4) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.925650] (px4) StderrLine: {'line': b'\x1b[0m\n'}
+[0.925722] (px4) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_core/cmake/core/normalize_path.cmake:72 (while):\n'}
+[0.925794] (px4) StderrLine: {'line': b'  had incorrect arguments:\n'}
+[0.925880] (px4) StderrLine: {'line': b'\n'}
+[0.925966] (px4) StderrLine: {'line': b'    "TRUE"\n'}
+[0.926038] (px4) StderrLine: {'line': b'\n'}
+[0.926110] (px4) StderrLine: {'line': b'  An argument named "TRUE" appears in a conditional statement.  Policy\n'}
+[0.926183] (px4) StderrLine: {'line': b'  CMP0012 is not set: if() recognizes numbers and boolean constants.  Run\n'}
+[0.926255] (px4) StderrLine: {'line': b'  "cmake --help-policy CMP0012" for policy details.  Use the cmake_policy\n'}
+[0.926327] (px4) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[0.926410] (px4) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.926498] (px4) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/normalize_path.cmake:35 (_normalize_path__collapse_uplevel_reference)\n'}
+[0.926574] (px4) StderrLine: {'line': b'  /opt/ros/humble/share/rclcpp/cmake/ament_cmake_export_include_directories-extras.cmake:13 (normalize_path)\n'}
+[0.926648] (px4) StderrLine: {'line': b'  /opt/ros/humble/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)\n'}
+[0.926723] (px4) StderrLine: {'line': b'  platforms/ros2/cmake/init.cmake:38 (find_package)\n'}
+[0.926798] (px4) StderrLine: {'line': b'  CMakeLists.txt:224 (include)\n'}
+[0.926892] (px4) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.926973] (px4) StderrLine: {'line': b'\x1b[0m\n'}
+[0.929519] (px4) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):\n'}
+[0.929889] (px4) StderrLine: {'line': b'  Policy CMP0057 is not set: Support new IN_LIST if() operator.  Run "cmake\n'}
+[0.930051] (px4) StderrLine: {'line': b'  --help-policy CMP0057" for policy details.  Use the cmake_policy command to\n'}
+[0.930191] (px4) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[0.930323] (px4) StderrLine: {'line': b'\n'}
+[0.930481] (px4) StderrLine: {'line': b'  IN_LIST will be interpreted as an operator when the policy is set to NEW.\n'}
+[0.930635] (px4) StderrLine: {'line': b'  Since the policy is not set the OLD behavior will be used.\n'}
+[0.930788] (px4) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.930961] (px4) StderrLine: {'line': b'  /opt/ros/humble/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:34 (list_append_unique)\n'}
+[0.931133] (px4) StderrLine: {'line': b'  /opt/ros/humble/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)\n'}
+[0.931289] (px4) StderrLine: {'line': b'  platforms/ros2/cmake/init.cmake:38 (find_package)\n'}
+[0.931453] (px4) StderrLine: {'line': b'  CMakeLists.txt:224 (include)\n'}
+[0.931593] (px4) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.931728] (px4) StderrLine: {'line': b'\x1b[0m\n'}
+[0.931874] (px4) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):\n'}
+[0.932030] (px4) StderrLine: {'line': b'  if given arguments:\n'}
+[0.932167] (px4) StderrLine: {'line': b'\n'}
+[0.932303] (px4) StderrLine: {'line': b'    "NOT" "element" "IN_LIST" "rclcpp_INCLUDE_DIRS"\n'}
+[0.932435] (px4) StderrLine: {'line': b'\n'}
+[0.932568] (px4) StderrLine: {'line': b'  Unknown arguments specified\n'}
+[0.932698] (px4) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.932832] (px4) StderrLine: {'line': b'  /opt/ros/humble/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:34 (list_append_unique)\n'}
+[0.933004] (px4) StderrLine: {'line': b'  /opt/ros/humble/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)\n'}
+[0.933141] (px4) StderrLine: {'line': b'  platforms/ros2/cmake/init.cmake:38 (find_package)\n'}
+[0.933279] (px4) StderrLine: {'line': b'  CMakeLists.txt:224 (include)\n'}
+[0.933431] (px4) StderrLine: {'line': b'\n'}
+[0.933572] (px4) StderrLine: {'line': b'\x1b[0m\n'}
+[0.933716] (px4) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.933947] (px4) StdoutLine: {'line': b'See also "/home/fortunato/ros2_ws/build/px4/CMakeFiles/CMakeOutput.log".\n'}
+[0.934139] (px4) StderrLine: {'line': b'\x1b[31mCMake Error in CMakeLists.txt:\n'}
+[0.934392] (px4) StderrLine: {'line': b'  No cmake_minimum_required command is present.  A line of code such as\n'}
+[0.934532] (px4) StderrLine: {'line': b'\n'}
+[0.934728] (px4) StderrLine: {'line': b'    cmake_minimum_required(VERSION 3.22)\n'}
+[0.935102] (px4) StderrLine: {'line': b'\n'}
+[0.935598] (px4) StderrLine: {'line': b'  should be added at the top of the file.  The version specified may be lower\n'}
+[0.935785] (px4) StderrLine: {'line': b'  if you wish to support older CMake versions for this project.  For more\n'}
+[0.936428] (px4) StderrLine: {'line': b'  information run "cmake --help-policy CMP0000".\n'}
+[0.936621] (px4) StderrLine: {'line': b'\n'}
+[0.937569] (px4) StderrLine: {'line': b'\x1b[0m\n'}
+[0.938100] (px4) CommandEnded: {'returncode': 1}
+[0.961906] (px4) JobEnded: {'identifier': 'px4', 'rc': 1}
+[0.999760] (cameras) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.000418] (-) TimerEvent: {}
+[1.035828] (cameras) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.086969] (cameras) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.096178] (cameras) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.100500] (-) TimerEvent: {}
+[1.179575] (cameras) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.179836] (cameras) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.200620] (-) TimerEvent: {}
+[1.269103] (cameras) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.270420] (cameras) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.300716] (-) TimerEvent: {}
+[1.345215] (cameras) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[1.346726] (cameras) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[1.360480] (cameras) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[1.400818] (-) TimerEvent: {}
+[1.478639] (cameras) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[1.500924] (-) TimerEvent: {}
+[1.533180] (cameras) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[1.552773] (cameras) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[1.578124] (cameras) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[1.593686] (cameras) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[1.598609] (cameras) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.600992] (-) TimerEvent: {}
+[1.605399] (cameras) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[1.607105] (cameras) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[1.607643] (cameras) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[1.613685] (cameras) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[1.627234] (cameras) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[1.663948] (cameras) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[1.671098] (cameras) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[1.682597] (cameras) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[1.687994] (cameras) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[1.688216] (cameras) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[1.693285] (cameras) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[1.693445] (cameras) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[1.698386] (cameras) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[1.698539] (cameras) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[1.701070] (-) TimerEvent: {}
+[1.703878] (cameras) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[1.704063] (cameras) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[1.709166] (cameras) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[1.709318] (cameras) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[1.714364] (cameras) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[1.801182] (-) TimerEvent: {}
+[1.834493] (cameras) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.836642] (cameras) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[1.837223] (cameras) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[1.859486] (cameras) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[1.873599] (cameras) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[1.879324] (cameras) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[1.894248] (cameras) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[1.901273] (-) TimerEvent: {}
+[1.935010] (cameras) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[1.942008] (cameras) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[1.956085] (cameras) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[1.993133] (cameras) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[1.995573] (cameras) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.996187] (cameras) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[2.001347] (-) TimerEvent: {}
+[2.020012] (cameras) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.026224] (cameras) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[2.041878] (cameras) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[2.081037] (cameras) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.083328] (cameras) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[2.083993] (cameras) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[2.084269] (cameras) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[2.085130] (cameras) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[2.086702] (cameras) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[2.099797] (cameras) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[2.100408] (cameras) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[2.101427] (-) TimerEvent: {}
+[2.102592] (cameras) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[2.103216] (cameras) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[2.103650] (cameras) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.106486] (cameras) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[2.107026] (cameras) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[2.195878] (cameras) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[2.201519] (-) TimerEvent: {}
+[2.205617] (cameras) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[2.220076] (cameras) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[2.258414] (cameras) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[2.265240] (cameras) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[2.279786] (cameras) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[2.301627] (-) TimerEvent: {}
+[2.317881] (cameras) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[2.318456] (cameras) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[2.318955] (cameras) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.319475] (cameras) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.322955] (cameras) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[2.323359] (cameras) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[2.339171] (cameras) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[2.401731] (-) TimerEvent: {}
+[2.456455] (cameras) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.462967] (cameras) StdoutLine: {'line': b'-- Generating done\n'}
+[2.464280] (cameras) StderrLine: {'line': b'\x1b[33mCMake Warning:\n'}
+[2.464461] (cameras) StderrLine: {'line': b'  Manually-specified variables were not used by the project:\n'}
+[2.464592] (cameras) StderrLine: {'line': b'\n'}
+[2.464716] (cameras) StderrLine: {'line': b'    CATKIN_INSTALL_INTO_PREFIX_ROOT\n'}
+[2.464848] (cameras) StderrLine: {'line': b'\n'}
+[2.464984] (cameras) StderrLine: {'line': b'\x1b[0m\n'}
+[2.466431] (cameras) StdoutLine: {'line': b'-- Build files have been written to: /home/fortunato/ros2_ws/build/cameras\n'}
+[2.479849] (cameras) JobEnded: {'identifier': 'cameras', 'rc': 'SIGINT'}
+[2.501804] (-) TimerEvent: {}
+[2.602029] (-) TimerEvent: {}
+[2.702298] (-) TimerEvent: {}
+[2.802565] (-) TimerEvent: {}
+[2.902856] (-) TimerEvent: {}
+[3.003232] (-) TimerEvent: {}
+[3.033525] (px4_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)\n'}
+[3.035281] (px4_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)\n'}
+[3.037040] (px4_msgs) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)\n'}
+[3.038991] (px4_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.103358] (-) TimerEvent: {}
+[3.203722] (-) TimerEvent: {}
+[3.304308] (-) TimerEvent: {}
+[3.404601] (-) TimerEvent: {}
+[3.502617] (px4_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.504709] (-) TimerEvent: {}
+[3.604894] (-) TimerEvent: {}
+[3.652220] (px4_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.677677] (px4_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[3.679205] (px4_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.705180] (-) TimerEvent: {}
+[3.731212] (px4_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.731749] (px4_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.732066] (px4_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.732256] (px4_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.771815] (px4_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.805250] (-) TimerEvent: {}
+[3.862833] (px4_msgs) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)\n'}
+[3.865310] (px4_msgs) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)\n'}
+[3.881937] (px4_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.905395] (-) TimerEvent: {}
+[4.005719] (-) TimerEvent: {}
+[4.106002] (-) TimerEvent: {}
+[4.206369] (-) TimerEvent: {}
+[4.288386] (px4_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[4.306505] (-) TimerEvent: {}
+[4.328036] (px4_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/fortunato/ros2_ws/build/px4_msgs\n'}
+[4.346855] (px4_msgs) JobEnded: {'identifier': 'px4_msgs', 'rc': 'SIGINT'}
+[4.357640] (px4_ros_com) JobSkipped: {'identifier': 'px4_ros_com'}
+[4.357675] (-) EventReactorShutdown: {}

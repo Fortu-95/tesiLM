@@ -1,0 +1,350 @@
+[0.157s] DEBUG:colcon:Command line arguments: ['/home/fortunato/.local/bin/colcon', 'build']
+[0.158s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7b87208874c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b8720886ef0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b8720886ef0>>, mixin_verb=('build',))
+[0.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.317s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/fortunato/ros2_ws'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/PX4-Autopilot) by extensions ['ignore', 'ignore_ament_install']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/PX4-Autopilot) by extension 'ignore'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/PX4-Autopilot) by extension 'ignore_ament_install'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/PX4-Autopilot) by extensions ['colcon_pkg']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/PX4-Autopilot) by extension 'colcon_pkg'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/PX4-Autopilot) by extensions ['colcon_meta']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/PX4-Autopilot) by extension 'colcon_meta'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/PX4-Autopilot) by extensions ['ros']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/PX4-Autopilot) by extension 'ros'
+[0.346s] DEBUG:colcon.colcon_core.package_identification:Package 'src/PX4-Autopilot' with type 'ros.ament_cmake' and name 'px4'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/cameras) by extensions ['ignore', 'ignore_ament_install']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/cameras) by extension 'ignore'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/cameras) by extension 'ignore_ament_install'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/cameras) by extensions ['colcon_pkg']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/cameras) by extension 'colcon_pkg'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/cameras) by extensions ['colcon_meta']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/cameras) by extension 'colcon_meta'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/cameras) by extensions ['ros']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/cameras) by extension 'ros'
+[0.347s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cameras' with type 'ros.catkin' and name 'cameras'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore_ament_install'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_pkg']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_pkg'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_meta']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_meta'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ros']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ros'
+[0.348s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_msgs' with type 'ros.ament_cmake' and name 'px4_msgs'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['ignore', 'ignore_ament_install']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ignore'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ignore_ament_install'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['colcon_pkg']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'colcon_pkg'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['colcon_meta']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'colcon_meta'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['ros']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ros'
+[0.350s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_ros_com' with type 'ros.ament_cmake' and name 'px4_ros_com'
+[0.350s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.350s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.350s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.350s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.350s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.370s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 293 installed packages in /opt/ros/humble
+[0.373s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/fortunato/ros2_ws/install
+[0.373s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'cameras' build argument 'cmake_args' from command line to 'None'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'cameras' build argument 'cmake_target' from command line to 'None'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'cameras' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'cameras' build argument 'cmake_clean_cache' from command line to 'False'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'cameras' build argument 'cmake_clean_first' from command line to 'False'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'cameras' build argument 'cmake_force_configure' from command line to 'False'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'cameras' build argument 'ament_cmake_args' from command line to 'None'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'cameras' build argument 'catkin_cmake_args' from command line to 'None'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'cameras' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.410s] DEBUG:colcon.colcon_core.verb:Building package 'cameras' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fortunato/ros2_ws/build/cameras', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fortunato/ros2_ws/install/cameras', 'merge_install': False, 'path': '/home/fortunato/ros2_ws/src/cameras', 'symlink_install': False, 'test_result_base': None}
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'px4' build argument 'cmake_args' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'px4' build argument 'cmake_target' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'px4' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'px4' build argument 'cmake_clean_cache' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'px4' build argument 'cmake_clean_first' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'px4' build argument 'cmake_force_configure' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'px4' build argument 'ament_cmake_args' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'px4' build argument 'catkin_cmake_args' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'px4' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.411s] DEBUG:colcon.colcon_core.verb:Building package 'px4' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fortunato/ros2_ws/build/px4', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fortunato/ros2_ws/install/px4', 'merge_install': False, 'path': '/home/fortunato/ros2_ws/src/PX4-Autopilot', 'symlink_install': False, 'test_result_base': None}
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_args' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.411s] DEBUG:colcon.colcon_core.verb:Building package 'px4_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fortunato/ros2_ws/build/px4_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fortunato/ros2_ws/install/px4_msgs', 'merge_install': False, 'path': '/home/fortunato/ros2_ws/src/px4_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_args' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_target' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_clean_cache' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_clean_first' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_force_configure' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'ament_cmake_args' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'catkin_cmake_args' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.412s] DEBUG:colcon.colcon_core.verb:Building package 'px4_ros_com' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fortunato/ros2_ws/build/px4_ros_com', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fortunato/ros2_ws/install/px4_ros_com', 'merge_install': False, 'path': '/home/fortunato/ros2_ws/src/px4_ros_com', 'symlink_install': False, 'test_result_base': None}
+[0.412s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.413s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.413s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fortunato/ros2_ws/src/px4_msgs' with build type 'ament_cmake'
+[0.413s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fortunato/ros2_ws/src/px4_msgs'
+[0.415s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.415s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.415s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.419s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/fortunato/ros2_ws/src/cameras' with build type 'catkin'
+[0.419s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fortunato/ros2_ws/src/cameras'
+[0.419s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.419s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.422s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fortunato/ros2_ws/src/PX4-Autopilot' with build type 'ament_cmake'
+[0.422s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fortunato/ros2_ws/src/PX4-Autopilot'
+[0.423s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.423s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.432s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fortunato/ros2_ws/build/px4_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/fortunato/ros2_ws/install/cameras /usr/bin/cmake --build /home/fortunato/ros2_ws/build/px4_msgs -- -j8 -l8
+[0.435s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fortunato/ros2_ws/build/cameras': /usr/bin/cmake --build /home/fortunato/ros2_ws/build/cameras -- -j8 -l8
+[0.440s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fortunato/ros2_ws/build/px4': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/fortunato/ros2_ws/install/cameras /usr/bin/cmake --build /home/fortunato/ros2_ws/build/px4 -- -j8 -l8
+[0.485s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fortunato/ros2_ws/build/cameras' returned '0': /usr/bin/cmake --build /home/fortunato/ros2_ws/build/cameras -- -j8 -l8
+[0.504s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fortunato/ros2_ws/build/cameras': /usr/bin/cmake --install /home/fortunato/ros2_ws/build/cameras
+[0.536s] Level 1:colcon.colcon_core.shell:create_environment_hook('cameras', 'ros_package_path')
+[0.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fortunato/ros2_ws/install/cameras/share/cameras/hook/ros_package_path.ps1'
+[0.539s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fortunato/ros2_ws/install/cameras/share/cameras/hook/ros_package_path.dsv'
+[0.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fortunato/ros2_ws/install/cameras/share/cameras/hook/ros_package_path.sh'
+[0.550s] Level 1:colcon.colcon_core.shell:create_environment_hook('cameras', 'pkg_config_path')
+[0.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fortunato/ros2_ws/install/cameras/share/cameras/hook/pkg_config_path.ps1'
+[0.551s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fortunato/ros2_ws/install/cameras/share/cameras/hook/pkg_config_path.dsv'
+[0.553s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fortunato/ros2_ws/install/cameras/share/cameras/hook/pkg_config_path.sh'
+[0.557s] Level 1:colcon.colcon_core.shell:create_environment_hook('cameras', 'pkg_config_path_multiarch')
+[0.557s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fortunato/ros2_ws/install/cameras/share/cameras/hook/pkg_config_path_multiarch.ps1'
+[0.559s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fortunato/ros2_ws/build/cameras' returned '0': /usr/bin/cmake --install /home/fortunato/ros2_ws/build/cameras
+[0.559s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fortunato/ros2_ws/install/cameras/share/cameras/hook/pkg_config_path_multiarch.dsv'
+[0.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fortunato/ros2_ws/install/cameras/share/cameras/hook/pkg_config_path_multiarch.sh'
+[0.562s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cameras)
+[0.565s] Level 1:colcon.colcon_core.environment:checking '/home/fortunato/ros2_ws/install/cameras' for CMake module files
+[0.566s] Level 1:colcon.colcon_core.environment:checking '/home/fortunato/ros2_ws/install/cameras' for CMake config files
+[0.568s] Level 1:colcon.colcon_core.shell:create_environment_hook('cameras', 'cmake_prefix_path')
+[0.568s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fortunato/ros2_ws/install/cameras/share/cameras/hook/cmake_prefix_path.ps1'
+[0.569s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fortunato/ros2_ws/install/cameras/share/cameras/hook/cmake_prefix_path.dsv'
+[0.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fortunato/ros2_ws/install/cameras/share/cameras/hook/cmake_prefix_path.sh'
+[0.570s] Level 1:colcon.colcon_core.environment:checking '/home/fortunato/ros2_ws/install/cameras/bin'
+[0.570s] Level 1:colcon.colcon_core.environment:checking '/home/fortunato/ros2_ws/install/cameras/lib/pkgconfig/cameras.pc'
+[0.570s] Level 1:colcon.colcon_core.environment:checking '/home/fortunato/ros2_ws/install/cameras/lib/python3.10/site-packages'
+[0.571s] Level 1:colcon.colcon_core.environment:checking '/home/fortunato/ros2_ws/install/cameras/bin'
+[0.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/fortunato/ros2_ws/install/cameras/share/cameras/package.ps1'
+[0.573s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fortunato/ros2_ws/install/cameras/share/cameras/package.dsv'
+[0.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/fortunato/ros2_ws/install/cameras/share/cameras/package.sh'
+[0.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/fortunato/ros2_ws/install/cameras/share/cameras/package.bash'
+[0.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/fortunato/ros2_ws/install/cameras/share/cameras/package.zsh'
+[0.577s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fortunato/ros2_ws/install/cameras/share/colcon-core/packages/cameras)
+[1.243s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fortunato/ros2_ws/build/px4' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/fortunato/ros2_ws/install/cameras /usr/bin/cmake --build /home/fortunato/ros2_ws/build/px4 -- -j8 -l8
+[1.246s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fortunato/ros2_ws/build/px4': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/fortunato/ros2_ws/install/cameras /usr/bin/cmake --install /home/fortunato/ros2_ws/build/px4
+[1.770s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4)
+[1.770s] Level 1:colcon.colcon_core.environment:checking '/home/fortunato/ros2_ws/install/px4' for CMake module files
+[1.772s] Level 1:colcon.colcon_core.environment:checking '/home/fortunato/ros2_ws/install/px4' for CMake config files
+[1.777s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4', 'cmake_prefix_path')
+[1.778s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fortunato/ros2_ws/install/px4/share/px4/hook/cmake_prefix_path.ps1'
+[1.779s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fortunato/ros2_ws/install/px4/share/px4/hook/cmake_prefix_path.dsv'
+[1.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fortunato/ros2_ws/install/px4/share/px4/hook/cmake_prefix_path.sh'
+[1.785s] Level 1:colcon.colcon_core.environment:checking '/home/fortunato/ros2_ws/install/px4/lib'
+[1.785s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4', 'ld_library_path_lib')
+[1.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fortunato/ros2_ws/install/px4/share/px4/hook/ld_library_path_lib.ps1'
+[1.787s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fortunato/ros2_ws/install/px4/share/px4/hook/ld_library_path_lib.dsv'
+[1.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fortunato/ros2_ws/install/px4/share/px4/hook/ld_library_path_lib.sh'
+[1.789s] Level 1:colcon.colcon_core.environment:checking '/home/fortunato/ros2_ws/install/px4/bin'
+[1.789s] Level 1:colcon.colcon_core.environment:checking '/home/fortunato/ros2_ws/install/px4/lib/pkgconfig/px4.pc'
+[1.793s] Level 1:colcon.colcon_core.environment:checking '/home/fortunato/ros2_ws/install/px4/lib/python3.10/site-packages'
+[1.794s] Level 1:colcon.colcon_core.environment:checking '/home/fortunato/ros2_ws/install/px4/bin'
+[1.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/fortunato/ros2_ws/install/px4/share/px4/package.ps1'
+[1.796s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fortunato/ros2_ws/install/px4/share/px4/package.dsv'
+[1.797s] INFO:colcon.colcon_core.shell:Creating package script '/home/fortunato/ros2_ws/install/px4/share/px4/package.sh'
+[1.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/fortunato/ros2_ws/install/px4/share/px4/package.bash'
+[1.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/fortunato/ros2_ws/install/px4/share/px4/package.zsh'
+[1.803s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fortunato/ros2_ws/install/px4/share/colcon-core/packages/px4)
+[1.810s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4)
+[1.811s] Level 1:colcon.colcon_core.environment:checking '/home/fortunato/ros2_ws/install/px4' for CMake module files
+[1.812s] Level 1:colcon.colcon_core.environment:checking '/home/fortunato/ros2_ws/install/px4' for CMake config files
+[1.818s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4', 'cmake_prefix_path')
+[1.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fortunato/ros2_ws/install/px4/share/px4/hook/cmake_prefix_path.ps1'
+[1.819s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fortunato/ros2_ws/install/px4/share/px4/hook/cmake_prefix_path.dsv'
+[1.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fortunato/ros2_ws/install/px4/share/px4/hook/cmake_prefix_path.sh'
+[1.825s] Level 1:colcon.colcon_core.environment:checking '/home/fortunato/ros2_ws/install/px4/lib'
+[1.826s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4', 'ld_library_path_lib')
+[1.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fortunato/ros2_ws/install/px4/share/px4/hook/ld_library_path_lib.ps1'
+[1.827s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fortunato/ros2_ws/install/px4/share/px4/hook/ld_library_path_lib.dsv'
+[1.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fortunato/ros2_ws/install/px4/share/px4/hook/ld_library_path_lib.sh'
+[1.829s] Level 1:colcon.colcon_core.environment:checking '/home/fortunato/ros2_ws/install/px4/bin'
+[1.835s] Level 1:colcon.colcon_core.environment:checking '/home/fortunato/ros2_ws/install/px4/lib/pkgconfig/px4.pc'
+[1.835s] Level 1:colcon.colcon_core.environment:checking '/home/fortunato/ros2_ws/install/px4/lib/python3.10/site-packages'
+[1.836s] Level 1:colcon.colcon_core.environment:checking '/home/fortunato/ros2_ws/install/px4/bin'
+[1.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/fortunato/ros2_ws/install/px4/share/px4/package.ps1'
+[1.838s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fortunato/ros2_ws/install/px4/share/px4/package.dsv'
+[1.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/fortunato/ros2_ws/install/px4/share/px4/package.sh'
+[1.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/fortunato/ros2_ws/install/px4/share/px4/package.bash'
+[1.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/fortunato/ros2_ws/install/px4/share/px4/package.zsh'
+[1.853s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fortunato/ros2_ws/install/px4/share/colcon-core/packages/px4)
+[1.936s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fortunato/ros2_ws/build/px4' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/fortunato/ros2_ws/install/cameras /usr/bin/cmake --install /home/fortunato/ros2_ws/build/px4
+[2.181s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fortunato/ros2_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/fortunato/ros2_ws/install/cameras /usr/bin/cmake --build /home/fortunato/ros2_ws/build/px4_msgs -- -j8 -l8
+[2.183s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fortunato/ros2_ws/build/px4_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/fortunato/ros2_ws/install/cameras /usr/bin/cmake --install /home/fortunato/ros2_ws/build/px4_msgs
+[2.600s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[2.600s] Level 1:colcon.colcon_core.environment:checking '/home/fortunato/ros2_ws/install/px4_msgs' for CMake module files
+[2.601s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fortunato/ros2_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/fortunato/ros2_ws/install/cameras /usr/bin/cmake --install /home/fortunato/ros2_ws/build/px4_msgs
+[2.601s] Level 1:colcon.colcon_core.environment:checking '/home/fortunato/ros2_ws/install/px4_msgs' for CMake config files
+[2.602s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[2.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fortunato/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[2.603s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fortunato/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[2.603s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fortunato/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[2.604s] Level 1:colcon.colcon_core.environment:checking '/home/fortunato/ros2_ws/install/px4_msgs/lib'
+[2.604s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[2.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fortunato/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[2.604s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fortunato/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[2.605s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fortunato/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[2.605s] Level 1:colcon.colcon_core.environment:checking '/home/fortunato/ros2_ws/install/px4_msgs/bin'
+[2.605s] Level 1:colcon.colcon_core.environment:checking '/home/fortunato/ros2_ws/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[2.605s] Level 1:colcon.colcon_core.environment:checking '/home/fortunato/ros2_ws/install/px4_msgs/lib/python3.10/site-packages'
+[2.605s] Level 1:colcon.colcon_core.environment:checking '/home/fortunato/ros2_ws/install/px4_msgs/bin'
+[2.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/fortunato/ros2_ws/install/px4_msgs/share/px4_msgs/package.ps1'
+[2.606s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fortunato/ros2_ws/install/px4_msgs/share/px4_msgs/package.dsv'
+[2.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/fortunato/ros2_ws/install/px4_msgs/share/px4_msgs/package.sh'
+[2.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/fortunato/ros2_ws/install/px4_msgs/share/px4_msgs/package.bash'
+[2.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/fortunato/ros2_ws/install/px4_msgs/share/px4_msgs/package.zsh'
+[2.608s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fortunato/ros2_ws/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[2.608s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[2.609s] Level 1:colcon.colcon_core.environment:checking '/home/fortunato/ros2_ws/install/px4_msgs' for CMake module files
+[2.609s] Level 1:colcon.colcon_core.environment:checking '/home/fortunato/ros2_ws/install/px4_msgs' for CMake config files
+[2.613s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[2.615s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fortunato/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[2.619s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fortunato/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[2.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fortunato/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[2.624s] Level 1:colcon.colcon_core.environment:checking '/home/fortunato/ros2_ws/install/px4_msgs/lib'
+[2.625s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[2.626s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fortunato/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[2.628s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fortunato/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[2.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fortunato/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[2.631s] Level 1:colcon.colcon_core.environment:checking '/home/fortunato/ros2_ws/install/px4_msgs/bin'
+[2.631s] Level 1:colcon.colcon_core.environment:checking '/home/fortunato/ros2_ws/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[2.632s] Level 1:colcon.colcon_core.environment:checking '/home/fortunato/ros2_ws/install/px4_msgs/lib/python3.10/site-packages'
+[2.633s] Level 1:colcon.colcon_core.environment:checking '/home/fortunato/ros2_ws/install/px4_msgs/bin'
+[2.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/fortunato/ros2_ws/install/px4_msgs/share/px4_msgs/package.ps1'
+[2.635s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fortunato/ros2_ws/install/px4_msgs/share/px4_msgs/package.dsv'
+[2.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/fortunato/ros2_ws/install/px4_msgs/share/px4_msgs/package.sh'
+[2.638s] INFO:colcon.colcon_core.shell:Creating package script '/home/fortunato/ros2_ws/install/px4_msgs/share/px4_msgs/package.bash'
+[2.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/fortunato/ros2_ws/install/px4_msgs/share/px4_msgs/package.zsh'
+[2.640s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fortunato/ros2_ws/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[2.640s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fortunato/ros2_ws/src/px4_ros_com' with build type 'ament_cmake'
+[2.640s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fortunato/ros2_ws/src/px4_ros_com'
+[2.641s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.641s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.656s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fortunato/ros2_ws/build/px4_ros_com': AMENT_PREFIX_PATH=/home/fortunato/ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fortunato/ros2_ws/install/px4_msgs:/opt/ros/humble:/home/fortunato/ros2_ws/install/cameras LD_LIBRARY_PATH=/home/fortunato/ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fortunato/ros2_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/fortunato/ros2_ws/build/px4_ros_com -- -j8 -l8
+[3.064s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fortunato/ros2_ws/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/fortunato/ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fortunato/ros2_ws/install/px4_msgs:/opt/ros/humble:/home/fortunato/ros2_ws/install/cameras LD_LIBRARY_PATH=/home/fortunato/ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fortunato/ros2_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/fortunato/ros2_ws/build/px4_ros_com -- -j8 -l8
+[3.066s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fortunato/ros2_ws/build/px4_ros_com': AMENT_PREFIX_PATH=/home/fortunato/ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fortunato/ros2_ws/install/px4_msgs:/opt/ros/humble:/home/fortunato/ros2_ws/install/cameras LD_LIBRARY_PATH=/home/fortunato/ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fortunato/ros2_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/fortunato/ros2_ws/build/px4_ros_com
+[3.117s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_ros_com)
+[3.117s] Level 1:colcon.colcon_core.environment:checking '/home/fortunato/ros2_ws/install/px4_ros_com' for CMake module files
+[3.118s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fortunato/ros2_ws/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/fortunato/ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fortunato/ros2_ws/install/px4_msgs:/opt/ros/humble:/home/fortunato/ros2_ws/install/cameras LD_LIBRARY_PATH=/home/fortunato/ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fortunato/ros2_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/fortunato/ros2_ws/build/px4_ros_com
+[3.119s] Level 1:colcon.colcon_core.environment:checking '/home/fortunato/ros2_ws/install/px4_ros_com' for CMake config files
+[3.119s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'cmake_prefix_path')
+[3.120s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fortunato/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.ps1'
+[3.120s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fortunato/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.dsv'
+[3.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fortunato/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.sh'
+[3.121s] Level 1:colcon.colcon_core.environment:checking '/home/fortunato/ros2_ws/install/px4_ros_com/lib'
+[3.122s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'ld_library_path_lib')
+[3.122s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fortunato/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.ps1'
+[3.123s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fortunato/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.dsv'
+[3.123s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fortunato/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.sh'
+[3.124s] Level 1:colcon.colcon_core.environment:checking '/home/fortunato/ros2_ws/install/px4_ros_com/bin'
+[3.124s] Level 1:colcon.colcon_core.environment:checking '/home/fortunato/ros2_ws/install/px4_ros_com/lib/pkgconfig/px4_ros_com.pc'
+[3.124s] Level 1:colcon.colcon_core.environment:checking '/home/fortunato/ros2_ws/install/px4_ros_com/lib/python3.10/site-packages'
+[3.124s] Level 1:colcon.colcon_core.environment:checking '/home/fortunato/ros2_ws/install/px4_ros_com/bin'
+[3.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/fortunato/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.ps1'
+[3.126s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fortunato/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.dsv'
+[3.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/fortunato/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.sh'
+[3.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/fortunato/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.bash'
+[3.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/fortunato/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.zsh'
+[3.127s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fortunato/ros2_ws/install/px4_ros_com/share/colcon-core/packages/px4_ros_com)
+[3.128s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_ros_com)
+[3.128s] Level 1:colcon.colcon_core.environment:checking '/home/fortunato/ros2_ws/install/px4_ros_com' for CMake module files
+[3.129s] Level 1:colcon.colcon_core.environment:checking '/home/fortunato/ros2_ws/install/px4_ros_com' for CMake config files
+[3.129s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'cmake_prefix_path')
+[3.129s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fortunato/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.ps1'
+[3.130s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fortunato/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.dsv'
+[3.130s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fortunato/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.sh'
+[3.131s] Level 1:colcon.colcon_core.environment:checking '/home/fortunato/ros2_ws/install/px4_ros_com/lib'
+[3.131s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'ld_library_path_lib')
+[3.131s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fortunato/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.ps1'
+[3.132s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fortunato/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.dsv'
+[3.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fortunato/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.sh'
+[3.132s] Level 1:colcon.colcon_core.environment:checking '/home/fortunato/ros2_ws/install/px4_ros_com/bin'
+[3.132s] Level 1:colcon.colcon_core.environment:checking '/home/fortunato/ros2_ws/install/px4_ros_com/lib/pkgconfig/px4_ros_com.pc'
+[3.133s] Level 1:colcon.colcon_core.environment:checking '/home/fortunato/ros2_ws/install/px4_ros_com/lib/python3.10/site-packages'
+[3.133s] Level 1:colcon.colcon_core.environment:checking '/home/fortunato/ros2_ws/install/px4_ros_com/bin'
+[3.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/fortunato/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.ps1'
+[3.134s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fortunato/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.dsv'
+[3.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/fortunato/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.sh'
+[3.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/fortunato/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.bash'
+[3.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/fortunato/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.zsh'
+[3.136s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fortunato/ros2_ws/install/px4_ros_com/share/colcon-core/packages/px4_ros_com)
+[3.136s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.137s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.137s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.137s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.143s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.143s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.143s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.155s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.155s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fortunato/ros2_ws/install/local_setup.ps1'
+[3.156s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/fortunato/ros2_ws/install/_local_setup_util_ps1.py'
+[3.158s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fortunato/ros2_ws/install/setup.ps1'
+[3.159s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fortunato/ros2_ws/install/local_setup.sh'
+[3.159s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/fortunato/ros2_ws/install/_local_setup_util_sh.py'
+[3.160s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fortunato/ros2_ws/install/setup.sh'
+[3.161s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fortunato/ros2_ws/install/local_setup.bash'
+[3.162s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fortunato/ros2_ws/install/setup.bash'
+[3.163s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fortunato/ros2_ws/install/local_setup.zsh'
+[3.164s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fortunato/ros2_ws/install/setup.zsh'

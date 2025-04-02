@@ -1,0 +1,8 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/nodo.dir/src/nodo.cpp.o[0m
+[01m[K/home/fortunato/ros2_ws/src/nodi/src/nodo.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kexample_interfaces/msg/float64_multi_array.hpp: File o directory non esistente
+    3 | #include [01;31m[K"example_interfaces/msg/float64_multi_array.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/nodo.dir/build.make:76: CMakeFiles/nodo.dir/src/nodo.cpp.o] Errore 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/nodo.dir/all] Errore 2
+gmake: *** [Makefile:146: all] Errore 2

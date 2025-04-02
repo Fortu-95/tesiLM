@@ -1,0 +1,80 @@
+[0.027s] Invoking command in '/home/fortunato/ros2_ws/build/tuo_pacchetto': /usr/bin/cmake --build /home/fortunato/ros2_ws/build/tuo_pacchetto -- -j8 -l8
+[0.085s] [35m[1mConsolidate compiler generated dependencies of target nodo[0m
+[0.144s] [ 50%] [32mBuilding CXX object CMakeFiles/nodo.dir/src/nodo.cpp.o[0m
+[3.751s] [01m[K/home/fortunato/ros2_ws/src/nodi/src/nodo.cpp:[m[K In member function ‘[01m[Kvoid NodoConsenso::crea_stima()[m[K’:
+[3.751s] [01m[K/home/fortunato/ros2_ws/src/nodi/src/nodo.cpp:122:56:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator*[m[K’ (operand types are ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<double, std::allocator<double> > >[m[K’)
+[3.751s]   122 |             std::vector<std::vector<double>>  V0 = [32m[K1/8[m[K [01;31m[K*[m[K [34m[KJpri[m[K + moltiplicaMatrici(moltiplicaMatrici(trasposta(H),R),H);
+[3.751s]       |                                                    [32m[K~~~[m[K [01;31m[K^[m[K [34m[K~~~~[m[K
+[3.751s]       |                                                     [32m[K|[m[K    [34m[K|[m[K
+[3.751s]       |                                                     [32m[Kint[m[K  [34m[Kstd::vector<std::vector<double, std::allocator<double> > >[m[K
+[3.751s] [01m[K/home/fortunato/ros2_ws/src/nodi/src/nodo.cpp:122:111:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::vector<std::vector<double, std::allocator<double> > >[m[K’ to ‘[01m[Kconst std::vector<std::vector<int> >&[m[K’
+[3.752s]   122 |  = 1/8 * Jpri + moltiplicaMatrici(moltiplicaMatrici(trasposta([01;31m[KH[m[K),R),H);
+[3.752s]       |                                                               [01;31m[K^[m[K
+[3.752s]       |                                                               [01;31m[K|[m[K
+[3.752s]       |                                                               [01;31m[Kstd::vector<std::vector<double, std::allocator<double> > >[m[K
+[3.752s] 
+[3.752s] [01m[K/home/fortunato/ros2_ws/src/nodi/src/nodo.cpp:67:82:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kstd::vector<std::vector<int> > NodoConsenso::trasposta(const std::vector<std::vector<int> >&)[m[K’
+[3.752s]    67 | :vector<int>> trasposta([01;36m[Kconst std::vector<std::vector<int>>& matrice[m[K) {
+[3.752s]       |                         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[3.752s] 
+[3.752s] [01m[K/home/fortunato/ros2_ws/src/nodi/src/nodo.cpp:123:56:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator*[m[K’ (operand types are ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<double, std::allocator<double> > >[m[K’)
+[3.752s]   123 |             std::vector<std::vector<double>>  v0 = [32m[K1/8[m[K [01;31m[K*[m[K [34m[KmoltiplicaMatrici(Jpri,misura_ricevuta)[m[K + moltiplicaMatrici(moltiplicaMatrici(trasposta(H),R),misura_ricevuta);
+[3.752s]       |                                                    [32m[K~~~[m[K [01;31m[K^[m[K [34m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.752s]       |                                                     [32m[K|[m[K                     [34m[K|[m[K
+[3.752s]       |                                                     [32m[Kint[m[K                   [34m[Kstd::vector<std::vector<double, std::allocator<double> > >[m[K
+[3.754s] [01m[K/home/fortunato/ros2_ws/src/nodi/src/nodo.cpp:123:146:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::vector<std::vector<double, std::allocator<double> > >[m[K’ to ‘[01m[Kconst std::vector<std::vector<int> >&[m[K’
+[3.754s]   123 | a_ricevuta) + moltiplicaMatrici(moltiplicaMatrici(trasposta([01;31m[KH[m[K),R),misura_ricevuta);
+[3.754s]       |                                                             [01;31m[K^[m[K
+[3.754s]       |                                                             [01;31m[K|[m[K
+[3.755s]       |                                                             [01;31m[Kstd::vector<std::vector<double, std::allocator<double> > >[m[K
+[3.755s] 
+[3.755s] [01m[K/home/fortunato/ros2_ws/src/nodi/src/nodo.cpp:67:82:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kstd::vector<std::vector<int> > NodoConsenso::trasposta(const std::vector<std::vector<int> >&)[m[K’
+[3.755s]    67 | :vector<int>> trasposta([01;36m[Kconst std::vector<std::vector<int>>& matrice[m[K) {
+[3.755s]       |                         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[3.755s] 
+[3.755s] [01m[K/home/fortunato/ros2_ws/src/nodi/src/nodo.cpp:124:64:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kvector<[01;32m[Kint[m[K>[m[K’ to non-scalar type ‘[01m[Kvector<[01;32m[Kstd::vector<double, std::allocator<double> >[m[K>[m[K’ requested
+[3.755s]   124 |             std::vector<std::vector<double>>  V = [01;31m[KappendColonne(V0,v0)[m[K;
+[3.755s]       |                                                   [01;31m[K~~~~~~~~~~~~~^~~~~~~[m[K
+[3.756s] [01m[K/home/fortunato/ros2_ws/src/nodi/src/nodo.cpp:127:30:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kexample_interfaces::msg::Float64MultiArray_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’} and ‘[01m[Kstd::vector<std::vector<double, std::allocator<double> > >[m[K’)
+[3.756s]   127 |             messaggio.data = [01;31m[KV[m[K;
+[3.756s]       |                              [01;31m[K^[m[K
+[3.756s] In file included from [01m[K/usr/include/c++/11/vector:72[m[K,
+[3.756s]                  from [01m[K/usr/include/c++/11/functional:62[m[K,
+[3.756s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[3.756s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[3.756s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+[3.756s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.757s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.757s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.757s]                  from [01m[K/home/fortunato/ros2_ws/src/nodi/src/nodo.cpp:1[m[K:
+[3.757s] [01m[K/usr/include/c++/11/bits/vector.tcc:198:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(const std::vector<_Tp, _Alloc>&) [with _Tp = double; _Alloc = std::allocator<double>][m[K’
+[3.757s]   198 |     [01;36m[Kvector<_Tp, _Alloc>[m[K::
+[3.757s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.757s] [01m[K/usr/include/c++/11/bits/vector.tcc:199:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<std::vector<double, std::allocator<double> > >[m[K’ to ‘[01m[Kconst std::vector<double, std::allocator<double> >&[m[K’
+[3.757s]   199 |     operator=([01;36m[Kconst vector<_Tp, _Alloc>& __x[m[K)
+[3.757s]       |               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[3.758s] In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+[3.758s]                  from [01m[K/usr/include/c++/11/functional:62[m[K,
+[3.758s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[3.758s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[3.758s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+[3.758s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.758s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.758s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.758s]                  from [01m[K/home/fortunato/ros2_ws/src/nodi/src/nodo.cpp:1[m[K:
+[3.758s] [01m[K/usr/include/c++/11/bits/stl_vector.h:709:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::vector<_Tp, _Alloc>&&) [with _Tp = double; _Alloc = std::allocator<double>][m[K’
+[3.759s]   709 |       [01;36m[Koperator[m[K=(vector&& __x) noexcept(_Alloc_traits::_S_nothrow_move())
+[3.759s]       |       [01;36m[K^~~~~~~~[m[K
+[3.759s] [01m[K/usr/include/c++/11/bits/stl_vector.h:709:26:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<std::vector<double, std::allocator<double> > >[m[K’ to ‘[01m[Kstd::vector<double, std::allocator<double> >&&[m[K’
+[3.759s]   709 |       operator=([01;36m[Kvector&& __x[m[K) noexcept(_Alloc_traits::_S_nothrow_move())
+[3.759s]       |                 [01;36m[K~~~~~~~~~^~~[m[K
+[3.759s] [01m[K/usr/include/c++/11/bits/stl_vector.h:730:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::initializer_list<_Tp>) [with _Tp = double; _Alloc = std::allocator<double>][m[K’
+[3.759s]   730 |       [01;36m[Koperator[m[K=(initializer_list<value_type> __l)
+[3.759s]       |       [01;36m[K^~~~~~~~[m[K
+[3.759s] [01m[K/usr/include/c++/11/bits/stl_vector.h:730:46:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<std::vector<double, std::allocator<double> > >[m[K’ to ‘[01m[Kstd::initializer_list<double>[m[K’
+[3.760s]   730 |       operator=([01;36m[Kinitializer_list<value_type> __l[m[K)
+[3.760s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[6.010s] gmake[2]: *** [CMakeFiles/nodo.dir/build.make:76: CMakeFiles/nodo.dir/src/nodo.cpp.o] Errore 1
+[6.010s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/nodo.dir/all] Errore 2
+[6.010s] gmake: *** [Makefile:146: all] Errore 2
+[6.013s] Invoked command in '/home/fortunato/ros2_ws/build/tuo_pacchetto' returned '2': /usr/bin/cmake --build /home/fortunato/ros2_ws/build/tuo_pacchetto -- -j8 -l8

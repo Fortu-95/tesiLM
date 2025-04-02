@@ -1,0 +1,4 @@
+Invoking command in '/home/fortunato/ros2_ws/build/cameras': /usr/bin/cmake --build /home/fortunato/ros2_ws/build/cameras -- -j8 -l8
+Invoked command in '/home/fortunato/ros2_ws/build/cameras' returned '0': /usr/bin/cmake --build /home/fortunato/ros2_ws/build/cameras -- -j8 -l8
+Invoking command in '/home/fortunato/ros2_ws/build/cameras': /usr/bin/cmake --install /home/fortunato/ros2_ws/build/cameras
+Invoked command in '/home/fortunato/ros2_ws/build/cameras' returned '0': /usr/bin/cmake --install /home/fortunato/ros2_ws/build/cameras

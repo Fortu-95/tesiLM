@@ -1,0 +1,1 @@
+Invoking command in '/home/fortunato/ros2_ws/build/px4': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/fortunato/ros2_ws/install/cameras /usr/bin/cmake --build /home/fortunato/ros2_ws/build/px4 -- -j8 -l8

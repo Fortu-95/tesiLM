@@ -1,0 +1,2 @@
+Invoking command in '/home/fortunato/ros2_ws/build/tuo_pacchetto': /usr/bin/cmake /home/fortunato/ros2_ws/src/nodi -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fortunato/ros2_ws/install/tuo_pacchetto
+Invoked command in '/home/fortunato/ros2_ws/build/tuo_pacchetto' returned '1': /usr/bin/cmake /home/fortunato/ros2_ws/src/nodi -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fortunato/ros2_ws/install/tuo_pacchetto

@@ -1,0 +1,16 @@
+<package format="3">
+  <name>tuo_pacchetto</name>
+  <version>0.1.0</version>
+  <description>Un pacchetto ROS2 per nodi con ID unici</description>
+  <maintainer email="fortunato.rocco95@gmail.com">fortunato</maintainer>
+  <license>Apache-2.0</license>
+
+
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+
+
+  <build_depend>rosidl_default_generators</build_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+</package>
+

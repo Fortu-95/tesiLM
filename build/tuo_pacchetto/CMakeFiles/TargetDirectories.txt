@@ -1,0 +1,10 @@
+/home/fortunato/ros2_ws/build/tuo_pacchetto/CMakeFiles/uninstall.dir
+/home/fortunato/ros2_ws/build/tuo_pacchetto/CMakeFiles/tuo_pacchetto_uninstall.dir
+/home/fortunato/ros2_ws/build/tuo_pacchetto/CMakeFiles/nodo.dir
+/home/fortunato/ros2_ws/build/tuo_pacchetto/CMakeFiles/test.dir
+/home/fortunato/ros2_ws/build/tuo_pacchetto/CMakeFiles/edit_cache.dir
+/home/fortunato/ros2_ws/build/tuo_pacchetto/CMakeFiles/rebuild_cache.dir
+/home/fortunato/ros2_ws/build/tuo_pacchetto/CMakeFiles/list_install_components.dir
+/home/fortunato/ros2_ws/build/tuo_pacchetto/CMakeFiles/install.dir
+/home/fortunato/ros2_ws/build/tuo_pacchetto/CMakeFiles/install/local.dir
+/home/fortunato/ros2_ws/build/tuo_pacchetto/CMakeFiles/install/strip.dir

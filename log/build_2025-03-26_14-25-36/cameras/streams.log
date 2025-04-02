@@ -1,0 +1,209 @@
+[0.014s] Invoking command in '/home/fortunato/ros2_ws/build/cameras': /usr/bin/cmake --build /home/fortunato/ros2_ws/build/cameras -- -j8 -l8
+[0.041s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.215s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[0.356s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.365s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.382s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.410s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.442s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.517s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.521s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.675s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.030s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.184s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.185s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.185s] -- Searching for dependencies of ignition-math6
+[1.185s] -- Looking for OGRE...
+[1.185s] -- Found Ogre Ghadamon (1.9.0)
+[1.185s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.185s] -- Looking for OGRE_Paging...
+[1.185s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.185s] -- Looking for OGRE_Terrain...
+[1.186s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.186s] -- Looking for OGRE_Property...
+[1.186s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.186s] -- Looking for OGRE_RTShaderSystem...
+[1.186s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.186s] -- Looking for OGRE_Volume...
+[1.186s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.186s] -- Looking for OGRE_Overlay...
+[1.186s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.231s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.231s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.231s] -- Searching for dependencies of ignition-transport8
+[1.259s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.280s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.287s] -- Checking for module 'libzmq >= 4'
+[1.306s] --   Found libzmq , version 4.3.4
+[1.352s] -- Checking for module 'uuid'
+[1.365s] --   Found uuid, version 2.37.2
+[1.401s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.402s] -- Searching for dependencies of ignition-msgs5
+[1.429s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.436s] -- Checking for module 'tinyxml2'
+[1.450s] --   Found tinyxml2, version 9.0.0
+[1.485s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.486s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.486s] -- Searching for dependencies of ignition-common3
+[1.490s] -- Looking for dlfcn.h - found
+[1.490s] -- Looking for libdl - found
+[1.502s] -- Searching for <ignition-common3> component [graphics]
+[1.502s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.503s] -- Searching for dependencies of ignition-common3-graphics
+[1.503s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.504s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.505s] -- Searching for dependencies of ignition-fuel_tools4
+[1.552s] -- Checking for module 'jsoncpp'
+[1.567s] --   Found jsoncpp, version 1.9.5
+[1.682s] -- Checking for module 'libzip'
+[1.709s] --   Found libzip, version 1.7.3
+[1.768s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.768s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.769s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.776s] -- Gazebo version: 11.10
+[1.905s] -- Configuring done
+[1.905s] -- Generating done
+[1.905s] -- Build files have been written to: /home/fortunato/ros2_ws/build/cameras
+[1.905s] Invoked command in '/home/fortunato/ros2_ws/build/cameras' returned '0': /usr/bin/cmake --build /home/fortunato/ros2_ws/build/cameras -- -j8 -l8
+[1.905s] Invoking command in '/home/fortunato/ros2_ws/build/cameras': /usr/bin/cmake --install /home/fortunato/ros2_ws/build/cameras
+[1.906s] -- Install configuration: ""
+[1.906s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models
+[1.906s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_2
+[1.906s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_2/meshes
+[1.906s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_2/meshes/3dCamera.DAE
+[1.906s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_2/thumbnails
+[1.906s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_2/thumbnails/2.jpg
+[1.906s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_2/thumbnails/4.jpg
+[1.907s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_2/thumbnails/3.jpg
+[1.907s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_2/thumbnails/5.jpg
+[1.907s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_2/thumbnails/1.jpg
+[1.907s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_2/model.sdf
+[1.907s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_2/model.config
+[1.907s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_2/materials
+[1.907s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_2/materials/textures
+[1.907s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_2/materials/textures/3dCamera.jpg
+[1.907s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_3
+[1.907s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_3/meshes
+[1.908s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_3/meshes/3dCamera.DAE
+[1.908s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_3/thumbnails
+[1.908s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_3/thumbnails/2.jpg
+[1.908s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_3/thumbnails/4.jpg
+[1.908s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_3/thumbnails/3.jpg
+[1.908s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_3/thumbnails/5.jpg
+[1.908s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_3/thumbnails/1.jpg
+[1.908s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_3/model.sdf
+[1.908s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_3/model.config
+[1.909s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_3/materials
+[1.909s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_3/materials/textures
+[1.909s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_3/materials/textures/3dCamera.jpg
+[1.909s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_5
+[1.909s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_5/meshes
+[1.909s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_5/meshes/3dCamera.DAE
+[1.909s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_5/thumbnails
+[1.909s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_5/thumbnails/2.jpg
+[1.909s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_5/thumbnails/4.jpg
+[1.909s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_5/thumbnails/3.jpg
+[1.910s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_5/thumbnails/5.jpg
+[1.910s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_5/thumbnails/1.jpg
+[1.910s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_5/model.sdf
+[1.910s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_5/model.config
+[1.910s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_5/materials
+[1.910s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_5/materials/textures
+[1.910s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_5/materials/textures/3dCamera.jpg
+[1.910s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_1
+[1.910s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_1/meshes
+[1.911s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_1/meshes/3dCamera.DAE
+[1.911s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_1/thumbnails
+[1.911s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_1/thumbnails/2.jpg
+[1.911s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_1/thumbnails/4.jpg
+[1.911s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_1/thumbnails/3.jpg
+[1.911s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_1/thumbnails/5.jpg
+[1.911s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_1/thumbnails/1.jpg
+[1.911s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_1/model.sdf
+[1.911s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_1/model.config
+[1.912s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_1/materials
+[1.912s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_1/materials/textures
+[1.912s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_1/materials/textures/3dCamera.jpg
+[1.912s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_7
+[1.912s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_7/meshes
+[1.912s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_7/meshes/3dCamera.DAE
+[1.912s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_7/thumbnails
+[1.912s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_7/thumbnails/2.jpg
+[1.912s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_7/thumbnails/4.jpg
+[1.913s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_7/thumbnails/3.jpg
+[1.913s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_7/thumbnails/5.jpg
+[1.913s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_7/thumbnails/1.jpg
+[1.913s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_7/model.sdf
+[1.913s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_7/model.config
+[1.913s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_7/materials
+[1.913s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_7/materials/textures
+[1.913s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_7/materials/textures/3dCamera.jpg
+[1.913s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/iris
+[1.913s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/iris/iris.sdf.jinja
+[1.914s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/iris/iris.sdf
+[1.914s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/iris/meshes
+[1.914s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/iris/meshes/iris.stl
+[1.914s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/iris/meshes/iris_prop_cw.dae
+[1.914s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/iris/meshes/iris_prop_ccw.dae
+[1.914s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/iris/iris.sdf.last_generated
+[1.914s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/iris/model.config
+[1.914s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_6
+[1.915s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_6/meshes
+[1.915s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_6/meshes/3dCamera.DAE
+[1.915s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_6/thumbnails
+[1.915s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_6/thumbnails/2.jpg
+[1.915s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_6/thumbnails/4.jpg
+[1.915s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_6/thumbnails/3.jpg
+[1.915s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_6/thumbnails/5.jpg
+[1.915s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_6/thumbnails/1.jpg
+[1.915s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_6/model.sdf
+[1.915s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_6/model.config
+[1.916s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_6/materials
+[1.916s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_6/materials/textures
+[1.916s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_6/materials/textures/3dCamera.jpg
+[1.916s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_4
+[1.916s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_4/meshes
+[1.916s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_4/meshes/3dCamera.DAE
+[1.916s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_4/thumbnails
+[1.916s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_4/thumbnails/2.jpg
+[1.916s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_4/thumbnails/4.jpg
+[1.916s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_4/thumbnails/3.jpg
+[1.916s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_4/thumbnails/5.jpg
+[1.917s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_4/thumbnails/1.jpg
+[1.917s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_4/model.sdf
+[1.917s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_4/model.config
+[1.917s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_4/materials
+[1.917s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_4/materials/textures
+[1.917s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_4/materials/textures/3dCamera.jpg
+[1.917s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_8
+[1.917s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_8/meshes
+[1.918s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_8/meshes/3dCamera.DAE
+[1.918s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_8/thumbnails
+[1.918s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_8/thumbnails/2.jpg
+[1.918s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_8/thumbnails/4.jpg
+[1.918s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_8/thumbnails/3.jpg
+[1.918s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_8/thumbnails/5.jpg
+[1.918s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_8/thumbnails/1.jpg
+[1.918s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_8/model.sdf
+[1.918s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_8/model.config
+[1.918s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_8/materials
+[1.919s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_8/materials/textures
+[1.919s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/models/my_camera_8/materials/textures/3dCamera.jpg
+[1.919s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/launch
+[1.919s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/launch/my_launch_file.launch.py
+[1.919s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/ament_index/resource_index/package_run_dependencies/cameras
+[1.919s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/ament_index/resource_index/parent_prefix_path/cameras
+[1.919s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/environment/ament_prefix_path.sh
+[1.919s] -- Installing: /home/fortunato/ros2_ws/install/cameras/share/cameras/environment/ament_prefix_path.dsv
+[1.919s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/environment/path.sh
+[1.920s] -- Installing: /home/fortunato/ros2_ws/install/cameras/share/cameras/environment/path.dsv
+[1.920s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/local_setup.bash
+[1.920s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/local_setup.sh
+[1.920s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/local_setup.zsh
+[1.920s] -- Installing: /home/fortunato/ros2_ws/install/cameras/share/cameras/local_setup.dsv
+[1.920s] -- Installing: /home/fortunato/ros2_ws/install/cameras/share/cameras/package.dsv
+[1.920s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/ament_index/resource_index/packages/cameras
+[1.920s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/cmake/camerasConfig.cmake
+[1.920s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/cmake/camerasConfig-version.cmake
+[1.921s] -- Up-to-date: /home/fortunato/ros2_ws/install/cameras/share/cameras/package.xml
+[1.921s] Invoked command in '/home/fortunato/ros2_ws/build/cameras' returned '0': /usr/bin/cmake --install /home/fortunato/ros2_ws/build/cameras

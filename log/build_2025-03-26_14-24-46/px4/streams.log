@@ -1,0 +1,25 @@
+[0.018s] Invoking command in '/home/fortunato/ros2_ws/build/px4': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/fortunato/ros2_ws/install/cameras /usr/bin/cmake --build /home/fortunato/ros2_ws/build/px4 -- -j8 -l8
+[0.088s] [  0%] Built target drivers_board
+[0.090s] [  0%] Built target px4_layer
+[0.138s] [  0%] Built target px4__cpp
+[0.219s] [ 12%] Built target px4__rosidl_generator_c
+[0.308s] [ 12%] Built target ament_cmake_python_copy_px4
+[0.347s] [ 24%] Built target px4__rosidl_typesupport_c
+[0.377s] [ 36%] Built target px4__rosidl_typesupport_cpp
+[0.379s] [ 48%] Built target px4__rosidl_typesupport_fastrtps_cpp
+[0.385s] [ 60%] Built target px4__rosidl_typesupport_introspection_cpp
+[0.396s] [ 72%] Built target px4__rosidl_typesupport_introspection_c
+[0.452s] [ 85%] Built target px4__rosidl_typesupport_fastrtps_c
+[0.475s] [ 85%] Built target px4
+[0.510s] [ 85%] Built target px4__py
+[0.624s] running egg_info
+[0.625s] writing px4.egg-info/PKG-INFO
+[0.625s] writing dependency_links to px4.egg-info/dependency_links.txt
+[0.625s] writing top-level names to px4.egg-info/top_level.txt
+[0.631s] reading manifest file 'px4.egg-info/SOURCES.txt'
+[0.633s] [ 98%] Built target px4__rosidl_generator_py
+[0.635s] writing manifest file 'px4.egg-info/SOURCES.txt'
+[0.666s] [100%] Built target px4__rosidl_typesupport_introspection_c__pyext
+[0.666s] [100%] Built target ament_cmake_python_build_px4_egg
+[0.676s] [100%] Built target px4__rosidl_typesupport_c__pyext
+[0.676s] [100%] Built target px4__rosidl_typesupport_fastrtps_c__pyext

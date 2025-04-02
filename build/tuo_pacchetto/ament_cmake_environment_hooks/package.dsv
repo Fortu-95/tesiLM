@@ -1,0 +1,4 @@
+source;share/tuo_pacchetto/local_setup.bash
+source;share/tuo_pacchetto/local_setup.dsv
+source;share/tuo_pacchetto/local_setup.sh
+source;share/tuo_pacchetto/local_setup.zsh

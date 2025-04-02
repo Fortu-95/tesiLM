@@ -1,0 +1,9 @@
+/home/fortunato/ros2_ws/build/cameras/CMakeFiles/uninstall.dir
+/home/fortunato/ros2_ws/build/cameras/CMakeFiles/cameras_uninstall.dir
+/home/fortunato/ros2_ws/build/cameras/CMakeFiles/test.dir
+/home/fortunato/ros2_ws/build/cameras/CMakeFiles/edit_cache.dir
+/home/fortunato/ros2_ws/build/cameras/CMakeFiles/rebuild_cache.dir
+/home/fortunato/ros2_ws/build/cameras/CMakeFiles/list_install_components.dir
+/home/fortunato/ros2_ws/build/cameras/CMakeFiles/install.dir
+/home/fortunato/ros2_ws/build/cameras/CMakeFiles/install/local.dir
+/home/fortunato/ros2_ws/build/cameras/CMakeFiles/install/strip.dir

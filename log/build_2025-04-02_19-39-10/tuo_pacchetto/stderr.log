@@ -1,0 +1,129 @@
+[01m[K/home/fortunato/ros2_ws/src/nodi/src/nodo.cpp:[m[K In constructor ‘[01m[KNodoConsenso::NodoConsenso()[m[K’:
+[01m[K/home/fortunato/ros2_ws/src/nodi/src/nodo.cpp:25:105:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KNodoConsenso::create_subscription<example_interfaces::msg::Float64MultiArray>(std::string&, int)[m[K’
+   25 |  [01;31m[Kthis->create_subscription<example_interfaces::msg::Float64MultiArray>([m[K
+      |  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+
+   26 | [01;31m[Knistro, 10)[m[K;
+      | [01;31m[K~~~~~~~~~~~[m[K                                                            
+
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/fortunato/ros2_ws/src/nodi/src/nodo.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:92:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+   92 | [01;36m[KNode[m[K::create_subscription(
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:92:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/fortunato/ros2_ws/src/nodi/src/nodo.cpp:25:105:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 2 provided
+   25 |  [01;36m[Kthis->create_subscription<example_interfaces::msg::Float64MultiArray>([m[K
+      |  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+
+   26 | [01;36m[Knistro, 10)[m[K;
+      | [01;36m[K~~~~~~~~~~~[m[K                                                            
+
+[01m[K/home/fortunato/ros2_ws/src/nodi/src/nodo.cpp:30:105:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KNodoConsenso::create_subscription<example_interfaces::msg::Float64MultiArray>(std::string&, int)[m[K’
+   30 |  [01;31m[Kthis->create_subscription<example_interfaces::msg::Float64MultiArray>([m[K
+      |  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+
+   31 | [01;31m[Knistro, 10)[m[K;
+      | [01;31m[K~~~~~~~~~~~[m[K                                                            
+
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/fortunato/ros2_ws/src/nodi/src/nodo.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:92:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+   92 | [01;36m[KNode[m[K::create_subscription(
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:92:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/fortunato/ros2_ws/src/nodi/src/nodo.cpp:30:105:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 2 provided
+   30 |  [01;36m[Kthis->create_subscription<example_interfaces::msg::Float64MultiArray>([m[K
+      |  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+
+   31 | [01;36m[Knistro, 10)[m[K;
+      | [01;36m[K~~~~~~~~~~~[m[K                                                            
+
+[01m[K/home/fortunato/ros2_ws/src/nodi/src/nodo.cpp:[m[K In member function ‘[01m[Kvoid NodoConsenso::callback_misura(example_interfaces::msg::Float64MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/fortunato/ros2_ws/src/nodi/src/nodo.cpp:56:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmisura_iniziale[m[K’ was not declared in this scope
+   56 |         [01;31m[Kmisura_iniziale[m[K.push_back(msg->data);
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/fortunato/ros2_ws/src/nodi/src/nodo.cpp:[m[K In member function ‘[01m[Kvoid NodoConsenso::callback_destro(example_interfaces::msg::Float64MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/fortunato/ros2_ws/src/nodi/src/nodo.cpp:60:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstima_destra_ricevuta_[m[K’ was not declared in this scope
+   60 |         [01;31m[Kstima_destra_ricevuta_[m[K.push_back(msg->data);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fortunato/ros2_ws/src/nodi/src/nodo.cpp:[m[K In member function ‘[01m[Kvoid NodoConsenso::callback_sinistro(example_interfaces::msg::Float64MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/fortunato/ros2_ws/src/nodi/src/nodo.cpp:64:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstima_sinistra_ricevuta[m[K’ was not declared in this scope
+   64 |         [01;31m[Kstima_sinistra_ricevuta[m[K.push_back(msg->data);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fortunato/ros2_ws/src/nodi/src/nodo.cpp:[m[K In member function ‘[01m[Kstd::vector<int> NodoConsenso::appendColonne(const std::vector<std::vector<int> >&, const std::vector<std::vector<int> >&)[m[K’:
+[01m[K/home/fortunato/ros2_ws/src/nodi/src/nodo.cpp:115:30:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::vector<int>::push_back(const value_type&)[m[K’
+  115 |             [01;31m[Kvettore.push_back(vettore2[k])[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+                 from [01m[K/usr/include/c++/11/functional:62[m[K,
+                 from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/fortunato/ros2_ws/src/nodi/src/nodo.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_vector.h:1187:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = int; _Alloc = std::allocator<int>; std::vector<_Tp, _Alloc>::value_type = int][m[K’
+ 1187 |       [01;36m[Kpush_back[m[K(const value_type& __x)
+      |       [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_vector.h:1187:35:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst value_type[m[K’ {aka ‘[01m[Kconst std::vector<int>[m[K’} to ‘[01m[Kconst value_type&[m[K’ {aka ‘[01m[Kconst int&[m[K’}
+ 1187 |       push_back([01;36m[Kconst value_type& __x[m[K)
+      |                 [01;36m[K~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_vector.h:1203:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid std::vector<_Tp, _Alloc>::push_back(std::vector<_Tp, _Alloc>::value_type&&) [with _Tp = int; _Alloc = std::allocator<int>; std::vector<_Tp, _Alloc>::value_type = int][m[K’
+ 1203 |       [01;36m[Kpush_back[m[K(value_type&& __x)
+      |       [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_vector.h:1203:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst value_type[m[K’ {aka ‘[01m[Kconst std::vector<int>[m[K’} to ‘[01m[Kstd::vector<int>::value_type&&[m[K’ {aka ‘[01m[Kint&&[m[K’}
+ 1203 |       push_back([01;36m[Kvalue_type&& __x[m[K)
+      |                 [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/fortunato/ros2_ws/src/nodi/src/nodo.cpp:[m[K In member function ‘[01m[Kvoid NodoConsenso::crea_stima()[m[K’:
+[01m[K/home/fortunato/ros2_ws/src/nodi/src/nodo.cpp:121:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kmisura_ricevuta[m[K’ was not declared in this scope
+  121 |         if (![01;31m[Kmisura_ricevuta[m[K.empty()) {
+      |              [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/fortunato/ros2_ws/src/nodi/src/nodo.cpp:122:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kmisura_ricevuta_[m[K’ was not declared in this scope
+  122 |             float misura = [01;31m[Kmisura_ricevuta_[m[K;
+      |                            [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fortunato/ros2_ws/src/nodi/src/nodo.cpp:123:56:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator*[m[K’ (operand types are ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<int> >[m[K’)
+  123 |             std::vector<std::vector<double>>  V0 = [32m[K1/8[m[K [01;31m[K*[m[K [34m[KJpri[m[K + moltiplicaMatrici(moltiplicaMatrici(trasposta(H),R),H);
+      |                                                    [32m[K~~~[m[K [01;31m[K^[m[K [34m[K~~~~[m[K
+      |                                                     [32m[K|[m[K    [34m[K|[m[K
+      |                                                     [32m[Kint[m[K  [34m[Kstd::vector<std::vector<int> >[m[K
+[01m[K/home/fortunato/ros2_ws/src/nodi/src/nodo.cpp:123:110:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::vector<std::vector<int> >[m[K’ to ‘[01m[Kconst std::vector<std::vector<double, std::allocator<double> > >&[m[K’
+  123 |  = 1/8 * Jpri + moltiplicaMatrici(moltiplicaMatrici([01;31m[Ktrasposta(H)[m[K,R),H);
+      |                                                     [01;31m[K~~~~~~~~~^~~[m[K
+      |                                                              [01;31m[K|[m[K
+      |                                                              [01;31m[Kstd::vector<std::vector<int> >[m[K
+
+[01m[K/home/fortunato/ros2_ws/src/nodi/src/nodo.cpp:83:49:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kstd::vector<std::vector<double, std::allocator<double> > > NodoConsenso::moltiplicaMatrici(const std::vector<std::vector<double, std::allocator<double> > >&, const std::vector<std::vector<double, std::allocator<double> > >&)[m[K’
+   83 |         [01;36m[Kconst std::vector<std::vector<double>>& A[m[K,
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/fortunato/ros2_ws/src/nodi/src/nodo.cpp:124:149:[m[K [01;31m[Kerror: [m[K‘[01m[KB[m[K’ was not declared in this scope
+  124 | icevuta) + moltiplicaMatrici(moltiplicaMatrici(trasposta(H),[01;31m[KB[m[K),misura_ricevuta);
+      |                                                             [01;31m[K^[m[K
+
+[01m[K/home/fortunato/ros2_ws/src/nodi/src/nodo.cpp:125:65:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::vector<std::vector<double, std::allocator<double> > >[m[K’ to ‘[01m[Kconst std::vector<std::vector<int> >&[m[K’
+  125 |             std::vector<std::vector<double>>  V = appendColonne([01;31m[KV0[m[K,v0);
+      |                                                                 [01;31m[K^~[m[K
+      |                                                                 [01;31m[K|[m[K
+      |                                                                 [01;31m[Kstd::vector<std::vector<double, std::allocator<double> > >[m[K
+[01m[K/home/fortunato/ros2_ws/src/nodi/src/nodo.cpp:105:73:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kstd::vector<int> NodoConsenso::appendColonne(const std::vector<std::vector<int> >&, const std::vector<std::vector<int> >&)[m[K’
+  105 | tor<int> appendColonne([01;36m[Kconst std::vector<std::vector<int>>& matrice[m[K,const std::vector<std::vector<int>>& vettore2) {
+      |                        [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+
+[01m[K/home/fortunato/ros2_ws/src/nodi/src/nodo.cpp:127:45:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat64MultiArray[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[Kexample_interfaces::msg::Float64MultiArray[m[K’?
+  127 |             auto messaggio = std_msgs::msg::[01;31m[KFloat64MultiArray[m[K();
+      |                                             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/example_interfaces/example_interfaces/msg/float64_multi_array.hpp:7[m[K,
+                 from [01m[K/home/fortunato/ros2_ws/src/nodi/src/nodo.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/example_interfaces/example_interfaces/msg/detail/float64_multi_array__struct.hpp:131:7:[m[K [01;36m[Knote: [m[K‘[01m[Kexample_interfaces::msg::Float64MultiArray[m[K’ declared here
+  131 | using [01;36m[KFloat64MultiArray[m[K =
+      |       [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/nodo.dir/build.make:76: CMakeFiles/nodo.dir/src/nodo.cpp.o] Errore 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/nodo.dir/all] Errore 2
+gmake: *** [Makefile:146: all] Errore 2
