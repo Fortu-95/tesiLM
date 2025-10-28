@@ -1,0 +1,26 @@
+from launch import LaunchDescription
+from launch_ros.actions import Node
+import os
+
+def generate_launch_description():
+
+    os.environ['FASTRTPS_DEFAULT_PROFILES_FILE'] = '/home/fortunato/ros2_ws/src/dynamic_consensus/fastrtps_profile.xml'
+
+    N = 8 
+
+    nodes = []
+    for i in range(N):
+        nodes.append(
+            Node(
+                package="dynamic_consensus",
+                executable="consensus_node",
+                name=f"consensus_node_{i}",
+                parameters=[{
+                    "node_id": i,
+                    "N": N
+                }]
+            )
+        )
+
+    return LaunchDescription(nodes)
+

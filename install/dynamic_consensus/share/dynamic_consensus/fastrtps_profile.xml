@@ -1,0 +1,8 @@
+<profiles>
+    <participant>
+        <rtps>
+            <use_SHM>false</use_SHM>
+        </rtps>
+    </participant>
+</profiles>
+

@@ -1,0 +1,5 @@
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp: File o directory non esistente
+compilation terminated.
+gmake[2]: *** [CMakeFiles/consensus_node.dir/build.make:76: CMakeFiles/consensus_node.dir/src/consensus_node.cpp.o] Errore 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/consensus_node.dir/all] Errore 2
+gmake: *** [Makefile:146: all] Errore 2

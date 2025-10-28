@@ -1,0 +1,25 @@
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:[m[K In constructor ‘[01m[KConsensusNode::ConsensusNode()[m[K’:
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:39:62:[m[K [01;31m[Kerror: [m[Kcall of overloaded ‘[01m[KTime(int, rcl_clock_type_e)[m[K’ is ambiguous
+   39 |         last_rx_time_.assign(N_, rclcpp::Time(0, RCL_ROS_TIME[01;31m[K)[m[K);
+      |                                                              [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/clock.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:27[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:30[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/time.hpp:54:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Time::Time(int64_t, rcl_clock_type_t)[m[K’
+   54 |   explicit [01;36m[KTime[m[K(int64_t nanoseconds = 0, rcl_clock_type_t clock_type = RCL_SYSTEM_TIME);
+      |            [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/time.hpp:46:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Time::Time(int32_t, uint32_t, rcl_clock_type_t)[m[K’
+   46 |   [01;36m[KTime[m[K(int32_t seconds, uint32_t nanoseconds, rcl_clock_type_t clock_type = RCL_SYSTEM_TIME);
+      |   [01;36m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/consensus_node.dir/build.make:76: CMakeFiles/consensus_node.dir/src/consensus_node.cpp.o] Errore 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/consensus_node.dir/all] Errore 2
+gmake: *** [Makefile:146: all] Errore 2

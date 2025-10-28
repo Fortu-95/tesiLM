@@ -1,0 +1,63 @@
+[0.021s] Invoking command in '/home/fortunato/ros2_ws/build/dynamic_consensus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fortunato/ros2_ws/build/dynamic_consensus -- -j8 -l8
+[0.053s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.207s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.258s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.262s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.273s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.290s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.310s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.365s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.368s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.487s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.629s] -- Configuring done
+[0.644s] -- Generating done
+[0.649s] -- Build files have been written to: /home/fortunato/ros2_ws/build/dynamic_consensus
+[0.673s] [35m[1mConsolidate compiler generated dependencies of target consensus_node[0m
+[0.682s] [ 25%] [32mBuilding CXX object CMakeFiles/signal_generator_node.dir/src/signal_generator_node.cpp.o[0m
+[0.689s] [ 50%] [32mBuilding CXX object CMakeFiles/consensus_node.dir/src/consensus_node.cpp.o[0m
+[3.150s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/signal_generator_node.cpp:43:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[3.150s]    43 | }
+[3.150s]       |  [01;31m[K^[m[K
+[3.150s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/signal_generator_node.cpp:7:49:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[3.150s]     7 | class SignalGeneratorNode : public rclcpp::Node [01;36m[K{[m[K
+[3.150s]       |                                                 [01;36m[K^[m[K
+[3.157s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/signal_generator_node.cpp:[m[K In constructor ‘[01m[KSignalGeneratorNode::SignalGeneratorNode()[m[K’:
+[3.157s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/signal_generator_node.cpp:10:1:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_id_[m[K’ was not declared in this scope; did you mean ‘[01m[Knode_base_[m[K’?
+[3.157s]    10 | [01;31m[Knode_id_[m[K = this->declare_parameter<int>("node_id", 0);
+[3.157s]       | [01;31m[K^~~~~~~~[m[K
+[3.157s]       | [32m[Knode_base_[m[K
+[3.163s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/signal_generator_node.cpp:11:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kdt_[m[K’ was not declared in this scope
+[3.164s]    11 | [01;31m[Kdt_[m[K = 0.05;
+[3.164s]       | [01;31m[K^~~[m[K
+[3.168s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/signal_generator_node.cpp:16:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_[m[K’ was not declared in this scope
+[3.168s]    16 | [01;31m[Kpub_[m[K = this->create_publisher<std_msgs::msg::Float64>(ns.str(), 10);
+[3.168s]       | [01;31m[K^~~~[m[K
+[3.177s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/signal_generator_node.cpp:19:1:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[3.177s]    19 | [01;31m[Ktimer_[m[K = this->create_wall_timer(
+[3.178s]       | [01;31m[K^~~~~~[m[K
+[3.178s]       | [32m[Ktimer_t[m[K
+[3.178s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/signal_generator_node.cpp:21:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kstep[m[K’ is not a member of ‘[01m[KSignalGeneratorNode[m[K’
+[3.178s]    21 | std::bind(&SignalGeneratorNode::[01;31m[Kstep[m[K, this));
+[3.178s]       |                                 [01;31m[K^~~~[m[K
+[3.184s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/signal_generator_node.cpp:[m[K In member function ‘[01m[Kdouble SignalGeneratorNode::node_variant(double, double)[m[K’:
+[3.185s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/signal_generator_node.cpp:35:9:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_id_[m[K’ was not declared in this scope; did you mean ‘[01m[Knode_base_[m[K’?
+[3.185s]    35 | switch ([01;31m[Knode_id_[m[K) {
+[3.185s]       |         [01;31m[K^~~~~~~~[m[K
+[3.185s]       |         [32m[Knode_base_[m[K
+[3.185s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/signal_generator_node.cpp:43:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[3.185s]    43 | }
+[3.185s]       |  [01;31m[K^[m[K
+[3.185s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/signal_generator_node.cpp:34:44:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[3.186s]    34 | double node_variant(double base, double t) [01;36m[K{[m[K
+[3.186s]       |                                            [01;36m[K^[m[K
+[3.186s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/signal_generator_node.cpp:[m[K At global scope:
+[3.186s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/signal_generator_node.cpp:43:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[3.186s]    43 | }
+[3.186s]       |  [01;31m[K^[m[K
+[3.876s] gmake[2]: *** [CMakeFiles/signal_generator_node.dir/build.make:76: CMakeFiles/signal_generator_node.dir/src/signal_generator_node.cpp.o] Errore 1
+[3.876s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/signal_generator_node.dir/all] Errore 2
+[3.876s] gmake[1]: *** Attesa per i processi non terminati....
+[9.618s] [ 75%] [32m[1mLinking CXX executable consensus_node[0m
+[10.028s] [ 75%] Built target consensus_node
+[10.029s] gmake: *** [Makefile:146: all] Errore 2
+[10.032s] Invoked command in '/home/fortunato/ros2_ws/build/dynamic_consensus' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fortunato/ros2_ws/build/dynamic_consensus -- -j8 -l8

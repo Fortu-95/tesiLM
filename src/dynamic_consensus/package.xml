@@ -1,0 +1,21 @@
+<package format="3">
+  <name>dynamic_consensus</name>
+  <version>0.1.0</version>
+  <description>Un pacchetto ROS2 per nodi con ID unici</description>
+  <maintainer email="fortunato.rocco95@gmail.com">fortunato</maintainer>
+  <license>Apache-2.0</license>
+
+
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <build_depend>eigen3_cmake_module</build_depend>
+  <exec_depend>eigen3_cmake_module</exec_depend>
+
+
+  <build_depend>rosidl_default_generators</build_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <export>                               
+   <build_type>ament_cmake</build_type> 
+</export> 
+</package>
+

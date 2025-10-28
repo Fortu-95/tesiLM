@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target consensus_node[0m
+[35m[1mConsolidate compiler generated dependencies of target signal_generator_node[0m
+[ 75%] Built target signal_generator_node
+[ 75%] [32mBuilding CXX object CMakeFiles/consensus_node.dir/src/consensus_node.cpp.o[0m
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp: File o directory non esistente
+compilation terminated.
+gmake[2]: *** [CMakeFiles/consensus_node.dir/build.make:76: CMakeFiles/consensus_node.dir/src/consensus_node.cpp.o] Errore 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/consensus_node.dir/all] Errore 2
+gmake: *** [Makefile:146: all] Errore 2

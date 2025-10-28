@@ -1,0 +1,98 @@
+[0.000000] (-) TimerEvent: {}
+[0.000134] (dynamic_consensus) JobQueued: {'identifier': 'dynamic_consensus', 'dependencies': OrderedDict()}
+[0.000821] (dynamic_consensus) JobStarted: {'identifier': 'dynamic_consensus'}
+[0.018310] (dynamic_consensus) JobProgress: {'identifier': 'dynamic_consensus', 'progress': 'cmake'}
+[0.019540] (dynamic_consensus) JobProgress: {'identifier': 'dynamic_consensus', 'progress': 'build'}
+[0.019856] (dynamic_consensus) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fortunato/ros2_ws/build/dynamic_consensus', '--', '-j8', '-l8'], 'cwd': '/home/fortunato/ros2_ws/build/dynamic_consensus', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'it:en'), ('USER', 'fortunato'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fortunato'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2777'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0abd676f240fbf6a83bd5a4d68efc3b2'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/fortunato/ros2_install'), ('MAVLINK_DIR', '/home/fortunato/ros2_ws/src/PX4-Autopilot/mavlink/include/mavlink/v2.0'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fortunato/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fortunato'), ('_', '/home/fortunato/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fortunato'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/home/fortunato/ros2_ws/src/PX4-Autopilot/Tools/sitl_gazebo/models:/home/fortunato/ros2_ws/src/cameras/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/fortunato/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fortunato-Swift-SF314-54:@/tmp/.ICE-unix/2777,unix/fortunato-Swift-SF314-54:/tmp/.ICE-unix/2777'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6a19ba23_f1ae_479e_b114_7ae015b44fd3'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'it_IT.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8HY5D3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.153'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fortunato/ros2_ws/install/dynamic_consensus:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fortunato/ros2_ws/build/dynamic_consensus'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/fortunato/ros2_ws/src/PX4-Autopilot/build/px4_sitl_default/build_gazebo-classic:'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0abd676f240fbf6a83bd5a4d68efc3b2'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fortunato/ros2_ws/install/dynamic_consensus:/opt/ros/humble')]), 'shell': False}
+[0.063614] (dynamic_consensus) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target consensus_node\x1b[0m\n'}
+[0.076572] (dynamic_consensus) StdoutLine: {'line': b'[ 50%] Built target signal_generator_node\n'}
+[0.080859] (dynamic_consensus) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/consensus_node.dir/src/consensus_node.cpp.o\x1b[0m\n'}
+[0.099726] (-) TimerEvent: {}
+[0.199925] (-) TimerEvent: {}
+[0.300177] (-) TimerEvent: {}
+[0.400461] (-) TimerEvent: {}
+[0.500762] (-) TimerEvent: {}
+[0.601106] (-) TimerEvent: {}
+[0.701432] (-) TimerEvent: {}
+[0.801734] (-) TimerEvent: {}
+[0.902041] (-) TimerEvent: {}
+[1.002350] (-) TimerEvent: {}
+[1.102647] (-) TimerEvent: {}
+[1.202993] (-) TimerEvent: {}
+[1.303269] (-) TimerEvent: {}
+[1.403616] (-) TimerEvent: {}
+[1.503979] (-) TimerEvent: {}
+[1.604245] (-) TimerEvent: {}
+[1.704539] (-) TimerEvent: {}
+[1.804939] (-) TimerEvent: {}
+[1.905277] (-) TimerEvent: {}
+[2.005630] (-) TimerEvent: {}
+[2.105934] (-) TimerEvent: {}
+[2.206278] (-) TimerEvent: {}
+[2.306636] (-) TimerEvent: {}
+[2.406954] (-) TimerEvent: {}
+[2.507321] (-) TimerEvent: {}
+[2.607629] (-) TimerEvent: {}
+[2.707939] (-) TimerEvent: {}
+[2.808196] (-) TimerEvent: {}
+[2.908510] (-) TimerEvent: {}
+[3.008859] (-) TimerEvent: {}
+[3.109144] (-) TimerEvent: {}
+[3.132289] (dynamic_consensus) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KConsensusNode::ConsensusNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.132565] (dynamic_consensus) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:39:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcall of overloaded \xe2\x80\x98\x1b[01m\x1b[KTime(int, rcl_clock_type_e)\x1b[m\x1b[K\xe2\x80\x99 is ambiguous\n'}
+[3.132649] (dynamic_consensus) StderrLine: {'line': b'   39 |         last_rx_time_.assign(N_, rclcpp::Time(0, RCL_ROS_TIME\x1b[01;31m\x1b[K)\x1b[m\x1b[K);\n'}
+[3.132721] (dynamic_consensus) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.132789] (dynamic_consensus) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/clock.hpp:24\x1b[m\x1b[K,\n'}
+[3.132856] (dynamic_consensus) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:27\x1b[m\x1b[K,\n'}
+[3.132951] (dynamic_consensus) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:30\x1b[m\x1b[K,\n'}
+[3.133020] (dynamic_consensus) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.133085] (dynamic_consensus) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.133150] (dynamic_consensus) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.133215] (dynamic_consensus) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.133279] (dynamic_consensus) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.133343] (dynamic_consensus) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.133408] (dynamic_consensus) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.133472] (dynamic_consensus) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.133536] (dynamic_consensus) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:1\x1b[m\x1b[K:\n'}
+[3.133600] (dynamic_consensus) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/time.hpp:54:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time::Time(int64_t, rcl_clock_type_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.133666] (dynamic_consensus) StderrLine: {'line': b'   54 |   explicit \x1b[01;36m\x1b[KTime\x1b[m\x1b[K(int64_t nanoseconds = 0, rcl_clock_type_t clock_type = RCL_SYSTEM_TIME);\n'}
+[3.133730] (dynamic_consensus) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.133795] (dynamic_consensus) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/time.hpp:46:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time::Time(int32_t, uint32_t, rcl_clock_type_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.133861] (dynamic_consensus) StderrLine: {'line': b'   46 |   \x1b[01;36m\x1b[KTime\x1b[m\x1b[K(int32_t seconds, uint32_t nanoseconds, rcl_clock_type_t clock_type = RCL_SYSTEM_TIME);\n'}
+[3.133955] (dynamic_consensus) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.209240] (-) TimerEvent: {}
+[3.309534] (-) TimerEvent: {}
+[3.409830] (-) TimerEvent: {}
+[3.510166] (-) TimerEvent: {}
+[3.610451] (-) TimerEvent: {}
+[3.710808] (-) TimerEvent: {}
+[3.811097] (-) TimerEvent: {}
+[3.911386] (-) TimerEvent: {}
+[4.011697] (-) TimerEvent: {}
+[4.112156] (-) TimerEvent: {}
+[4.212452] (-) TimerEvent: {}
+[4.312737] (-) TimerEvent: {}
+[4.413007] (-) TimerEvent: {}
+[4.513299] (-) TimerEvent: {}
+[4.613628] (-) TimerEvent: {}
+[4.713903] (-) TimerEvent: {}
+[4.814173] (-) TimerEvent: {}
+[4.914488] (-) TimerEvent: {}
+[5.014744] (-) TimerEvent: {}
+[5.115010] (-) TimerEvent: {}
+[5.215318] (-) TimerEvent: {}
+[5.315600] (-) TimerEvent: {}
+[5.415913] (-) TimerEvent: {}
+[5.516168] (-) TimerEvent: {}
+[5.616480] (-) TimerEvent: {}
+[5.716771] (-) TimerEvent: {}
+[5.817038] (-) TimerEvent: {}
+[5.917297] (-) TimerEvent: {}
+[6.017591] (-) TimerEvent: {}
+[6.117925] (-) TimerEvent: {}
+[6.177724] (dynamic_consensus) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/consensus_node.dir/build.make:76: CMakeFiles/consensus_node.dir/src/consensus_node.cpp.o] Errore 1\n'}
+[6.178041] (dynamic_consensus) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/consensus_node.dir/all] Errore 2\n'}
+[6.178359] (dynamic_consensus) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Errore 2\n'}
+[6.181445] (dynamic_consensus) CommandEnded: {'returncode': 2}
+[6.196125] (dynamic_consensus) JobEnded: {'identifier': 'dynamic_consensus', 'rc': 2}
+[6.206636] (-) EventReactorShutdown: {}
