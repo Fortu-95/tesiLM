@@ -4,38 +4,37 @@ from launch_ros.actions import Node
 def generate_launch_description():
     ld = LaunchDescription()
 
-    num_consensus_nodes = 5
-    num_signal_nodes = 5
+    num_nodes = 15
 
-    # Consensus nodes
-    for i in range(num_consensus_nodes):
+
+    for i in range(num_nodes):
         ld.add_action(
             Node(
                 package='dynamic_consensus',
                 executable='consensus_node',
                 name=f'consensus_node_{i}',
                 output='screen',
-                parameters=[{'initial_state': 0.0}],
+                parameters=[{'node_id': i},{'initial_state': 0.0},{'num_nodes': num_nodes}],
             )
         )
 
-    # Signal generator nodes
-    for i in range(num_signal_nodes):
+    for i in range(num_nodes):
         ld.add_action(
             Node(
                 package='dynamic_consensus',
                 executable='signal_generator_node',
                 name=f'signal_generator_node_{i}',
                 output='screen',
-                parameters=[{'node_id': i}],  
+                parameters=[{'node_id': i},{'num_nodes': num_nodes}],  
             )
         )
-      # Average calculator node
+
         ld.add_action(
         Node(
             package='dynamic_consensus',
             executable='average_calc_node',
             name='average_calc_node',
+            parameters=[{'num_nodes': num_nodes}],
             output='screen',
         )
     )

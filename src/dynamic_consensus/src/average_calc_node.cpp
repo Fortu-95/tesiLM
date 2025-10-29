@@ -3,85 +3,75 @@
 #include <vector>
 #include <string>
 
-class AggregatorNode : public rclcpp::Node
+class AverageNode : public rclcpp::Node
 {
 public:
-  AggregatorNode(int N)
-  : Node("aggregator_node"), N_(N)
+  AverageNode()
+  : Node("average_node")
   {
-    inputs_.assign(N_, 0.0);
-    states_.assign(N_, 0.0);
+    N = this->declare_parameter<int>("num_nodes");
 
-    for (int i = 0; i < N_; ++i) {
+    inputs.assign(N, 0.0);
+    states.assign(N, 0.0);
+
+    for (int i = 0; i < N; ++i) {
       std::string topic_in = "/node_" + std::to_string(i) + "/input";
       auto sub_in = this->create_subscription<std_msgs::msg::Float64>(
         topic_in, 10,
         [this, i](const std_msgs::msg::Float64::SharedPtr msg) {
-          inputs_[i] = msg->data;
+          inputs[i] = msg->data;
         });
-      subs_input_.push_back(sub_in);
+      subs_input.push_back(sub_in);
     }
 
-    for (int i = 0; i < N_; ++i) {
+    for (int i = 0; i < N; ++i) {
       std::string topic_st = "/node_" + std::to_string(i) + "/state";
       auto sub_st = this->create_subscription<std_msgs::msg::Float64>(
         topic_st, 10,
         [this, i](const std_msgs::msg::Float64::SharedPtr msg) {
-          states_[i] = msg->data;
+          states[i] = msg->data;
         });
-      subs_state_.push_back(sub_st);
+      subs_state.push_back(sub_st);
     }
 
-    avg_input_pub_ = this->create_publisher<std_msgs::msg::Float64>("/average_input", 10);
-    avg_state_pub_ = this->create_publisher<std_msgs::msg::Float64>("/average_state", 10);
+    avg_input_pub = this->create_publisher<std_msgs::msg::Float64>("/average_input", 10);
+    avg_state_pub = this->create_publisher<std_msgs::msg::Float64>("/average_state", 10);
 
-    timer_ = this->create_wall_timer(
+    timer = this->create_wall_timer(
       std::chrono::milliseconds(200),
-      std::bind(&AggregatorNode::publish_averages, this)
+      std::bind(&AverageNode::publish_averages, this)
     );
+
   }
 
 private:
   void publish_averages()
   {
-    double sum_in = 0.0;
-    double sum_st = 0.0;
-    for (int i = 0; i < N_; ++i) {
-      sum_in += inputs_[i];
-      sum_st += states_[i];
+    double sum_in = 0.0, sum_st = 0.0;
+    for (int i = 0; i < N; ++i) {
+      sum_in += inputs[i];
+      sum_st += states[i];
     }
-    double avg_in = sum_in / double(N_);
-    double avg_st = sum_st / double(N_);
 
-    std_msgs::msg::Float64 msg_in;
-    msg_in.data = avg_in;
-    avg_input_pub_->publish(msg_in);
+    std_msgs::msg::Float64 msg_in, msg_st;
+    msg_in.data = sum_in / static_cast<double>(N);
+    msg_st.data = sum_st / static_cast<double>(N);
 
-    std_msgs::msg::Float64 msg_st;
-    msg_st.data = avg_st;
-    avg_state_pub_->publish(msg_st);
+    avg_input_pub->publish(msg_in);
+    avg_state_pub->publish(msg_st);
   }
 
-  int N_;
-  std::vector<double> inputs_;
-  std::vector<double> states_;
-
-  std::vector<rclcpp::Subscription<std_msgs::msg::Float64>::SharedPtr> subs_input_;
-  std::vector<rclcpp::Subscription<std_msgs::msg::Float64>::SharedPtr> subs_state_;
-
-  rclcpp::Publisher<std_msgs::msg::Float64>::SharedPtr avg_input_pub_;
-  rclcpp::Publisher<std_msgs::msg::Float64>::SharedPtr avg_state_pub_;
-
-  rclcpp::TimerBase::SharedPtr timer_;
+  int N;
+  std::vector<double> inputs, states;
+  std::vector<rclcpp::Subscription<std_msgs::msg::Float64>::SharedPtr> subs_input, subs_state;
+  rclcpp::Publisher<std_msgs::msg::Float64>::SharedPtr avg_input_pub, avg_state_pub;
+  rclcpp::TimerBase::SharedPtr timer;
 };
 
 int main(int argc, char * argv[])
 {
   rclcpp::init(argc, argv);
-
-  int N = 5;
-  auto node = std::make_shared<AggregatorNode>(N);
-
+  auto node = std::make_shared<AverageNode>();
   rclcpp::spin(node);
   rclcpp::shutdown();
   return 0;

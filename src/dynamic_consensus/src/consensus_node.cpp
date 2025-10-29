@@ -11,8 +11,8 @@ public:
     ConsensusNode(int id)
     : Node("node_" + std::to_string(id)), id(id)
     {
-        N = 5;
-
+        id = this->declare_parameter<int>("node_id", id);
+        int N = this->declare_parameter<int>("num_nodes", 5);
         neighbors.clear();
         if (id == 0) {
             neighbors = {N - 1, 1};
@@ -22,10 +22,7 @@ public:
             neighbors = {id - 1, id + 1};
         }
 
-        std::random_device rd;
-        std::mt19937 gen(rd());
-        std::uniform_real_distribution<double> dist(-1.0, 1.0);
-        x = dist(gen);
+        x = 0.0;
         z = 0.0;
 
         alpha = 1.0;
@@ -36,8 +33,6 @@ public:
         
 
         dt = 0.05;
-
-        RCLCPP_INFO(this->get_logger(), "Nodo %d avviato con stato iniziale %.3f", id, x);
 
         state_pub = this->create_publisher<std_msgs::msg::Float64>(
             "/node_" + std::to_string(id) + "/state", 10);
@@ -88,7 +83,6 @@ private:
     }
 
     int id;
-    int N;
     std::vector<int> neighbors;
     std::vector<double> neighbor_states;
 
@@ -109,16 +103,8 @@ int main(int argc, char * argv[])
 {
     rclcpp::init(argc, argv);
 
-    std::vector<rclcpp::Node::SharedPtr> nodes;
-    rclcpp::executors::MultiThreadedExecutor executor;
-
-    for (int i = 0; i < 5; ++i) {
-        auto node = std::make_shared<ConsensusNode>(i);
-        nodes.push_back(node);
-        executor.add_node(node);
-    }
-
-    executor.spin();
+    auto node = std::make_shared<ConsensusNode>(0);
+    rclcpp::spin(node);
     rclcpp::shutdown();
     return 0;
 }

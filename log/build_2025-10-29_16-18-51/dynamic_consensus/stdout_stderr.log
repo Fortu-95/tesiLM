@@ -1,0 +1,8 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/consensus_node.dir/src/consensus_node.cpp.o[0m
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:115:25:[m[K [01;31m[Kerror: [m[K‘[01m[KN[m[K’ was not declared in this scope
+  115 |     for (int i = 0; i < [01;31m[KN[m[K; ++i) {
+      |                         [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/consensus_node.dir/build.make:76: CMakeFiles/consensus_node.dir/src/consensus_node.cpp.o] Errore 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/consensus_node.dir/all] Errore 2
+gmake: *** [Makefile:146: all] Errore 2

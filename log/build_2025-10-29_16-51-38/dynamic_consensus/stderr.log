@@ -1,0 +1,10 @@
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:[m[K In constructor ‘[01m[KConsensusNode::ConsensusNode(int)[m[K’:
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:14:13:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kint id[m[K’ shadows a parameter
+   14 |         int [01;31m[Kid[m[K = this->declare_parameter<int>("node_id", 0);
+      |             [01;31m[K^~[m[K
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:11:23:[m[K [01;36m[Knote: [m[K‘[01m[Kint id[m[K’ previously declared here
+   11 |     ConsensusNode([01;36m[Kint id[m[K)
+      |                   [01;36m[K~~~~^~[m[K
+gmake[2]: *** [CMakeFiles/consensus_node.dir/build.make:76: CMakeFiles/consensus_node.dir/src/consensus_node.cpp.o] Errore 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/consensus_node.dir/all] Errore 2
+gmake: *** [Makefile:146: all] Errore 2

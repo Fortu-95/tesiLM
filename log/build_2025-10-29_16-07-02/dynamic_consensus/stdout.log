@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target consensus_node[0m
+[35m[1mConsolidate compiler generated dependencies of target average_calc_node[0m
+[ 33%] Built target signal_generator_node
+[ 83%] [32mBuilding CXX object CMakeFiles/average_calc_node.dir/src/average_calc_node.cpp.o[0m
+[ 83%] Built target consensus_node

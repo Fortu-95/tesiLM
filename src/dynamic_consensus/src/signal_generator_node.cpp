@@ -7,6 +7,8 @@ class SignalGeneratorNode : public rclcpp::Node {
 public:
   SignalGeneratorNode() : Node("signal_generator_node")
   {
+    N = this->declare_parameter<int>("num_nodes");
+
     node_id_ = this->declare_parameter<int>("node_id", 0);
     dt_ = 0.05;
 
@@ -18,8 +20,6 @@ public:
     timer_ = this->create_wall_timer(
       std::chrono::duration<double>(dt_),
       std::bind(&SignalGeneratorNode::step, this));
-
-    RCLCPP_INFO(this->get_logger(), "Signal generator node_%d started", node_id_);
   }
 
 private:
@@ -43,7 +43,7 @@ private:
     msg.data = val;
     pub_->publish(msg);
   }
-
+  int N;
   int node_id_;
   double dt_, t_ = 0.0;
   rclcpp::Publisher<std_msgs::msg::Float64>::SharedPtr pub_;

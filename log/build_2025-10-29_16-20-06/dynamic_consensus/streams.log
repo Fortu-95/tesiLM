@@ -1,0 +1,11 @@
+[0.020s] Invoking command in '/home/fortunato/ros2_ws/build/dynamic_consensus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fortunato/ros2_ws/build/dynamic_consensus -- -j8 -l8
+[0.057s] [35m[1mConsolidate compiler generated dependencies of target consensus_node[0m
+[0.073s] [ 16%] [32mBuilding CXX object CMakeFiles/consensus_node.dir/src/consensus_node.cpp.o[0m
+[2.322s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.322s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:115:25:[m[K [01;31m[Kerror: [m[K‘[01m[KN[m[K’ was not declared in this scope
+[2.322s]   115 |     for (int i = 0; i < [01;31m[KN[m[K; ++i) {
+[2.322s]       |                         [01;31m[K^[m[K
+[4.545s] gmake[2]: *** [CMakeFiles/consensus_node.dir/build.make:76: CMakeFiles/consensus_node.dir/src/consensus_node.cpp.o] Errore 1
+[4.545s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/consensus_node.dir/all] Errore 2
+[4.546s] gmake: *** [Makefile:146: all] Errore 2
+[4.548s] Invoked command in '/home/fortunato/ros2_ws/build/dynamic_consensus' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fortunato/ros2_ws/build/dynamic_consensus -- -j8 -l8
