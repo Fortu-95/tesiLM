@@ -11,9 +11,13 @@ ament_target_dependencies(consensus_node rclcpp std_msgs)
 add_executable(signal_generator_node src/signal_generator_node.cpp)
 ament_target_dependencies(signal_generator_node rclcpp std_msgs)
 
+add_executable(average_calc_node src/average_calc_node.cpp)
+ament_target_dependencies(average_calc_node rclcpp std_msgs)
+
 install(TARGETS
   consensus_node
   signal_generator_node
+  average_calc_node
   DESTINATION lib/${PROJECT_NAME}
 )
 

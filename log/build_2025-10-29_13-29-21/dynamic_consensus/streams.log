@@ -1,0 +1,30 @@
+[0.022s] Invoking command in '/home/fortunato/ros2_ws/build/dynamic_consensus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fortunato/ros2_ws/build/dynamic_consensus -- -j8 -l8
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target consensus_node[0m
+[0.075s] [ 66%] Built target average_calc_node
+[0.075s] [ 66%] Built target signal_generator_node
+[0.079s] [ 83%] [32mBuilding CXX object CMakeFiles/consensus_node.dir/src/consensus_node.cpp.o[0m
+[2.480s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:[m[K In constructor ‘[01m[KConsensusNode::ConsensusNode(int)[m[K’:
+[2.480s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:31:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kalpha_[m[K’ was not declared in this scope; did you mean ‘[01m[Kalpha[m[K’?
+[2.481s]    31 |         [01;31m[Kalpha_[m[K = 0.5;
+[2.481s]       |         [01;31m[K^~~~~~[m[K
+[2.481s]       |         [32m[Kalpha[m[K
+[2.484s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:32:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krho_[m[K’ was not declared in this scope; did you mean ‘[01m[Krho[m[K’?
+[2.484s]    32 |         [01;31m[Krho_[m[K   = 0.5;
+[2.484s]       |         [01;31m[K^~~~[m[K
+[2.484s]       |         [32m[Krho[m[K
+[2.488s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:33:9:[m[K [01;31m[Kerror: [m[K‘[01m[Klambda_[m[K’ was not declared in this scope; did you mean ‘[01m[Klambda[m[K’?
+[2.488s]    33 |         [01;31m[Klambda_[m[K = 1.0;
+[2.488s]       |         [01;31m[K^~~~~~~[m[K
+[2.488s]       |         [32m[Klambda[m[K
+[2.491s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:34:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kkp_[m[K’ was not declared in this scope; did you mean ‘[01m[Kkp[m[K’?
+[2.491s]    34 |         [01;31m[Kkp_[m[K = 0.2;
+[2.491s]       |         [01;31m[K^~~[m[K
+[2.491s]       |         [32m[Kkp[m[K
+[2.495s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:35:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kki_[m[K’ was not declared in this scope; did you mean ‘[01m[Kki[m[K’?
+[2.495s]    35 |         [01;31m[Kki_[m[K = 0.05;
+[2.495s]       |         [01;31m[K^~~[m[K
+[2.495s]       |         [32m[Kki[m[K
+[6.386s] gmake[2]: *** [CMakeFiles/consensus_node.dir/build.make:76: CMakeFiles/consensus_node.dir/src/consensus_node.cpp.o] Errore 1
+[6.388s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/consensus_node.dir/all] Errore 2
+[6.390s] gmake: *** [Makefile:146: all] Errore 2
+[6.407s] Invoked command in '/home/fortunato/ros2_ws/build/dynamic_consensus' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fortunato/ros2_ws/build/dynamic_consensus -- -j8 -l8

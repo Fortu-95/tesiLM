@@ -223,6 +223,43 @@ signal_generator_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/signal_generator_node.dir/build.make CMakeFiles/signal_generator_node.dir/build
 .PHONY : signal_generator_node/fast
 
+#=============================================================================
+# Target rules for targets named average_calc_node
+
+# Build rule for target.
+average_calc_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 average_calc_node
+.PHONY : average_calc_node
+
+# fast build rule for target.
+average_calc_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/average_calc_node.dir/build.make CMakeFiles/average_calc_node.dir/build
+.PHONY : average_calc_node/fast
+
+src/average_calc_node.o: src/average_calc_node.cpp.o
+.PHONY : src/average_calc_node.o
+
+# target to build an object file
+src/average_calc_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/average_calc_node.dir/build.make CMakeFiles/average_calc_node.dir/src/average_calc_node.cpp.o
+.PHONY : src/average_calc_node.cpp.o
+
+src/average_calc_node.i: src/average_calc_node.cpp.i
+.PHONY : src/average_calc_node.i
+
+# target to preprocess a source file
+src/average_calc_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/average_calc_node.dir/build.make CMakeFiles/average_calc_node.dir/src/average_calc_node.cpp.i
+.PHONY : src/average_calc_node.cpp.i
+
+src/average_calc_node.s: src/average_calc_node.cpp.s
+.PHONY : src/average_calc_node.s
+
+# target to generate assembly for a file
+src/average_calc_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/average_calc_node.dir/build.make CMakeFiles/average_calc_node.dir/src/average_calc_node.cpp.s
+.PHONY : src/average_calc_node.cpp.s
+
 src/consensus_node.o: src/consensus_node.cpp.o
 .PHONY : src/consensus_node.o
 
@@ -286,8 +323,12 @@ help:
 	@echo "... test"
 	@echo "... dynamic_consensus_uninstall"
 	@echo "... uninstall"
+	@echo "... average_calc_node"
 	@echo "... consensus_node"
 	@echo "... signal_generator_node"
+	@echo "... src/average_calc_node.o"
+	@echo "... src/average_calc_node.i"
+	@echo "... src/average_calc_node.s"
 	@echo "... src/consensus_node.o"
 	@echo "... src/consensus_node.i"
 	@echo "... src/consensus_node.s"

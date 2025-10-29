@@ -606,4 +606,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/dynamic_consensus_uninstall.dir/DependInfo.cmake"
   "CMakeFiles/consensus_node.dir/DependInfo.cmake"
   "CMakeFiles/signal_generator_node.dir/DependInfo.cmake"
+  "CMakeFiles/average_calc_node.dir/DependInfo.cmake"
   )

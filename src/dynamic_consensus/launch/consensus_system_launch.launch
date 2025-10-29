@@ -30,6 +30,15 @@ def generate_launch_description():
                 parameters=[{'node_id': i}],  
             )
         )
+      # Average calculator node
+        ld.add_action(
+        Node(
+            package='dynamic_consensus',
+            executable='average_calc_node',
+            name='average_calc_node',
+            output='screen',
+        )
+    )
 
     return ld
 

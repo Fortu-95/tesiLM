@@ -29,11 +29,11 @@ public:
         z = 0.0;
 
         alpha = 1.0;
-        rho   = 0.8;
+        rho   = 0.6;
         lambda = 1.0;
-
-        kp = 0.05;
-        ki = 0.01;
+        kp = 0.1;
+        ki = 0.2;
+        
 
         dt = 0.05;
 

@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-beb8e26e8f2b095c1829.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "dynamic_consensus",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "average_calc_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-average_calc_node-c30e5df8ad760fb5ef4e.json",
+					"name" : "average_calc_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "consensus_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-consensus_node-c1960f68f7be08cd8893.json",
+					"name" : "consensus_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamic_consensus_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamic_consensus_uninstall-46a4f39eb5c56777be99.json",
+					"name" : "dynamic_consensus_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "signal_generator_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-signal_generator_node-d93e0cff5c42754238d5.json",
+					"name" : "signal_generator_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-385d64c8cd18e369804b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/fortunato/ros2_ws/build/dynamic_consensus",
+		"source" : "/home/fortunato/ros2_ws/src/dynamic_consensus"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

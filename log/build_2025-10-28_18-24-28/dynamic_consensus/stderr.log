@@ -1,0 +1,24 @@
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:[m[K In constructor ‘[01m[KConsensusNode::ConsensusNode(int)[m[K’:
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:31:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kalpha_[m[K’ was not declared in this scope; did you mean ‘[01m[Kalpha[m[K’?
+   31 |         [01;31m[Kalpha_[m[K = 1.0;
+      |         [01;31m[K^~~~~~[m[K
+      |         [32m[Kalpha[m[K
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:32:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krho_[m[K’ was not declared in this scope; did you mean ‘[01m[Krho[m[K’?
+   32 |         [01;31m[Krho_[m[K   = 0.8;
+      |         [01;31m[K^~~~[m[K
+      |         [32m[Krho[m[K
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:33:9:[m[K [01;31m[Kerror: [m[K‘[01m[Klambda_[m[K’ was not declared in this scope; did you mean ‘[01m[Klambda[m[K’?
+   33 |         [01;31m[Klambda_[m[K = 1.0;
+      |         [01;31m[K^~~~~~~[m[K
+      |         [32m[Klambda[m[K
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:34:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kkp_[m[K’ was not declared in this scope; did you mean ‘[01m[Kkp[m[K’?
+   34 |         [01;31m[Kkp_[m[K = (1 - rho_) / lambda_;
+      |         [01;31m[K^~~[m[K
+      |         [32m[Kkp[m[K
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:35:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kki_[m[K’ was not declared in this scope; did you mean ‘[01m[Kki[m[K’?
+   35 |         [01;31m[Kki_[m[K = rho_ * (1 - rho_) / (rho_ + lambda_ - 1);
+      |         [01;31m[K^~~[m[K
+      |         [32m[Kki[m[K
+gmake[2]: *** [CMakeFiles/consensus_node.dir/build.make:76: CMakeFiles/consensus_node.dir/src/consensus_node.cpp.o] Errore 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/consensus_node.dir/all] Errore 2
+gmake: *** [Makefile:146: all] Errore 2
