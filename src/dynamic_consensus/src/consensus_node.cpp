@@ -65,22 +65,45 @@ public:
     }
 
 private:
+    // void update_state()
+    // {
+    //     double lap_sum = 0.0;
+    //     for (int j : neighbors) {
+    //         lap_sum += (x - neighbor_states[j]);
+    //     }
+
+    //     double dx = -kp * lap_sum + alpha * (u - x) + z;
+    //     z += ki * dt * (-lap_sum);
+
+    //     x += dx * dt;
+
+    //     std_msgs::msg::Float64 msg;
+    //     msg.data = x;
+    //     state_pub->publish(msg);
+    // }
+
     void update_state()
-    {
+{
+    int round = 10;              
+    double round_dt = dt / round;
+
+    for (int k = 0; k < round; ++k) {
         double lap_sum = 0.0;
         for (int j : neighbors) {
             lap_sum += (x - neighbor_states[j]);
         }
 
         double dx = -kp * lap_sum + alpha * (u - x) + z;
-        z += ki * dt * (-lap_sum);
+        z += ki * (-lap_sum) * round_dt;
 
-        x += dx * dt;
-
-        std_msgs::msg::Float64 msg;
-        msg.data = x;
-        state_pub->publish(msg);
+        x += dx * round_dt;
     }
+
+    std_msgs::msg::Float64 msg;
+    msg.data = x;
+    state_pub->publish(msg);
+}
+
 
     int id;
     std::vector<int> neighbors;
