@@ -25,7 +25,7 @@ public:
         x = 0.0;
         z = 0.0;
 
-        alpha = 1.0;
+        alpha = 2.0;
         rho   = 0.6;
         lambda = 1.0;
         kp = 0.1;
