@@ -1,0 +1,131 @@
+[0.021s] Invoking command in '/home/fortunato/ros2_ws/build/dynamic_consensus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fortunato/ros2_ws/build/dynamic_consensus -- -j8 -l8
+[0.069s] [35m[1mConsolidate compiler generated dependencies of target consensus_node[0m
+[0.083s] [ 66%] Built target average_calc_node
+[0.083s] [ 66%] Built target signal_generator_node
+[0.088s] [ 83%] [32mBuilding CXX object CMakeFiles/consensus_node.dir/src/consensus_node.cpp.o[0m
+[2.413s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:76:6:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[2.413s]    76 |     }
+[2.413s]       |      [01;31m[K^[m[K
+[2.413s]       |      [32m[K;[m[K
+[2.413s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:[m[K In constructor ‘[01m[KConsensusNode::ConsensusNode(int)[m[K’:
+[2.413s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:13:47:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KConsensusNode[m[K’ does not have any field named ‘[01m[Kid[m[K’
+[2.413s]    13 |         : Node("node_" + std::to_string(id)), [01;31m[Kid[m[K(id)
+[2.413s]       |                                               [01;31m[K^~[m[K
+[2.423s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:18:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kneighbors[m[K’ was not declared in this scope
+[2.423s]    18 |         [01;31m[Kneighbors[m[K.clear();
+[2.423s]       |         [01;31m[K^~~~~~~~~[m[K
+[2.426s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:28:9:[m[K [01;31m[Kerror: [m[K‘[01m[KH[m[K’ was not declared in this scope
+[2.426s]    28 |         [01;31m[KH[m[K = 1.0;
+[2.426s]       |         [01;31m[K^[m[K
+[2.430s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:29:9:[m[K [01;31m[Kerror: [m[K‘[01m[KQ[m[K’ was not declared in this scope
+[2.430s]    29 |         [01;31m[KQ[m[K = 10.0;
+[2.430s]       |         [01;31m[K^[m[K
+[2.433s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:30:9:[m[K [01;31m[Kerror: [m[K‘[01m[KB[m[K’ was not declared in this scope
+[2.433s]    30 |         [01;31m[KB[m[K = 0.01;
+[2.433s]       |         [01;31m[K^[m[K
+[2.438s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:31:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kepsilon[m[K’ was not declared in this scope
+[2.438s]    31 |         [01;31m[Kepsilon[m[K = 0.65 / 2.0;  // 0.325
+[2.439s]       |         [01;31m[K^~~~~~~[m[K
+[2.443s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:32:9:[m[K [01;31m[Kerror: [m[K‘[01m[KJ_iniz[m[K’ was not declared in this scope
+[2.443s]    32 |         [01;31m[KJ_iniz[m[K = 100.0;
+[2.443s]       |         [01;31m[K^~~~~~[m[K
+[2.447s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:33:9:[m[K [01;31m[Kerror: [m[K‘[01m[KPhi[m[K’ was not declared in this scope
+[2.447s]    33 |         [01;31m[KPhi[m[K = 1.0;
+[2.447s]       |         [01;31m[K^~~[m[K
+[2.451s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:34:9:[m[K [01;31m[Kerror: [m[K‘[01m[KKdo[m[K’ was not declared in this scope
+[2.451s]    34 |         [01;31m[KKdo[m[K = 5;
+[2.451s]       |         [01;31m[K^~~[m[K
+[2.455s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:37:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kx[m[K’ was not declared in this scope
+[2.455s]    37 |         [01;31m[Kx[m[K = 0.0;
+[2.455s]       |         [01;31m[K^[m[K
+[2.458s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:38:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kz[m[K’ was not declared in this scope
+[2.458s]    38 |         [01;31m[Kz[m[K = 0.0;
+[2.458s]       |         [01;31m[K^[m[K
+[2.462s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:39:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kalpha[m[K’ was not declared in this scope; did you mean ‘[01m[Kisalpha[m[K’?
+[2.462s]    39 |         [01;31m[Kalpha[m[K = 2.0;
+[2.462s]       |         [01;31m[K^~~~~[m[K
+[2.462s]       |         [32m[Kisalpha[m[K
+[2.466s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:40:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krho[m[K’ was not declared in this scope
+[2.466s]    40 |         [01;31m[Krho[m[K = 0.6;
+[2.466s]       |         [01;31m[K^~~[m[K
+[2.470s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:41:9:[m[K [01;31m[Kerror: [m[K‘[01m[Klambda[m[K’ was not declared in this scope
+[2.470s]    41 |         [01;31m[Klambda[m[K = 1.0;
+[2.470s]       |         [01;31m[K^~~~~~[m[K
+[2.473s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:42:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kkp[m[K’ was not declared in this scope
+[2.473s]    42 |         [01;31m[Kkp[m[K = 0.1;
+[2.473s]       |         [01;31m[K^~[m[K
+[2.477s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:43:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kki[m[K’ was not declared in this scope
+[2.477s]    43 |         [01;31m[Kki[m[K = 0.2;
+[2.477s]       |         [01;31m[K^~[m[K
+[2.480s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:44:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdt[m[K’ was not declared in this scope
+[2.480s]    44 |         [01;31m[Kdt[m[K = 0.05;
+[2.480s]       |         [01;31m[K^~[m[K
+[2.483s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:47:9:[m[K [01;31m[Kerror: [m[K‘[01m[KJ[m[K’ was not declared in this scope
+[2.483s]    47 |         [01;31m[KJ[m[K = J_iniz;  // Matrice di informazione iniziale (scalare)
+[2.483s]       |         [01;31m[K^[m[K
+[2.489s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:49:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstate_pub[m[K’ was not declared in this scope
+[2.489s]    49 |         [01;31m[Kstate_pub[m[K = this->create_publisher<std_msgs::msg::Float64>(
+[2.489s]       |         [01;31m[K^~~~~~~~~[m[K
+[2.501s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:52:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kneighbor_states[m[K’ was not declared in this scope
+[2.501s]    52 |         [01;31m[Kneighbor_states[m[K.assign(N, 0.0);
+[2.502s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.503s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:[m[K In lambda function:
+[2.503s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:60:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kneighbor_states[m[K’ is not captured
+[2.504s]    60 |                     [01;31m[Kneighbor_states[m[K[i] = msg->data;
+[2.504s]       |                     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.504s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:59:25:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[2.504s]    59 |                 [this, i[01;36m[K][m[K(const std_msgs::msg::Float64::SharedPtr msg) {
+[2.504s]       |                         [01;36m[K^[m[K
+[2.504s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:52:9:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>neighbor_states[m[K’ declared here
+[2.504s]    52 |         [01;36m[Kneighbor_states[m[K.assign(N, 0.0);
+[2.504s]       |         [01;36m[K^~~~~~~~~~~~~~~[m[K
+[2.551s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:[m[K In constructor ‘[01m[KConsensusNode::ConsensusNode(int)[m[K’:
+[2.551s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:62:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kneighbor_subs[m[K’ was not declared in this scope
+[2.551s]    62 |             [01;31m[Kneighbor_subs[m[K.push_back(sub);
+[2.551s]       |             [01;31m[K^~~~~~~~~~~~~[m[K
+[2.557s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:65:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kinput_sub[m[K’ was not declared in this scope
+[2.557s]    65 |         [01;31m[Kinput_sub[m[K = this->create_subscription<std_msgs::msg::Float64>(
+[2.557s]       |         [01;31m[K^~~~~~~~~[m[K
+[2.561s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:[m[K In lambda function:
+[2.561s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:69:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ku[m[K’ was not declared in this scope
+[2.561s]    69 |                 [01;31m[Ku[m[K = msg->data;
+[2.561s]       |                 [01;31m[K^[m[K
+[2.564s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:[m[K In constructor ‘[01m[KConsensusNode::ConsensusNode(int)[m[K’:
+[2.565s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:72:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimex[m[K’?
+[2.565s]    72 |         [01;31m[Ktimer[m[K = this->create_wall_timer(
+[2.565s]       |         [01;31m[K^~~~~[m[K
+[2.565s]       |         [32m[Ktimex[m[K
+[2.565s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:74:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kupdate_state[m[K’ is not a member of ‘[01m[KConsensusNode[m[K’
+[2.565s]    74 |             std::bind(&ConsensusNode::[01;31m[Kupdate_state[m[K, this));
+[2.565s]       |                                       [01;31m[K^~~~~~~~~~~~[m[K
+[2.565s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:[m[K At global scope:
+[2.565s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:78:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+[2.565s]    78 | [01;31m[Kprivate[m[K:
+[2.565s]       | [01;31m[K^~~~~~~[m[K
+[2.568s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:[m[K In function ‘[01m[Kvoid publish_V_v(double, double)[m[K’:
+[2.568s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:143:9:[m[K [01;31m[Kerror: [m[K‘[01m[Klocal_V[m[K’ was not declared in this scope; did you mean ‘[01m[Klocale_t[m[K’?
+[2.568s]   143 |         [01;31m[Klocal_V[m[K = V;
+[2.568s]       |         [01;31m[K^~~~~~~[m[K
+[2.568s]       |         [32m[Klocale_t[m[K
+[2.570s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:144:9:[m[K [01;31m[Kerror: [m[K‘[01m[Klocal_v[m[K’ was not declared in this scope; did you mean ‘[01m[Klocale_t[m[K’?
+[2.570s]   144 |         [01;31m[Klocal_v[m[K = v;
+[2.570s]       |         [01;31m[K^~~~~~~[m[K
+[2.570s]       |         [32m[Klocale_t[m[K
+[2.575s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:[m[K In function ‘[01m[Kvoid update_state()[m[K’:
+[2.575s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:150:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kicf_algorithm[m[K’ was not declared in this scope
+[2.575s]   150 |         [01;31m[Kicf_algorithm[m[K();
+[2.575s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[2.577s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:154:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kx[m[K’ was not declared in this scope
+[2.577s]   154 |         msg.data = [01;31m[Kx[m[K;
+[2.577s]       |                    [01;31m[K^[m[K
+[2.580s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:155:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstate_pub[m[K’ was not declared in this scope
+[2.580s]   155 |         [01;31m[Kstate_pub[m[K->publish(msg);
+[2.580s]       |         [01;31m[K^~~~~~~~~[m[K
+[2.590s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:[m[K At global scope:
+[2.590s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:187:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[2.590s]   187 | [01;31m[K}[m[K;
+[2.590s]       | [01;31m[K^[m[K
+[4.731s] gmake[2]: *** [CMakeFiles/consensus_node.dir/build.make:76: CMakeFiles/consensus_node.dir/src/consensus_node.cpp.o] Errore 1
+[4.732s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/consensus_node.dir/all] Errore 2
+[4.732s] gmake: *** [Makefile:146: all] Errore 2
+[4.734s] Invoked command in '/home/fortunato/ros2_ws/build/dynamic_consensus' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fortunato/ros2_ws/build/dynamic_consensus -- -j8 -l8

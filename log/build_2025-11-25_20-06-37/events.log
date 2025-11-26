@@ -1,0 +1,159 @@
+[0.000000] (-) TimerEvent: {}
+[0.000331] (dynamic_consensus) JobQueued: {'identifier': 'dynamic_consensus', 'dependencies': OrderedDict()}
+[0.000560] (dynamic_consensus) JobStarted: {'identifier': 'dynamic_consensus'}
+[0.018250] (dynamic_consensus) JobProgress: {'identifier': 'dynamic_consensus', 'progress': 'cmake'}
+[0.018848] (dynamic_consensus) JobProgress: {'identifier': 'dynamic_consensus', 'progress': 'build'}
+[0.019545] (dynamic_consensus) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fortunato/ros2_ws/build/dynamic_consensus', '--', '-j8', '-l8'], 'cwd': '/home/fortunato/ros2_ws/build/dynamic_consensus', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'it:en'), ('USER', 'fortunato'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fortunato'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2530'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6fe136ca5353f5cbddfebacc6925e3f6'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/fortunato/ros2_install'), ('MAVLINK_DIR', '/home/fortunato/ros2_ws/src/PX4-Autopilot/mavlink/include/mavlink/v2.0'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fortunato/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fortunato'), ('_', '/home/fortunato/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fortunato'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/home/fortunato/ros2_ws/src/PX4-Autopilot/Tools/sitl_gazebo/models:/home/fortunato/ros2_ws/src/cameras/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/fortunato/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fortunato-Swift-SF314-54:@/tmp/.ICE-unix/2530,unix/fortunato-Swift-SF314-54:/tmp/.ICE-unix/2530'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e1119632_9f50_4fc4_ae19_b67dc552ab0d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'it_IT.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5CGDG3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.213'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fortunato/ros2_ws/install/dynamic_consensus:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fortunato/ros2_ws/build/dynamic_consensus'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/fortunato/ros2_ws/src/PX4-Autopilot/build/px4_sitl_default/build_gazebo-classic:'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6fe136ca5353f5cbddfebacc6925e3f6'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fortunato/ros2_ws/install/dynamic_consensus:/opt/ros/humble')]), 'shell': False}
+[0.061900] (dynamic_consensus) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target consensus_node\x1b[0m\n'}
+[0.075255] (dynamic_consensus) StdoutLine: {'line': b'[ 66%] Built target average_calc_node\n'}
+[0.075429] (dynamic_consensus) StdoutLine: {'line': b'[ 66%] Built target signal_generator_node\n'}
+[0.080265] (dynamic_consensus) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/consensus_node.dir/src/consensus_node.cpp.o\x1b[0m\n'}
+[0.099475] (-) TimerEvent: {}
+[0.199697] (-) TimerEvent: {}
+[0.299981] (-) TimerEvent: {}
+[0.400237] (-) TimerEvent: {}
+[0.500525] (-) TimerEvent: {}
+[0.600809] (-) TimerEvent: {}
+[0.701092] (-) TimerEvent: {}
+[0.801343] (-) TimerEvent: {}
+[0.901626] (-) TimerEvent: {}
+[1.001902] (-) TimerEvent: {}
+[1.102180] (-) TimerEvent: {}
+[1.202457] (-) TimerEvent: {}
+[1.302737] (-) TimerEvent: {}
+[1.403024] (-) TimerEvent: {}
+[1.503313] (-) TimerEvent: {}
+[1.603602] (-) TimerEvent: {}
+[1.703898] (-) TimerEvent: {}
+[1.804190] (-) TimerEvent: {}
+[1.904480] (-) TimerEvent: {}
+[2.004795] (-) TimerEvent: {}
+[2.105103] (-) TimerEvent: {}
+[2.205355] (-) TimerEvent: {}
+[2.305644] (-) TimerEvent: {}
+[2.405934] (-) TimerEvent: {}
+[2.506346] (-) TimerEvent: {}
+[2.606629] (-) TimerEvent: {}
+[2.706942] (-) TimerEvent: {}
+[2.807219] (-) TimerEvent: {}
+[2.907502] (-) TimerEvent: {}
+[3.007784] (-) TimerEvent: {}
+[3.108065] (-) TimerEvent: {}
+[3.208356] (-) TimerEvent: {}
+[3.308640] (-) TimerEvent: {}
+[3.408920] (-) TimerEvent: {}
+[3.509223] (-) TimerEvent: {}
+[3.609507] (-) TimerEvent: {}
+[3.709793] (-) TimerEvent: {}
+[3.810100] (-) TimerEvent: {}
+[3.910417] (-) TimerEvent: {}
+[4.010738] (-) TimerEvent: {}
+[4.111032] (-) TimerEvent: {}
+[4.211330] (-) TimerEvent: {}
+[4.311613] (-) TimerEvent: {}
+[4.411899] (-) TimerEvent: {}
+[4.512193] (-) TimerEvent: {}
+[4.612489] (-) TimerEvent: {}
+[4.712794] (-) TimerEvent: {}
+[4.813089] (-) TimerEvent: {}
+[4.913384] (-) TimerEvent: {}
+[5.013633] (-) TimerEvent: {}
+[5.113922] (-) TimerEvent: {}
+[5.214380] (-) TimerEvent: {}
+[5.315565] (-) TimerEvent: {}
+[5.416798] (-) TimerEvent: {}
+[5.518008] (-) TimerEvent: {}
+[5.619285] (-) TimerEvent: {}
+[5.720471] (-) TimerEvent: {}
+[5.821571] (-) TimerEvent: {}
+[5.922810] (-) TimerEvent: {}
+[6.023987] (-) TimerEvent: {}
+[6.125185] (-) TimerEvent: {}
+[6.226322] (-) TimerEvent: {}
+[6.327436] (-) TimerEvent: {}
+[6.428515] (-) TimerEvent: {}
+[6.529589] (-) TimerEvent: {}
+[6.630682] (-) TimerEvent: {}
+[6.731852] (-) TimerEvent: {}
+[6.832994] (-) TimerEvent: {}
+[6.934216] (-) TimerEvent: {}
+[7.035485] (-) TimerEvent: {}
+[7.136731] (-) TimerEvent: {}
+[7.238083] (-) TimerEvent: {}
+[7.339342] (-) TimerEvent: {}
+[7.440953] (-) TimerEvent: {}
+[7.542397] (-) TimerEvent: {}
+[7.643816] (-) TimerEvent: {}
+[7.744965] (-) TimerEvent: {}
+[7.845287] (-) TimerEvent: {}
+[7.945621] (-) TimerEvent: {}
+[8.046839] (-) TimerEvent: {}
+[8.147443] (-) TimerEvent: {}
+[8.247761] (-) TimerEvent: {}
+[8.348014] (-) TimerEvent: {}
+[8.448390] (-) TimerEvent: {}
+[8.548771] (-) TimerEvent: {}
+[8.649058] (-) TimerEvent: {}
+[8.749318] (-) TimerEvent: {}
+[8.849598] (-) TimerEvent: {}
+[8.949882] (-) TimerEvent: {}
+[9.050169] (-) TimerEvent: {}
+[9.150405] (-) TimerEvent: {}
+[9.250747] (-) TimerEvent: {}
+[9.351017] (-) TimerEvent: {}
+[9.451258] (-) TimerEvent: {}
+[9.551536] (-) TimerEvent: {}
+[9.651812] (-) TimerEvent: {}
+[9.752091] (-) TimerEvent: {}
+[9.852341] (-) TimerEvent: {}
+[9.952613] (-) TimerEvent: {}
+[10.052902] (-) TimerEvent: {}
+[10.153217] (-) TimerEvent: {}
+[10.253471] (-) TimerEvent: {}
+[10.355786] (-) TimerEvent: {}
+[10.456150] (-) TimerEvent: {}
+[10.556499] (-) TimerEvent: {}
+[10.656849] (-) TimerEvent: {}
+[10.757177] (-) TimerEvent: {}
+[10.857463] (-) TimerEvent: {}
+[10.957792] (-) TimerEvent: {}
+[11.058106] (-) TimerEvent: {}
+[11.158408] (-) TimerEvent: {}
+[11.258704] (-) TimerEvent: {}
+[11.358990] (-) TimerEvent: {}
+[11.443673] (dynamic_consensus) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable consensus_node\x1b[0m\n'}
+[11.459088] (-) TimerEvent: {}
+[11.559470] (-) TimerEvent: {}
+[11.659807] (-) TimerEvent: {}
+[11.760197] (-) TimerEvent: {}
+[11.860469] (-) TimerEvent: {}
+[11.960758] (-) TimerEvent: {}
+[11.972655] (dynamic_consensus) StdoutLine: {'line': b'[100%] Built target consensus_node\n'}
+[11.984835] (dynamic_consensus) CommandEnded: {'returncode': 0}
+[11.985445] (dynamic_consensus) JobProgress: {'identifier': 'dynamic_consensus', 'progress': 'install'}
+[11.994466] (dynamic_consensus) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fortunato/ros2_ws/build/dynamic_consensus'], 'cwd': '/home/fortunato/ros2_ws/build/dynamic_consensus', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'it:en'), ('USER', 'fortunato'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fortunato'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2530'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6fe136ca5353f5cbddfebacc6925e3f6'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/fortunato/ros2_install'), ('MAVLINK_DIR', '/home/fortunato/ros2_ws/src/PX4-Autopilot/mavlink/include/mavlink/v2.0'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fortunato/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fortunato'), ('_', '/home/fortunato/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fortunato'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/home/fortunato/ros2_ws/src/PX4-Autopilot/Tools/sitl_gazebo/models:/home/fortunato/ros2_ws/src/cameras/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/fortunato/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fortunato-Swift-SF314-54:@/tmp/.ICE-unix/2530,unix/fortunato-Swift-SF314-54:/tmp/.ICE-unix/2530'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e1119632_9f50_4fc4_ae19_b67dc552ab0d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'it_IT.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5CGDG3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.213'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fortunato/ros2_ws/install/dynamic_consensus:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fortunato/ros2_ws/build/dynamic_consensus'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/fortunato/ros2_ws/src/PX4-Autopilot/build/px4_sitl_default/build_gazebo-classic:'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6fe136ca5353f5cbddfebacc6925e3f6'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fortunato/ros2_ws/install/dynamic_consensus:/opt/ros/humble')]), 'shell': False}
+[12.004663] (dynamic_consensus) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.004943] (dynamic_consensus) StdoutLine: {'line': b'-- Installing: /home/fortunato/ros2_ws/install/dynamic_consensus/lib/dynamic_consensus/consensus_node\n'}
+[12.008131] (dynamic_consensus) StdoutLine: {'line': b'-- Set runtime path of "/home/fortunato/ros2_ws/install/dynamic_consensus/lib/dynamic_consensus/consensus_node" to ""\n'}
+[12.008440] (dynamic_consensus) StdoutLine: {'line': b'-- Up-to-date: /home/fortunato/ros2_ws/install/dynamic_consensus/lib/dynamic_consensus/signal_generator_node\n'}
+[12.008817] (dynamic_consensus) StdoutLine: {'line': b'-- Up-to-date: /home/fortunato/ros2_ws/install/dynamic_consensus/lib/dynamic_consensus/average_calc_node\n'}
+[12.008988] (dynamic_consensus) StdoutLine: {'line': b'-- Up-to-date: /home/fortunato/ros2_ws/install/dynamic_consensus/share/dynamic_consensus/launch\n'}
+[12.009160] (dynamic_consensus) StdoutLine: {'line': b'-- Up-to-date: /home/fortunato/ros2_ws/install/dynamic_consensus/share/dynamic_consensus/launch/consensus_system_launch.launch\n'}
+[12.009399] (dynamic_consensus) StdoutLine: {'line': b'-- Up-to-date: /home/fortunato/ros2_ws/install/dynamic_consensus/share/ament_index/resource_index/package_run_dependencies/dynamic_consensus\n'}
+[12.009509] (dynamic_consensus) StdoutLine: {'line': b'-- Up-to-date: /home/fortunato/ros2_ws/install/dynamic_consensus/share/ament_index/resource_index/parent_prefix_path/dynamic_consensus\n'}
+[12.009628] (dynamic_consensus) StdoutLine: {'line': b'-- Up-to-date: /home/fortunato/ros2_ws/install/dynamic_consensus/share/dynamic_consensus/environment/ament_prefix_path.sh\n'}
+[12.009735] (dynamic_consensus) StdoutLine: {'line': b'-- Up-to-date: /home/fortunato/ros2_ws/install/dynamic_consensus/share/dynamic_consensus/environment/ament_prefix_path.dsv\n'}
+[12.009836] (dynamic_consensus) StdoutLine: {'line': b'-- Up-to-date: /home/fortunato/ros2_ws/install/dynamic_consensus/share/dynamic_consensus/environment/path.sh\n'}
+[12.009979] (dynamic_consensus) StdoutLine: {'line': b'-- Up-to-date: /home/fortunato/ros2_ws/install/dynamic_consensus/share/dynamic_consensus/environment/path.dsv\n'}
+[12.010161] (dynamic_consensus) StdoutLine: {'line': b'-- Up-to-date: /home/fortunato/ros2_ws/install/dynamic_consensus/share/dynamic_consensus/local_setup.bash\n'}
+[12.010326] (dynamic_consensus) StdoutLine: {'line': b'-- Up-to-date: /home/fortunato/ros2_ws/install/dynamic_consensus/share/dynamic_consensus/local_setup.sh\n'}
+[12.010436] (dynamic_consensus) StdoutLine: {'line': b'-- Up-to-date: /home/fortunato/ros2_ws/install/dynamic_consensus/share/dynamic_consensus/local_setup.zsh\n'}
+[12.010537] (dynamic_consensus) StdoutLine: {'line': b'-- Up-to-date: /home/fortunato/ros2_ws/install/dynamic_consensus/share/dynamic_consensus/local_setup.dsv\n'}
+[12.010637] (dynamic_consensus) StdoutLine: {'line': b'-- Installing: /home/fortunato/ros2_ws/install/dynamic_consensus/share/dynamic_consensus/package.dsv\n'}
+[12.010737] (dynamic_consensus) StdoutLine: {'line': b'-- Up-to-date: /home/fortunato/ros2_ws/install/dynamic_consensus/share/ament_index/resource_index/packages/dynamic_consensus\n'}
+[12.010885] (dynamic_consensus) StdoutLine: {'line': b'-- Up-to-date: /home/fortunato/ros2_ws/install/dynamic_consensus/share/dynamic_consensus/cmake/dynamic_consensusConfig.cmake\n'}
+[12.010982] (dynamic_consensus) StdoutLine: {'line': b'-- Up-to-date: /home/fortunato/ros2_ws/install/dynamic_consensus/share/dynamic_consensus/cmake/dynamic_consensusConfig-version.cmake\n'}
+[12.011077] (dynamic_consensus) StdoutLine: {'line': b'-- Up-to-date: /home/fortunato/ros2_ws/install/dynamic_consensus/share/dynamic_consensus/package.xml\n'}
+[12.012014] (dynamic_consensus) CommandEnded: {'returncode': 0}
+[12.030699] (dynamic_consensus) JobEnded: {'identifier': 'dynamic_consensus', 'rc': 0}
+[12.031342] (-) EventReactorShutdown: {}

@@ -1,0 +1,90 @@
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/average_calc_node.cpp:58:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   58 |         avg_input_pub->publ
+      |                            [01;31m[K^[m[K
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/average_calc_node.cpp:6:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+    6 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/average_calc_node.cpp:[m[K In constructor ‘[01m[KAverageNode::AverageNode()[m[K’:
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/average_calc_node.cpp:11:9:[m[K [01;31m[Kerror: [m[K‘[01m[KN[m[K’ was not declared in this scope
+   11 |         [01;31m[KN[m[K = this->declare_parameter<int>("num_nodes", 5);
+      |         [01;31m[K^[m[K
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/average_calc_node.cpp:12:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kinputs[m[K’ was not declared in this scope; did you mean ‘[01m[Kputs[m[K’?
+   12 |         [01;31m[Kinputs[m[K.assign(N, 0.0);
+      |         [01;31m[K^~~~~~[m[K
+      |         [32m[Kputs[m[K
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/average_calc_node.cpp:13:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstates[m[K’ was not declared in this scope; did you mean ‘[01m[Kstatic[m[K’?
+   13 |         [01;31m[Kstates[m[K.assign(N, 0.0);
+      |         [01;31m[K^~~~~~[m[K
+      |         [32m[Kstatic[m[K
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/average_calc_node.cpp:[m[K In lambda function:
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/average_calc_node.cpp:20:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kinputs[m[K’ is not captured
+   20 |                     [01;31m[Kinputs[m[K[i] = msg->data;
+      |                     [01;31m[K^~~~~~[m[K
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/average_calc_node.cpp:19:25:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   19 |                 [this, i[01;36m[K][m[K(const std_msgs::msg::Float64::SharedPtr msg) {
+      |                         [01;36m[K^[m[K
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/average_calc_node.cpp:12:9:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>inputs[m[K’ declared here
+   12 |         [01;36m[Kinputs[m[K.assign(N, 0.0);
+      |         [01;36m[K^~~~~~[m[K
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/average_calc_node.cpp:[m[K In constructor ‘[01m[KAverageNode::AverageNode()[m[K’:
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/average_calc_node.cpp:22:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubs_input[m[K’ was not declared in this scope; did you mean ‘[01m[Ksub_in[m[K’?
+   22 |             [01;31m[Ksubs_input[m[K.push_back(sub_in);
+      |             [01;31m[K^~~~~~~~~~[m[K
+      |             [32m[Ksub_in[m[K
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/average_calc_node.cpp:[m[K In lambda function:
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/average_calc_node.cpp:30:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kstates[m[K’ is not captured
+   30 |                     [01;31m[Kstates[m[K[i] = msg->data;
+      |                     [01;31m[K^~~~~~[m[K
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/average_calc_node.cpp:29:25:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   29 |                 [this, i[01;36m[K][m[K(const std_msgs::msg::Float64::SharedPtr msg) {
+      |                         [01;36m[K^[m[K
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/average_calc_node.cpp:13:9:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>states[m[K’ declared here
+   13 |         [01;36m[Kstates[m[K.assign(N, 0.0);
+      |         [01;36m[K^~~~~~[m[K
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/average_calc_node.cpp:[m[K In constructor ‘[01m[KAverageNode::AverageNode()[m[K’:
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/average_calc_node.cpp:32:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubs_state[m[K’ was not declared in this scope; did you mean ‘[01m[Ksetstate[m[K’?
+   32 |             [01;31m[Ksubs_state[m[K.push_back(sub_st);
+      |             [01;31m[K^~~~~~~~~~[m[K
+      |             [32m[Ksetstate[m[K
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/average_calc_node.cpp:35:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kavg_input_pub[m[K’ was not declared in this scope
+   35 |         [01;31m[Kavg_input_pub[m[K = this->create_publisher<std_msgs::msg::Float64>(
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/average_calc_node.cpp:37:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kavg_state_pub[m[K’ was not declared in this scope
+   37 |         [01;31m[Kavg_state_pub[m[K = this->create_publisher<std_msgs::msg::Float64>(
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/average_calc_node.cpp:40:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimex[m[K’?
+   40 |         [01;31m[Ktimer[m[K = this->create_wall_timer(
+      |         [01;31m[K^~~~~[m[K
+      |         [32m[Ktimex[m[K
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/average_calc_node.cpp:[m[K In member function ‘[01m[Kvoid AverageNode::publish_averages()[m[K’:
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/average_calc_node.cpp:49:29:[m[K [01;31m[Kerror: [m[K‘[01m[KN[m[K’ was not declared in this scope
+   49 |         for (int i = 0; i < [01;31m[KN[m[K; ++i) {
+      |                             [01;31m[K^[m[K
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/average_calc_node.cpp:50:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kinputs[m[K’ was not declared in this scope; did you mean ‘[01m[Kputs[m[K’?
+   50 |             sum_in += [01;31m[Kinputs[m[K[i];
+      |                       [01;31m[K^~~~~~[m[K
+      |                       [32m[Kputs[m[K
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/average_calc_node.cpp:51:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kstates[m[K’ was not declared in this scope; did you mean ‘[01m[Kstatic[m[K’?
+   51 |             sum_st += [01;31m[Kstates[m[K[i];
+      |                       [01;31m[K^~~~~~[m[K
+      |                       [32m[Kstatic[m[K
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/average_calc_node.cpp:55:52:[m[K [01;31m[Kerror: [m[K‘[01m[KN[m[K’ was not declared in this scope
+   55 |         msg_in.data = sum_in / static_cast<double>([01;31m[KN[m[K);
+      |                                                    [01;31m[K^[m[K
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/average_calc_node.cpp:58:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kavg_input_pub[m[K’ was not declared in this scope
+   58 |         [01;31m[Kavg_input_pub[m[K->publ
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/average_calc_node.cpp:58:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   58 |         avg_input_pub->publ
+      |                            [01;31m[K^[m[K
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/average_calc_node.cpp:47:5:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   47 |     [01;36m[K{[m[K
+      |     [01;36m[K^[m[K
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/average_calc_node.cpp:[m[K At global scope:
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/average_calc_node.cpp:58:28:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+   58 |         avg_input_pub->publ
+      |                            [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/average_calc_node.dir/build.make:76: CMakeFiles/average_calc_node.dir/src/average_calc_node.cpp.o] Errore 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/average_calc_node.dir/all] Errore 2
+gmake[1]: *** Attesa per i processi non terminati....
+gmake: *** [Makefile:146: all] Errore 2

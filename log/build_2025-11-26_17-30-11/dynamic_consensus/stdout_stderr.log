@@ -1,0 +1,14 @@
+[35m[1mConsolidate compiler generated dependencies of target consensus_node[0m
+[ 83%] Built target signal_generator_node
+[ 66%] [32mBuilding CXX object CMakeFiles/consensus_node.dir/src/consensus_node.cpp.o[0m
+[ 83%] Built target average_calc_node
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:[m[K In member function ‘[01m[Kvoid ConsensusNode::icf_algorithm()[m[K’:
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:83:29:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::vector<double, std::allocator<double> > V_corr[m[K’
+   83 |         std::vector<double> [01;31m[KV_corr[m[K(Kt + 1);
+      |                             [01;31m[K^~~~~~[m[K
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:82:29:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector<double, std::allocator<double> > V_corr[m[K’ previously declared here
+   82 |         std::vector<double> [01;36m[KV_corr[m[K(Kt + 1);
+      |                             [01;36m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/consensus_node.dir/build.make:76: CMakeFiles/consensus_node.dir/src/consensus_node.cpp.o] Errore 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/consensus_node.dir/all] Errore 2
+gmake: *** [Makefile:146: all] Errore 2

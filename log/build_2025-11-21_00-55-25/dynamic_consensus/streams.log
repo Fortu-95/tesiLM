@@ -1,0 +1,12 @@
+[0.024s] Invoking command in '/home/fortunato/ros2_ws/build/dynamic_consensus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fortunato/ros2_ws/build/dynamic_consensus -- -j8 -l8
+[0.140s] [35m[1mConsolidate compiler generated dependencies of target consensus_node[0m
+[0.166s] [ 33%] Built target signal_generator_node
+[0.167s] [ 66%] Built target average_calc_node
+[0.168s] [ 83%] [32mBuilding CXX object CMakeFiles/consensus_node.dir/src/consensus_node.cpp.o[0m
+[3.317s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:12:12:[m[K [01;31m[Kerror: [m[Kusing-declaration may not name namespace ‘[01m[Kstd::literals::chrono_literals[m[K’
+[3.317s]    12 | using std::[01;31m[Kchrono_literals[m[K;
+[3.317s]       |            [01;31m[K^~~~~~~~~~~~~~~[m[K
+[6.583s] gmake[2]: *** [CMakeFiles/consensus_node.dir/build.make:76: CMakeFiles/consensus_node.dir/src/consensus_node.cpp.o] Errore 1
+[6.583s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/consensus_node.dir/all] Errore 2
+[6.583s] gmake: *** [Makefile:146: all] Errore 2
+[6.586s] Invoked command in '/home/fortunato/ros2_ws/build/dynamic_consensus' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fortunato/ros2_ws/build/dynamic_consensus -- -j8 -l8

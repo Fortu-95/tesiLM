@@ -1,0 +1,32 @@
+[0.020s] Invoking command in '/home/fortunato/ros2_ws/build/dynamic_consensus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fortunato/ros2_ws/build/dynamic_consensus -- -j8 -l8
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target consensus_node[0m
+[0.075s] [ 66%] Built target signal_generator_node
+[0.075s] [ 66%] Built target average_calc_node
+[0.078s] [ 83%] [32mBuilding CXX object CMakeFiles/consensus_node.dir/src/consensus_node.cpp.o[0m
+[11.404s] [100%] [32m[1mLinking CXX executable consensus_node[0m
+[13.571s] [100%] Built target consensus_node
+[13.581s] Invoked command in '/home/fortunato/ros2_ws/build/dynamic_consensus' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fortunato/ros2_ws/build/dynamic_consensus -- -j8 -l8
+[13.589s] Invoking command in '/home/fortunato/ros2_ws/build/dynamic_consensus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fortunato/ros2_ws/build/dynamic_consensus
+[13.596s] -- Install configuration: ""
+[13.597s] -- Installing: /home/fortunato/ros2_ws/install/dynamic_consensus/lib/dynamic_consensus/consensus_node
+[13.600s] -- Set runtime path of "/home/fortunato/ros2_ws/install/dynamic_consensus/lib/dynamic_consensus/consensus_node" to ""
+[13.600s] -- Up-to-date: /home/fortunato/ros2_ws/install/dynamic_consensus/lib/dynamic_consensus/signal_generator_node
+[13.600s] -- Up-to-date: /home/fortunato/ros2_ws/install/dynamic_consensus/lib/dynamic_consensus/average_calc_node
+[13.600s] -- Up-to-date: /home/fortunato/ros2_ws/install/dynamic_consensus/share/dynamic_consensus/launch
+[13.601s] -- Up-to-date: /home/fortunato/ros2_ws/install/dynamic_consensus/share/dynamic_consensus/launch/consensus_system_launch.launch
+[13.601s] -- Up-to-date: /home/fortunato/ros2_ws/install/dynamic_consensus/share/ament_index/resource_index/package_run_dependencies/dynamic_consensus
+[13.601s] -- Up-to-date: /home/fortunato/ros2_ws/install/dynamic_consensus/share/ament_index/resource_index/parent_prefix_path/dynamic_consensus
+[13.601s] -- Up-to-date: /home/fortunato/ros2_ws/install/dynamic_consensus/share/dynamic_consensus/environment/ament_prefix_path.sh
+[13.601s] -- Up-to-date: /home/fortunato/ros2_ws/install/dynamic_consensus/share/dynamic_consensus/environment/ament_prefix_path.dsv
+[13.601s] -- Up-to-date: /home/fortunato/ros2_ws/install/dynamic_consensus/share/dynamic_consensus/environment/path.sh
+[13.601s] -- Up-to-date: /home/fortunato/ros2_ws/install/dynamic_consensus/share/dynamic_consensus/environment/path.dsv
+[13.601s] -- Up-to-date: /home/fortunato/ros2_ws/install/dynamic_consensus/share/dynamic_consensus/local_setup.bash
+[13.602s] -- Up-to-date: /home/fortunato/ros2_ws/install/dynamic_consensus/share/dynamic_consensus/local_setup.sh
+[13.602s] -- Up-to-date: /home/fortunato/ros2_ws/install/dynamic_consensus/share/dynamic_consensus/local_setup.zsh
+[13.602s] -- Up-to-date: /home/fortunato/ros2_ws/install/dynamic_consensus/share/dynamic_consensus/local_setup.dsv
+[13.602s] -- Installing: /home/fortunato/ros2_ws/install/dynamic_consensus/share/dynamic_consensus/package.dsv
+[13.602s] -- Up-to-date: /home/fortunato/ros2_ws/install/dynamic_consensus/share/ament_index/resource_index/packages/dynamic_consensus
+[13.602s] -- Up-to-date: /home/fortunato/ros2_ws/install/dynamic_consensus/share/dynamic_consensus/cmake/dynamic_consensusConfig.cmake
+[13.602s] -- Up-to-date: /home/fortunato/ros2_ws/install/dynamic_consensus/share/dynamic_consensus/cmake/dynamic_consensusConfig-version.cmake
+[13.602s] -- Up-to-date: /home/fortunato/ros2_ws/install/dynamic_consensus/share/dynamic_consensus/package.xml
+[13.603s] Invoked command in '/home/fortunato/ros2_ws/build/dynamic_consensus' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fortunato/ros2_ws/build/dynamic_consensus

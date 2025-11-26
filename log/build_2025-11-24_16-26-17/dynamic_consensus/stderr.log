@@ -1,0 +1,7 @@
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kconsensus_package/msg/icf_state.hpp: File o directory non esistente
+    2 | #include [01;31m[K"consensus_package/msg/icf_state.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/consensus_node.dir/build.make:76: CMakeFiles/consensus_node.dir/src/consensus_node.cpp.o] Errore 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/consensus_node.dir/all] Errore 2
+gmake: *** [Makefile:146: all] Errore 2

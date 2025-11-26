@@ -1,0 +1,6 @@
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:12:12:[m[K [01;31m[Kerror: [m[Kusing-declaration may not name namespace ‘[01m[Kstd::literals::chrono_literals[m[K’
+   12 | using std::[01;31m[Kchrono_literals[m[K;
+      |            [01;31m[K^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/consensus_node.dir/build.make:76: CMakeFiles/consensus_node.dir/src/consensus_node.cpp.o] Errore 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/consensus_node.dir/all] Errore 2
+gmake: *** [Makefile:146: all] Errore 2

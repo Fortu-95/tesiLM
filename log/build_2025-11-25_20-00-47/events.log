@@ -1,0 +1,185 @@
+[0.000000] (-) TimerEvent: {}
+[0.000109] (dynamic_consensus) JobQueued: {'identifier': 'dynamic_consensus', 'dependencies': OrderedDict()}
+[0.000137] (dynamic_consensus) JobStarted: {'identifier': 'dynamic_consensus'}
+[0.018410] (dynamic_consensus) JobProgress: {'identifier': 'dynamic_consensus', 'progress': 'cmake'}
+[0.019294] (dynamic_consensus) JobProgress: {'identifier': 'dynamic_consensus', 'progress': 'build'}
+[0.020094] (dynamic_consensus) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fortunato/ros2_ws/build/dynamic_consensus', '--', '-j8', '-l8'], 'cwd': '/home/fortunato/ros2_ws/build/dynamic_consensus', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'it:en'), ('USER', 'fortunato'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fortunato'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2530'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6fe136ca5353f5cbddfebacc6925e3f6'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/fortunato/ros2_install'), ('MAVLINK_DIR', '/home/fortunato/ros2_ws/src/PX4-Autopilot/mavlink/include/mavlink/v2.0'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fortunato/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fortunato'), ('_', '/home/fortunato/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fortunato'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/home/fortunato/ros2_ws/src/PX4-Autopilot/Tools/sitl_gazebo/models:/home/fortunato/ros2_ws/src/cameras/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/fortunato/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fortunato-Swift-SF314-54:@/tmp/.ICE-unix/2530,unix/fortunato-Swift-SF314-54:/tmp/.ICE-unix/2530'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e1119632_9f50_4fc4_ae19_b67dc552ab0d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'it_IT.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5CGDG3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.213'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fortunato/ros2_ws/install/dynamic_consensus:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fortunato/ros2_ws/build/dynamic_consensus'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/fortunato/ros2_ws/src/PX4-Autopilot/build/px4_sitl_default/build_gazebo-classic:'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6fe136ca5353f5cbddfebacc6925e3f6'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fortunato/ros2_ws/install/dynamic_consensus:/opt/ros/humble')]), 'shell': False}
+[0.069410] (dynamic_consensus) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target consensus_node\x1b[0m\n'}
+[0.082967] (dynamic_consensus) StdoutLine: {'line': b'[ 66%] Built target average_calc_node\n'}
+[0.083195] (dynamic_consensus) StdoutLine: {'line': b'[ 66%] Built target signal_generator_node\n'}
+[0.088227] (dynamic_consensus) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/consensus_node.dir/src/consensus_node.cpp.o\x1b[0m\n'}
+[0.099299] (-) TimerEvent: {}
+[0.199572] (-) TimerEvent: {}
+[0.299851] (-) TimerEvent: {}
+[0.400127] (-) TimerEvent: {}
+[0.500401] (-) TimerEvent: {}
+[0.600682] (-) TimerEvent: {}
+[0.700964] (-) TimerEvent: {}
+[0.801206] (-) TimerEvent: {}
+[0.901485] (-) TimerEvent: {}
+[1.001766] (-) TimerEvent: {}
+[1.102094] (-) TimerEvent: {}
+[1.202370] (-) TimerEvent: {}
+[1.302650] (-) TimerEvent: {}
+[1.402929] (-) TimerEvent: {}
+[1.503174] (-) TimerEvent: {}
+[1.603450] (-) TimerEvent: {}
+[1.703726] (-) TimerEvent: {}
+[1.804024] (-) TimerEvent: {}
+[1.904323] (-) TimerEvent: {}
+[2.004605] (-) TimerEvent: {}
+[2.104929] (-) TimerEvent: {}
+[2.205221] (-) TimerEvent: {}
+[2.305507] (-) TimerEvent: {}
+[2.405793] (-) TimerEvent: {}
+[2.412850] (dynamic_consensus) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:76:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 after class definition\n'}
+[2.413019] (dynamic_consensus) StderrLine: {'line': b'   76 |     }\n'}
+[2.413082] (dynamic_consensus) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.413139] (dynamic_consensus) StderrLine: {'line': b'      |      \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[2.413192] (dynamic_consensus) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KConsensusNode::ConsensusNode(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.413246] (dynamic_consensus) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:13:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass \xe2\x80\x98\x1b[01m\x1b[KConsensusNode\x1b[m\x1b[K\xe2\x80\x99 does not have any field named \xe2\x80\x98\x1b[01m\x1b[Kid\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.413300] (dynamic_consensus) StderrLine: {'line': b'   13 |         : Node("node_" + std::to_string(id)), \x1b[01;31m\x1b[Kid\x1b[m\x1b[K(id)\n'}
+[2.413358] (dynamic_consensus) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.422859] (dynamic_consensus) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:18:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kneighbors\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.423020] (dynamic_consensus) StderrLine: {'line': b'   18 |         \x1b[01;31m\x1b[Kneighbors\x1b[m\x1b[K.clear();\n'}
+[2.423085] (dynamic_consensus) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.426436] (dynamic_consensus) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:28:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KH\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.426537] (dynamic_consensus) StderrLine: {'line': b'   28 |         \x1b[01;31m\x1b[KH\x1b[m\x1b[K = 1.0;\n'}
+[2.426597] (dynamic_consensus) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.429657] (dynamic_consensus) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:29:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KQ\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.429754] (dynamic_consensus) StderrLine: {'line': b'   29 |         \x1b[01;31m\x1b[KQ\x1b[m\x1b[K = 10.0;\n'}
+[2.429820] (dynamic_consensus) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.433149] (dynamic_consensus) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:30:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KB\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.433305] (dynamic_consensus) StderrLine: {'line': b'   30 |         \x1b[01;31m\x1b[KB\x1b[m\x1b[K = 0.01;\n'}
+[2.433368] (dynamic_consensus) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.438431] (dynamic_consensus) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:31:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kepsilon\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.438577] (dynamic_consensus) StderrLine: {'line': b'   31 |         \x1b[01;31m\x1b[Kepsilon\x1b[m\x1b[K = 0.65 / 2.0;  // 0.325\n'}
+[2.438672] (dynamic_consensus) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.442941] (dynamic_consensus) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:32:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KJ_iniz\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.443043] (dynamic_consensus) StderrLine: {'line': b'   32 |         \x1b[01;31m\x1b[KJ_iniz\x1b[m\x1b[K = 100.0;\n'}
+[2.443106] (dynamic_consensus) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.446531] (dynamic_consensus) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:33:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPhi\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.446696] (dynamic_consensus) StderrLine: {'line': b'   33 |         \x1b[01;31m\x1b[KPhi\x1b[m\x1b[K = 1.0;\n'}
+[2.446813] (dynamic_consensus) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.450914] (dynamic_consensus) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:34:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KKdo\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.451081] (dynamic_consensus) StderrLine: {'line': b'   34 |         \x1b[01;31m\x1b[KKdo\x1b[m\x1b[K = 5;\n'}
+[2.451161] (dynamic_consensus) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.454863] (dynamic_consensus) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:37:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.454970] (dynamic_consensus) StderrLine: {'line': b'   37 |         \x1b[01;31m\x1b[Kx\x1b[m\x1b[K = 0.0;\n'}
+[2.455045] (dynamic_consensus) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.458169] (dynamic_consensus) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:38:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kz\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.458266] (dynamic_consensus) StderrLine: {'line': b'   38 |         \x1b[01;31m\x1b[Kz\x1b[m\x1b[K = 0.0;\n'}
+[2.458327] (dynamic_consensus) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.462086] (dynamic_consensus) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:39:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kalpha\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kisalpha\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.462190] (dynamic_consensus) StderrLine: {'line': b'   39 |         \x1b[01;31m\x1b[Kalpha\x1b[m\x1b[K = 2.0;\n'}
+[2.462255] (dynamic_consensus) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.462313] (dynamic_consensus) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kisalpha\x1b[m\x1b[K\n'}
+[2.465610] (dynamic_consensus) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:40:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krho\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.465709] (dynamic_consensus) StderrLine: {'line': b'   40 |         \x1b[01;31m\x1b[Krho\x1b[m\x1b[K = 0.6;\n'}
+[2.465773] (dynamic_consensus) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.469927] (dynamic_consensus) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:41:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klambda\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.470040] (dynamic_consensus) StderrLine: {'line': b'   41 |         \x1b[01;31m\x1b[Klambda\x1b[m\x1b[K = 1.0;\n'}
+[2.470104] (dynamic_consensus) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.473409] (dynamic_consensus) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:42:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kkp\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.473505] (dynamic_consensus) StderrLine: {'line': b'   42 |         \x1b[01;31m\x1b[Kkp\x1b[m\x1b[K = 0.1;\n'}
+[2.473566] (dynamic_consensus) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.476786] (dynamic_consensus) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:43:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kki\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.476901] (dynamic_consensus) StderrLine: {'line': b'   43 |         \x1b[01;31m\x1b[Kki\x1b[m\x1b[K = 0.2;\n'}
+[2.476979] (dynamic_consensus) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.480153] (dynamic_consensus) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:44:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdt\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.480256] (dynamic_consensus) StderrLine: {'line': b'   44 |         \x1b[01;31m\x1b[Kdt\x1b[m\x1b[K = 0.05;\n'}
+[2.480330] (dynamic_consensus) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.483407] (dynamic_consensus) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:47:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KJ\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.483503] (dynamic_consensus) StderrLine: {'line': b'   47 |         \x1b[01;31m\x1b[KJ\x1b[m\x1b[K = J_iniz;  // Matrice di informazione iniziale (scalare)\n'}
+[2.483564] (dynamic_consensus) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.488643] (dynamic_consensus) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:49:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstate_pub\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.488744] (dynamic_consensus) StderrLine: {'line': b'   49 |         \x1b[01;31m\x1b[Kstate_pub\x1b[m\x1b[K = this->create_publisher<std_msgs::msg::Float64>(\n'}
+[2.488808] (dynamic_consensus) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.501399] (dynamic_consensus) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:52:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kneighbor_states\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.501544] (dynamic_consensus) StderrLine: {'line': b'   52 |         \x1b[01;31m\x1b[Kneighbor_states\x1b[m\x1b[K.assign(N, 0.0);\n'}
+[2.501613] (dynamic_consensus) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.503481] (dynamic_consensus) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[2.503581] (dynamic_consensus) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:60:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kneighbor_states\x1b[m\x1b[K\xe2\x80\x99 is not captured\n'}
+[2.503645] (dynamic_consensus) StderrLine: {'line': b'   60 |                     \x1b[01;31m\x1b[Kneighbor_states\x1b[m\x1b[K[i] = msg->data;\n'}
+[2.503703] (dynamic_consensus) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.503759] (dynamic_consensus) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:59:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kthe lambda has no capture-default\n'}
+[2.503821] (dynamic_consensus) StderrLine: {'line': b'   59 |                 [this, i\x1b[01;36m\x1b[K]\x1b[m\x1b[K(const std_msgs::msg::Float64::SharedPtr msg) {\n'}
+[2.503886] (dynamic_consensus) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.503939] (dynamic_consensus) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:52:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K<typeprefixerror>neighbor_states\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[2.503993] (dynamic_consensus) StderrLine: {'line': b'   52 |         \x1b[01;36m\x1b[Kneighbor_states\x1b[m\x1b[K.assign(N, 0.0);\n'}
+[2.504045] (dynamic_consensus) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.505878] (-) TimerEvent: {}
+[2.550841] (dynamic_consensus) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KConsensusNode::ConsensusNode(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.551001] (dynamic_consensus) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:62:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kneighbor_subs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.551086] (dynamic_consensus) StderrLine: {'line': b'   62 |             \x1b[01;31m\x1b[Kneighbor_subs\x1b[m\x1b[K.push_back(sub);\n'}
+[2.551150] (dynamic_consensus) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.556772] (dynamic_consensus) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:65:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kinput_sub\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.556887] (dynamic_consensus) StderrLine: {'line': b'   65 |         \x1b[01;31m\x1b[Kinput_sub\x1b[m\x1b[K = this->create_subscription<std_msgs::msg::Float64>(\n'}
+[2.556955] (dynamic_consensus) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.560569] (dynamic_consensus) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[2.560674] (dynamic_consensus) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:69:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ku\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.560737] (dynamic_consensus) StderrLine: {'line': b'   69 |                 \x1b[01;31m\x1b[Ku\x1b[m\x1b[K = msg->data;\n'}
+[2.560792] (dynamic_consensus) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.564506] (dynamic_consensus) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KConsensusNode::ConsensusNode(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.564613] (dynamic_consensus) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:72:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktimer\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktimex\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.564680] (dynamic_consensus) StderrLine: {'line': b'   72 |         \x1b[01;31m\x1b[Ktimer\x1b[m\x1b[K = this->create_wall_timer(\n'}
+[2.564736] (dynamic_consensus) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.564793] (dynamic_consensus) StderrLine: {'line': b'      |         \x1b[32m\x1b[Ktimex\x1b[m\x1b[K\n'}
+[2.564908] (dynamic_consensus) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:74:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kupdate_state\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[KConsensusNode\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.564981] (dynamic_consensus) StderrLine: {'line': b'   74 |             std::bind(&ConsensusNode::\x1b[01;31m\x1b[Kupdate_state\x1b[m\x1b[K, this));\n'}
+[2.565145] (dynamic_consensus) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.565228] (dynamic_consensus) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:\x1b[m\x1b[K At global scope:\n'}
+[2.565288] (dynamic_consensus) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:78:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kprivate\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.565345] (dynamic_consensus) StderrLine: {'line': b'   78 | \x1b[01;31m\x1b[Kprivate\x1b[m\x1b[K:\n'}
+[2.565398] (dynamic_consensus) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.567622] (dynamic_consensus) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid publish_V_v(double, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.567723] (dynamic_consensus) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:143:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klocal_V\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Klocale_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.567786] (dynamic_consensus) StderrLine: {'line': b'  143 |         \x1b[01;31m\x1b[Klocal_V\x1b[m\x1b[K = V;\n'}
+[2.567853] (dynamic_consensus) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.567909] (dynamic_consensus) StderrLine: {'line': b'      |         \x1b[32m\x1b[Klocale_t\x1b[m\x1b[K\n'}
+[2.570385] (dynamic_consensus) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:144:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klocal_v\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Klocale_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.570482] (dynamic_consensus) StderrLine: {'line': b'  144 |         \x1b[01;31m\x1b[Klocal_v\x1b[m\x1b[K = v;\n'}
+[2.570544] (dynamic_consensus) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.570601] (dynamic_consensus) StderrLine: {'line': b'      |         \x1b[32m\x1b[Klocale_t\x1b[m\x1b[K\n'}
+[2.574756] (dynamic_consensus) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid update_state()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.574867] (dynamic_consensus) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:150:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kicf_algorithm\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.574938] (dynamic_consensus) StderrLine: {'line': b'  150 |         \x1b[01;31m\x1b[Kicf_algorithm\x1b[m\x1b[K();\n'}
+[2.575010] (dynamic_consensus) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.576849] (dynamic_consensus) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:154:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.576947] (dynamic_consensus) StderrLine: {'line': b'  154 |         msg.data = \x1b[01;31m\x1b[Kx\x1b[m\x1b[K;\n'}
+[2.577010] (dynamic_consensus) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.579864] (dynamic_consensus) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:155:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstate_pub\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.579972] (dynamic_consensus) StderrLine: {'line': b'  155 |         \x1b[01;31m\x1b[Kstate_pub\x1b[m\x1b[K->publish(msg);\n'}
+[2.580037] (dynamic_consensus) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.590006] (dynamic_consensus) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:\x1b[m\x1b[K At global scope:\n'}
+[2.590147] (dynamic_consensus) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:187:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected declaration before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.590212] (dynamic_consensus) StderrLine: {'line': b'  187 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[2.590269] (dynamic_consensus) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.605984] (-) TimerEvent: {}
+[2.706259] (-) TimerEvent: {}
+[2.806537] (-) TimerEvent: {}
+[2.906822] (-) TimerEvent: {}
+[3.007065] (-) TimerEvent: {}
+[3.107347] (-) TimerEvent: {}
+[3.207625] (-) TimerEvent: {}
+[3.307907] (-) TimerEvent: {}
+[3.408234] (-) TimerEvent: {}
+[3.508528] (-) TimerEvent: {}
+[3.608806] (-) TimerEvent: {}
+[3.709093] (-) TimerEvent: {}
+[3.809376] (-) TimerEvent: {}
+[3.909676] (-) TimerEvent: {}
+[4.009931] (-) TimerEvent: {}
+[4.110278] (-) TimerEvent: {}
+[4.210589] (-) TimerEvent: {}
+[4.310882] (-) TimerEvent: {}
+[4.411166] (-) TimerEvent: {}
+[4.511458] (-) TimerEvent: {}
+[4.611745] (-) TimerEvent: {}
+[4.712060] (-) TimerEvent: {}
+[4.731455] (dynamic_consensus) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/consensus_node.dir/build.make:76: CMakeFiles/consensus_node.dir/src/consensus_node.cpp.o] Errore 1\n'}
+[4.731701] (dynamic_consensus) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/consensus_node.dir/all] Errore 2\n'}
+[4.731882] (dynamic_consensus) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Errore 2\n'}
+[4.734146] (dynamic_consensus) CommandEnded: {'returncode': 2}
+[4.745862] (dynamic_consensus) JobEnded: {'identifier': 'dynamic_consensus', 'rc': 2}
+[4.756628] (-) EventReactorShutdown: {}

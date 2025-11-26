@@ -1,0 +1,16 @@
+[0.022s] Invoking command in '/home/fortunato/ros2_ws/build/dynamic_consensus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fortunato/ros2_ws/build/dynamic_consensus -- -j8 -l8
+[0.144s] [35m[1mConsolidate compiler generated dependencies of target consensus_node[0m
+[0.178s] [ 83%] Built target signal_generator_node
+[0.178s] [ 66%] [32mBuilding CXX object CMakeFiles/consensus_node.dir/src/consensus_node.cpp.o[0m
+[0.178s] [ 83%] Built target average_calc_node
+[2.678s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:[m[K In member function ‘[01m[Kvoid ConsensusNode::icf_algorithm()[m[K’:
+[2.678s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:83:29:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::vector<double, std::allocator<double> > V_corr[m[K’
+[2.678s]    83 |         std::vector<double> [01;31m[KV_corr[m[K(Kt + 1);
+[2.678s]       |                             [01;31m[K^~~~~~[m[K
+[2.678s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:82:29:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector<double, std::allocator<double> > V_corr[m[K’ previously declared here
+[2.678s]    82 |         std::vector<double> [01;36m[KV_corr[m[K(Kt + 1);
+[2.678s]       |                             [01;36m[K^~~~~~[m[K
+[5.134s] gmake[2]: *** [CMakeFiles/consensus_node.dir/build.make:76: CMakeFiles/consensus_node.dir/src/consensus_node.cpp.o] Errore 1
+[5.134s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/consensus_node.dir/all] Errore 2
+[5.134s] gmake: *** [Makefile:146: all] Errore 2
+[5.137s] Invoked command in '/home/fortunato/ros2_ws/build/dynamic_consensus' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fortunato/ros2_ws/build/dynamic_consensus -- -j8 -l8

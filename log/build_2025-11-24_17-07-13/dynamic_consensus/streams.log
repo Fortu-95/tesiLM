@@ -1,0 +1,28 @@
+[0.023s] Invoking command in '/home/fortunato/ros2_ws/build/dynamic_consensus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fortunato/ros2_ws/build/dynamic_consensus -- -j8 -l8
+[0.046s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.178s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.206s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.209s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.214s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.224s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.238s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.272s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.273s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.374s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.490s] -- Configuring done
+[0.504s] -- Generating done
+[0.509s] -- Build files have been written to: /home/fortunato/ros2_ws/build/dynamic_consensus
+[0.535s] [35m[1mConsolidate compiler generated dependencies of target average_calc_node[0m
+[0.535s] [35m[1mConsolidate compiler generated dependencies of target signal_generator_node[0m
+[0.535s] [35m[1mConsolidate compiler generated dependencies of target consensus_node[0m
+[0.552s] [ 66%] Built target average_calc_node
+[0.552s] [ 66%] Built target signal_generator_node
+[0.554s] [ 83%] [32mBuilding CXX object CMakeFiles/consensus_node.dir/src/consensus_node.cpp.o[0m
+[0.901s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kexample_interfaces/msg/float64_multi_array.hpp: File o directory non esistente
+[0.901s]     4 | #include [01;31m[K"example_interfaces/msg/float64_multi_array.hpp"[m[K
+[0.901s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.901s] compilation terminated.
+[0.904s] gmake[2]: *** [CMakeFiles/consensus_node.dir/build.make:76: CMakeFiles/consensus_node.dir/src/consensus_node.cpp.o] Errore 1
+[0.904s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/consensus_node.dir/all] Errore 2
+[0.904s] gmake: *** [Makefile:146: all] Errore 2
+[0.907s] Invoked command in '/home/fortunato/ros2_ws/build/dynamic_consensus' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fortunato/ros2_ws/build/dynamic_consensus -- -j8 -l8

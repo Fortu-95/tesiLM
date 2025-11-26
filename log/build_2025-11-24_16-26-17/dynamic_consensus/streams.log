@@ -1,0 +1,13 @@
+[0.039s] Invoking command in '/home/fortunato/ros2_ws/build/dynamic_consensus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fortunato/ros2_ws/build/dynamic_consensus -- -j8 -l8
+[0.184s] [35m[1mConsolidate compiler generated dependencies of target consensus_node[0m
+[0.223s] [ 50%] [32mBuilding CXX object CMakeFiles/consensus_node.dir/src/consensus_node.cpp.o[0m
+[0.223s] [ 50%] Built target average_calc_node
+[0.225s] [ 83%] Built target signal_generator_node
+[0.760s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/consensus_node.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kconsensus_package/msg/icf_state.hpp: File o directory non esistente
+[0.760s]     2 | #include [01;31m[K"consensus_package/msg/icf_state.hpp"[m[K
+[0.761s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.761s] compilation terminated.
+[0.767s] gmake[2]: *** [CMakeFiles/consensus_node.dir/build.make:76: CMakeFiles/consensus_node.dir/src/consensus_node.cpp.o] Errore 1
+[0.767s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/consensus_node.dir/all] Errore 2
+[0.768s] gmake: *** [Makefile:146: all] Errore 2
+[0.771s] Invoked command in '/home/fortunato/ros2_ws/build/dynamic_consensus' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fortunato/ros2_ws/build/dynamic_consensus -- -j8 -l8
