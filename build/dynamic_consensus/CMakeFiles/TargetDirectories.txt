@@ -3,6 +3,8 @@
 /home/fortunato/ros2_ws/build/dynamic_consensus/CMakeFiles/consensus_node.dir
 /home/fortunato/ros2_ws/build/dynamic_consensus/CMakeFiles/signal_generator_node.dir
 /home/fortunato/ros2_ws/build/dynamic_consensus/CMakeFiles/average_calc_node.dir
+/home/fortunato/ros2_ws/build/dynamic_consensus/CMakeFiles/nodo.dir
+/home/fortunato/ros2_ws/build/dynamic_consensus/CMakeFiles/traj_generator.dir
 /home/fortunato/ros2_ws/build/dynamic_consensus/CMakeFiles/test.dir
 /home/fortunato/ros2_ws/build/dynamic_consensus/CMakeFiles/edit_cache.dir
 /home/fortunato/ros2_ws/build/dynamic_consensus/CMakeFiles/rebuild_cache.dir

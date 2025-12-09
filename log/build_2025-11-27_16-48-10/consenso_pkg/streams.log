@@ -1,0 +1,39 @@
+[0.025s] Invoking command in '/home/fortunato/ros2_ws/build/consenso_pkg': /usr/bin/cmake /home/fortunato/ros2_ws/src/consenso -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fortunato/ros2_ws/install/consenso_pkg
+[0.183s] -- The C compiler identification is GNU 11.4.0
+[0.283s] -- The CXX compiler identification is GNU 11.4.0
+[0.294s] -- Detecting C compiler ABI info
+[0.363s] -- Detecting C compiler ABI info - done
+[0.370s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.371s] -- Detecting C compile features
+[0.372s] -- Detecting C compile features - done
+[0.375s] -- Detecting CXX compiler ABI info
+[0.453s] -- Detecting CXX compiler ABI info - done
+[0.460s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.460s] -- Detecting CXX compile features
+[0.461s] -- Detecting CXX compile features - done
+[0.464s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.798s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.902s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.959s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.965s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.976s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.993s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.013s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.075s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.079s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.172s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.198s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.237s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.248s] -- Looking for pthread.h
+[1.315s] -- Looking for pthread.h - found
+[1.315s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.384s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.385s] -- Found Threads: TRUE  
+[1.455s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[1.516s] [31mCMake Error at CMakeLists.txt:12 (install):
+[1.517s]   install TARGETS given target "nodoconsenso" which does not exist.
+[1.517s] 
+[1.517s] [0m
+[1.578s] -- Configuring incomplete, errors occurred!
+[1.578s] See also "/home/fortunato/ros2_ws/build/consenso_pkg/CMakeFiles/CMakeOutput.log".
+[1.586s] Invoked command in '/home/fortunato/ros2_ws/build/consenso_pkg' returned '1': /usr/bin/cmake /home/fortunato/ros2_ws/src/consenso -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fortunato/ros2_ws/install/consenso_pkg

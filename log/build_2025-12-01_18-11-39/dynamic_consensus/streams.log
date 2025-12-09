@@ -1,0 +1,34 @@
+[0.016s] Invoking command in '/home/fortunato/ros2_ws/build/dynamic_consensus': CMAKE_PREFIX_PATH=/home/fortunato/ros2_ws/install/dynamic_consensus:/opt/ros/humble:/home/fortunato/ros2_ws/install/consenso_pkg:/home/fortunato/ros2_ws/install/cons_pkg /usr/bin/cmake --build /home/fortunato/ros2_ws/build/dynamic_consensus -- -j8 -l8
+[0.210s] [ 37%] [32mBuilding CXX object CMakeFiles/nodo.dir/src/nodo.cpp.o[0m
+[0.212s] [ 37%] Built target consensus_node
+[0.224s] [ 62%] Built target signal_generator_node
+[0.224s] [ 87%] Built target average_calc_node
+[3.389s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/nodo.cpp:[m[K In member function ‘[01m[Kvoid NodoConsenso::icf4()[m[K’:
+[3.389s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/nodo.cpp:157:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_post_[m[K’ was not declared in this scope; did you mean ‘[01m[Kx_post[m[K’?
+[3.389s]   157 |         [01;31m[Kx_post_[m[K = V_.inverse() * v_;   // x_i^+ = (V_i^K)^(-1) v_i^K
+[3.389s]       |         [01;31m[K^~~~~~~[m[K
+[3.390s]       |         [32m[Kx_post[m[K
+[3.403s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/nodo.cpp:158:9:[m[K [01;31m[Kerror: [m[K‘[01m[KJ_post_[m[K’ was not declared in this scope; did you mean ‘[01m[KJ_post[m[K’?
+[3.403s]   158 |         [01;31m[KJ_post_[m[K = N * V_;              // J_i^+ = N V_i^K
+[3.403s]       |         [01;31m[K^~~~~~~[m[K
+[3.403s]       |         [32m[KJ_post[m[K
+[3.408s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/nodo.cpp:[m[K In member function ‘[01m[Kvoid NodoConsenso::icf5()[m[K’:
+[3.408s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/nodo.cpp:162:38:[m[K [01;31m[Kerror: [m[K‘[01m[KJ_post_[m[K’ was not declared in this scope; did you mean ‘[01m[KJ_post[m[K’?
+[3.408s]   162 |         Eigen::MatrixXd J_post_inv = [01;31m[KJ_post_[m[K.inverse();
+[3.408s]       |                                      [01;31m[K^~~~~~~[m[K
+[3.409s]       |                                      [32m[KJ_post[m[K
+[3.413s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/nodo.cpp:163:21:[m[K [01;31m[Kerror: [m[K‘[01m[KPhi_[m[K’ was not declared in this scope
+[3.413s]   163 |         J_priori = ([01;31m[KPhi_[m[K * J_post_inv * Phi_.transpose() + Q_).inverse();
+[3.413s]       |                     [01;31m[K^~~~[m[K
+[3.430s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/nodo.cpp:163:60:[m[K [01;31m[Kerror: [m[K‘[01m[KQ_[m[K’ was not declared in this scope; did you mean ‘[01m[KV_[m[K’?
+[3.430s]   163 |         J_priori = (Phi_ * J_post_inv * Phi_.transpose() + [01;31m[KQ_[m[K).inverse();
+[3.430s]       |                                                            [01;31m[K^~[m[K
+[3.430s]       |                                                            [32m[KV_[m[K
+[3.435s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/nodo.cpp:166:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_post_[m[K’ was not declared in this scope; did you mean ‘[01m[Kx_post[m[K’?
+[3.435s]   166 |         x_priori = Phi_ * [01;31m[Kx_post_[m[K;
+[3.435s]       |                           [01;31m[K^~~~~~~[m[K
+[3.435s]       |                           [32m[Kx_post[m[K
+[7.809s] gmake[2]: *** [CMakeFiles/nodo.dir/build.make:76: CMakeFiles/nodo.dir/src/nodo.cpp.o] Errore 1
+[7.809s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/nodo.dir/all] Errore 2
+[7.809s] gmake: *** [Makefile:146: all] Errore 2
+[7.812s] Invoked command in '/home/fortunato/ros2_ws/build/dynamic_consensus' returned '2': CMAKE_PREFIX_PATH=/home/fortunato/ros2_ws/install/dynamic_consensus:/opt/ros/humble:/home/fortunato/ros2_ws/install/consenso_pkg:/home/fortunato/ros2_ws/install/cons_pkg /usr/bin/cmake --build /home/fortunato/ros2_ws/build/dynamic_consensus -- -j8 -l8

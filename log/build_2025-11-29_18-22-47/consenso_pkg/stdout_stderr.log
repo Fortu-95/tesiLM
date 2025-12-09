@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/nodo.dir/src/nodo.cpp.o[0m
+[100%] [32m[1mLinking CXX executable nodo[0m
+[100%] Built target nodo
+-- Install configuration: ""
+-- Installing: /home/fortunato/ros2_ws/install/consenso_pkg/lib/consenso_pkg/nodo
+-- Set runtime path of "/home/fortunato/ros2_ws/install/consenso_pkg/lib/consenso_pkg/nodo" to ""
+-- Installing: /home/fortunato/ros2_ws/install/consenso_pkg/share/ament_index/resource_index/package_run_dependencies/consenso_pkg
+-- Installing: /home/fortunato/ros2_ws/install/consenso_pkg/share/ament_index/resource_index/parent_prefix_path/consenso_pkg
+-- Installing: /home/fortunato/ros2_ws/install/consenso_pkg/share/consenso_pkg/environment/ament_prefix_path.sh
+-- Installing: /home/fortunato/ros2_ws/install/consenso_pkg/share/consenso_pkg/environment/ament_prefix_path.dsv
+-- Installing: /home/fortunato/ros2_ws/install/consenso_pkg/share/consenso_pkg/environment/path.sh
+-- Installing: /home/fortunato/ros2_ws/install/consenso_pkg/share/consenso_pkg/environment/path.dsv
+-- Installing: /home/fortunato/ros2_ws/install/consenso_pkg/share/consenso_pkg/local_setup.bash
+-- Installing: /home/fortunato/ros2_ws/install/consenso_pkg/share/consenso_pkg/local_setup.sh
+-- Installing: /home/fortunato/ros2_ws/install/consenso_pkg/share/consenso_pkg/local_setup.zsh
+-- Installing: /home/fortunato/ros2_ws/install/consenso_pkg/share/consenso_pkg/local_setup.dsv
+-- Installing: /home/fortunato/ros2_ws/install/consenso_pkg/share/consenso_pkg/package.dsv
+-- Installing: /home/fortunato/ros2_ws/install/consenso_pkg/share/ament_index/resource_index/packages/consenso_pkg
+-- Installing: /home/fortunato/ros2_ws/install/consenso_pkg/share/consenso_pkg/cmake/consenso_pkgConfig.cmake
+-- Installing: /home/fortunato/ros2_ws/install/consenso_pkg/share/consenso_pkg/cmake/consenso_pkgConfig-version.cmake
+-- Installing: /home/fortunato/ros2_ws/install/consenso_pkg/share/consenso_pkg/package.xml

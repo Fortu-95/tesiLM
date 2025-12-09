@@ -1,0 +1,8 @@
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/nodo.cpp:[m[K In member function ‘[01m[Kvoid NodoConsenso::icf5()[m[K’:
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/nodo.cpp:171:60:[m[K [01;31m[Kerror: [m[K‘[01m[KQ_[m[K’ was not declared in this scope; did you mean ‘[01m[KV_[m[K’?
+  171 |         J_priori = (Phi_ * J_post_inv * Phi_.transpose() + [01;31m[KQ_[m[K).inverse();
+      |                                                            [01;31m[K^~[m[K
+      |                                                            [32m[KV_[m[K
+gmake[2]: *** [CMakeFiles/nodo.dir/build.make:76: CMakeFiles/nodo.dir/src/nodo.cpp.o] Errore 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/nodo.dir/all] Errore 2
+gmake: *** [Makefile:146: all] Errore 2

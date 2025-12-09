@@ -1,0 +1,90 @@
+[01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:[m[K In constructor ‘[01m[KNodoConsenso::NodoConsenso()[m[K’:
+[01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:17:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kneighbors[m[K’ was not declared in this scope
+   17 |         [01;31m[Kneighbors[m[K.clear();
+      |         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:18:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kid[m[K’ was not declared in this scope; did you mean ‘[01m[Kid_[m[K’?
+   18 |         if ([01;31m[Kid[m[K == 0)
+      |             [01;31m[K^~[m[K
+      |             [32m[Kid_[m[K
+[01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:20:26:[m[K [01;31m[Kerror: [m[K‘[01m[KN[m[K’ was not declared in this scope; did you mean ‘[01m[KN_[m[K’?
+   20 |             neighbors = {[01;31m[KN[m[K - 1, 1};
+      |                          [01;31m[K^[m[K
+      |                          [32m[KN_[m[K
+[01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:22:24:[m[K [01;31m[Kerror: [m[K‘[01m[KN[m[K’ was not declared in this scope; did you mean ‘[01m[KN_[m[K’?
+   22 |         else if (id == [01;31m[KN[m[K - 1)
+      |                        [01;31m[K^[m[K
+      |                        [32m[KN_[m[K
+[01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:39:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ before ‘[01m[K[[m[K’ token
+   39 |             [this, neighbors[01;31m[K[[m[K0]](const example_interfaces::msg::Float64MultiArray::SharedPtr msg)
+      |                             [01;31m[K^[m[K
+[01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:39:29:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K[[m[K’ token
+[01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:[m[K In lambda function:
+[01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:42:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kneighbor_Vl[m[K’ was not declared in this scope
+   42 |                     [01;31m[Kneighbor_Vl[m[K = msg->data;
+      |                     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:[m[K In constructor ‘[01m[KNodoConsenso::NodoConsenso()[m[K’:
+[01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:49:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ before ‘[01m[K[[m[K’ token
+   49 |             [this, neighbors[01;31m[K[[m[K0]](const example_interfaces::msg::Float64MultiArray::SharedPtr msg)
+      |                             [01;31m[K^[m[K
+[01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:49:29:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K[[m[K’ token
+[01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:[m[K In lambda function:
+[01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:52:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kneighbor_vl[m[K’ was not declared in this scope
+   52 |                     [01;31m[Kneighbor_vl[m[K = msg->data;
+      |                     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:[m[K In constructor ‘[01m[KNodoConsenso::NodoConsenso()[m[K’:
+[01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:58:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ before ‘[01m[K[[m[K’ token
+   58 |             [this, neighbors[01;31m[K[[m[K1]](const example_interfaces::msg::Float64MultiArray::SharedPtr msg)
+      |                             [01;31m[K^[m[K
+[01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:58:29:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K[[m[K’ token
+[01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:[m[K In lambda function:
+[01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:61:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kneighbor_Vr[m[K’ was not declared in this scope
+   61 |                     [01;31m[Kneighbor_Vr[m[K = msg->data;
+      |                     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:[m[K In constructor ‘[01m[KNodoConsenso::NodoConsenso()[m[K’:
+[01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:68:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ before ‘[01m[K[[m[K’ token
+   68 |             [this, neighbors[01;31m[K[[m[K1]](const example_interfaces::msg::Float64MultiArray::SharedPtr msg)
+      |                             [01;31m[K^[m[K
+[01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:68:29:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K[[m[K’ token
+[01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:[m[K In lambda function:
+[01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:71:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kneighbor_vr[m[K’ was not declared in this scope
+   71 |                     [01;31m[Kneighbor_vr[m[K = msg->data;
+      |                     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:[m[K In constructor ‘[01m[KNodoConsenso::NodoConsenso()[m[K’:
+[01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:76:9:[m[K [01;31m[Kerror: [m[K‘[01m[KV_subs[m[K’ was not declared in this scope
+   76 |         [01;31m[KV_subs[m[K.push_back(V_subl);
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:77:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kv_subs[m[K’ was not declared in this scope
+   77 |         [01;31m[Kv_subs[m[K.push_back(v_subl);
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:89:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kinput_sub[m[K’ was not declared in this scope
+   89 |         [01;31m[Kinput_sub[m[K = this->create_subscription<example_interfaces::msg::Float64MultiArray>(
+      |         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:90:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kid[m[K’ was not declared in this scope; did you mean ‘[01m[Kid_[m[K’?
+   90 |             "/node_" + std::to_string([01;31m[Kid[m[K) + "/input",
+      |                                       [01;31m[K^~[m[K
+      |                                       [32m[Kid_[m[K
+[01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:[m[K In member function ‘[01m[Kvoid NodoConsenso::icf12()[m[K’:
+[01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:163:19:[m[K [01;31m[Kerror: [m[K‘[01m[KN[m[K’ was not declared in this scope; did you mean ‘[01m[KN_[m[K’?
+  163 |         V_ = (1 / [01;31m[KN[m[K) * J_priori + H_.transpose() * R_.inverse() * H_;
+      |                   [01;31m[K^[m[K
+      |                   [32m[KN_[m[K
+[01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:164:78:[m[K [01;31m[Kerror: [m[K‘[01m[Kz[m[K’ was not declared in this scope
+  164 | v_ = (1 / N) * J_priori * x_priori + H_.transpose() * R_.inverse() * [01;31m[Kz[m[K;
+      |                                                                      [01;31m[K^[m[K
+
+[01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:[m[K In member function ‘[01m[Kvoid NodoConsenso::icf3()[m[K’:
+[01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:167:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kneighbor_Vl[m[K’ was not declared in this scope
+  167 |         V_ = V_ + epsilon * (([01;31m[Kneighbor_Vl[m[K - V_) + (neighbor_Vr - V_));
+      |                               [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:167:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kneighbor_Vr[m[K’ was not declared in this scope
+  167 |         V_ = V_ + epsilon * ((neighbor_Vl - V_) + ([01;31m[Kneighbor_Vr[m[K - V_));
+      |                                                    [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:168:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kneighbor_vl[m[K’ was not declared in this scope
+  168 |         v_ = v_ + epsilon * (([01;31m[Kneighbor_vl[m[K - v_) + (neighbor_vr - v_));
+      |                               [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:168:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kneighbor_vr[m[K’ was not declared in this scope
+  168 |         v_ = v_ + epsilon * ((neighbor_vl - v_) + ([01;31m[Kneighbor_vr[m[K - v_));
+      |                                                    [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/nodo.dir/build.make:76: CMakeFiles/nodo.dir/src/nodo.cpp.o] Errore 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/nodo.dir/all] Errore 2
+gmake: *** [Makefile:146: all] Errore 2

@@ -1,0 +1,21 @@
+[35m[1mConsolidate compiler generated dependencies of target nodo[0m
+[100%] Built target nodo
+-- Install configuration: ""
+-- Up-to-date: /home/fortunato/ros2_ws/install/cons_pkg/lib/cons_pkg/nodo
+-- Up-to-date: /home/fortunato/ros2_ws/install/cons_pkg/share/cons_pkg/launch
+-- Up-to-date: /home/fortunato/ros2_ws/install/cons_pkg/share/cons_pkg/launch/consenso_launch.launch
+-- Up-to-date: /home/fortunato/ros2_ws/install/cons_pkg/share/ament_index/resource_index/package_run_dependencies/cons_pkg
+-- Up-to-date: /home/fortunato/ros2_ws/install/cons_pkg/share/ament_index/resource_index/parent_prefix_path/cons_pkg
+-- Up-to-date: /home/fortunato/ros2_ws/install/cons_pkg/share/cons_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/fortunato/ros2_ws/install/cons_pkg/share/cons_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/fortunato/ros2_ws/install/cons_pkg/share/cons_pkg/environment/path.sh
+-- Up-to-date: /home/fortunato/ros2_ws/install/cons_pkg/share/cons_pkg/environment/path.dsv
+-- Up-to-date: /home/fortunato/ros2_ws/install/cons_pkg/share/cons_pkg/local_setup.bash
+-- Up-to-date: /home/fortunato/ros2_ws/install/cons_pkg/share/cons_pkg/local_setup.sh
+-- Up-to-date: /home/fortunato/ros2_ws/install/cons_pkg/share/cons_pkg/local_setup.zsh
+-- Up-to-date: /home/fortunato/ros2_ws/install/cons_pkg/share/cons_pkg/local_setup.dsv
+-- Installing: /home/fortunato/ros2_ws/install/cons_pkg/share/cons_pkg/package.dsv
+-- Up-to-date: /home/fortunato/ros2_ws/install/cons_pkg/share/ament_index/resource_index/packages/cons_pkg
+-- Up-to-date: /home/fortunato/ros2_ws/install/cons_pkg/share/cons_pkg/cmake/cons_pkgConfig.cmake
+-- Up-to-date: /home/fortunato/ros2_ws/install/cons_pkg/share/cons_pkg/cmake/cons_pkgConfig-version.cmake
+-- Up-to-date: /home/fortunato/ros2_ws/install/cons_pkg/share/cons_pkg/package.xml

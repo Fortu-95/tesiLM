@@ -1,0 +1,25 @@
+[0.021s] Invoking command in '/home/fortunato/ros2_ws/build/consenso_pkg': /usr/bin/cmake --build /home/fortunato/ros2_ws/build/consenso_pkg -- -j8 -l8
+[0.083s] [ 50%] [32mBuilding CXX object CMakeFiles/nodo.dir/src/nodo.cpp.o[0m
+[13.590s] [100%] [32m[1mLinking CXX executable nodo[0m
+[14.340s] [100%] Built target nodo
+[14.354s] Invoked command in '/home/fortunato/ros2_ws/build/consenso_pkg' returned '0': /usr/bin/cmake --build /home/fortunato/ros2_ws/build/consenso_pkg -- -j8 -l8
+[14.357s] Invoking command in '/home/fortunato/ros2_ws/build/consenso_pkg': /usr/bin/cmake --install /home/fortunato/ros2_ws/build/consenso_pkg
+[14.366s] -- Install configuration: ""
+[14.366s] -- Installing: /home/fortunato/ros2_ws/install/consenso_pkg/lib/consenso_pkg/nodo
+[14.372s] -- Set runtime path of "/home/fortunato/ros2_ws/install/consenso_pkg/lib/consenso_pkg/nodo" to ""
+[14.372s] -- Installing: /home/fortunato/ros2_ws/install/consenso_pkg/share/ament_index/resource_index/package_run_dependencies/consenso_pkg
+[14.373s] -- Installing: /home/fortunato/ros2_ws/install/consenso_pkg/share/ament_index/resource_index/parent_prefix_path/consenso_pkg
+[14.373s] -- Installing: /home/fortunato/ros2_ws/install/consenso_pkg/share/consenso_pkg/environment/ament_prefix_path.sh
+[14.374s] -- Installing: /home/fortunato/ros2_ws/install/consenso_pkg/share/consenso_pkg/environment/ament_prefix_path.dsv
+[14.374s] -- Installing: /home/fortunato/ros2_ws/install/consenso_pkg/share/consenso_pkg/environment/path.sh
+[14.375s] -- Installing: /home/fortunato/ros2_ws/install/consenso_pkg/share/consenso_pkg/environment/path.dsv
+[14.375s] -- Installing: /home/fortunato/ros2_ws/install/consenso_pkg/share/consenso_pkg/local_setup.bash
+[14.376s] -- Installing: /home/fortunato/ros2_ws/install/consenso_pkg/share/consenso_pkg/local_setup.sh
+[14.376s] -- Installing: /home/fortunato/ros2_ws/install/consenso_pkg/share/consenso_pkg/local_setup.zsh
+[14.377s] -- Installing: /home/fortunato/ros2_ws/install/consenso_pkg/share/consenso_pkg/local_setup.dsv
+[14.377s] -- Installing: /home/fortunato/ros2_ws/install/consenso_pkg/share/consenso_pkg/package.dsv
+[14.378s] -- Installing: /home/fortunato/ros2_ws/install/consenso_pkg/share/ament_index/resource_index/packages/consenso_pkg
+[14.378s] -- Installing: /home/fortunato/ros2_ws/install/consenso_pkg/share/consenso_pkg/cmake/consenso_pkgConfig.cmake
+[14.379s] -- Installing: /home/fortunato/ros2_ws/install/consenso_pkg/share/consenso_pkg/cmake/consenso_pkgConfig-version.cmake
+[14.379s] -- Installing: /home/fortunato/ros2_ws/install/consenso_pkg/share/consenso_pkg/package.xml
+[14.382s] Invoked command in '/home/fortunato/ros2_ws/build/consenso_pkg' returned '0': /usr/bin/cmake --install /home/fortunato/ros2_ws/build/consenso_pkg

@@ -1,0 +1,32 @@
+[ 37%] [32mBuilding CXX object CMakeFiles/nodo.dir/src/nodo.cpp.o[0m
+[ 37%] Built target consensus_node
+[ 62%] Built target signal_generator_node
+[ 87%] Built target average_calc_node
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/nodo.cpp:[m[K In member function ‘[01m[Kvoid NodoConsenso::icf4()[m[K’:
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/nodo.cpp:157:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_post_[m[K’ was not declared in this scope; did you mean ‘[01m[Kx_post[m[K’?
+  157 |         [01;31m[Kx_post_[m[K = V_.inverse() * v_;   // x_i^+ = (V_i^K)^(-1) v_i^K
+      |         [01;31m[K^~~~~~~[m[K
+      |         [32m[Kx_post[m[K
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/nodo.cpp:158:9:[m[K [01;31m[Kerror: [m[K‘[01m[KJ_post_[m[K’ was not declared in this scope; did you mean ‘[01m[KJ_post[m[K’?
+  158 |         [01;31m[KJ_post_[m[K = N * V_;              // J_i^+ = N V_i^K
+      |         [01;31m[K^~~~~~~[m[K
+      |         [32m[KJ_post[m[K
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/nodo.cpp:[m[K In member function ‘[01m[Kvoid NodoConsenso::icf5()[m[K’:
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/nodo.cpp:162:38:[m[K [01;31m[Kerror: [m[K‘[01m[KJ_post_[m[K’ was not declared in this scope; did you mean ‘[01m[KJ_post[m[K’?
+  162 |         Eigen::MatrixXd J_post_inv = [01;31m[KJ_post_[m[K.inverse();
+      |                                      [01;31m[K^~~~~~~[m[K
+      |                                      [32m[KJ_post[m[K
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/nodo.cpp:163:21:[m[K [01;31m[Kerror: [m[K‘[01m[KPhi_[m[K’ was not declared in this scope
+  163 |         J_priori = ([01;31m[KPhi_[m[K * J_post_inv * Phi_.transpose() + Q_).inverse();
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/nodo.cpp:163:60:[m[K [01;31m[Kerror: [m[K‘[01m[KQ_[m[K’ was not declared in this scope; did you mean ‘[01m[KV_[m[K’?
+  163 |         J_priori = (Phi_ * J_post_inv * Phi_.transpose() + [01;31m[KQ_[m[K).inverse();
+      |                                                            [01;31m[K^~[m[K
+      |                                                            [32m[KV_[m[K
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/nodo.cpp:166:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_post_[m[K’ was not declared in this scope; did you mean ‘[01m[Kx_post[m[K’?
+  166 |         x_priori = Phi_ * [01;31m[Kx_post_[m[K;
+      |                           [01;31m[K^~~~~~~[m[K
+      |                           [32m[Kx_post[m[K
+gmake[2]: *** [CMakeFiles/nodo.dir/build.make:76: CMakeFiles/nodo.dir/src/nodo.cpp.o] Errore 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/nodo.dir/all] Errore 2
+gmake: *** [Makefile:146: all] Errore 2

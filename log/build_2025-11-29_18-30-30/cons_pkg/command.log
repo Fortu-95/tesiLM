@@ -1,0 +1,6 @@
+Invoking command in '/home/fortunato/ros2_ws/build/cons_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/fortunato/ros2_ws/src/consenso -DCMAKE_INSTALL_PREFIX=/home/fortunato/ros2_ws/install/cons_pkg
+Invoked command in '/home/fortunato/ros2_ws/build/cons_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/fortunato/ros2_ws/src/consenso -DCMAKE_INSTALL_PREFIX=/home/fortunato/ros2_ws/install/cons_pkg
+Invoking command in '/home/fortunato/ros2_ws/build/cons_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fortunato/ros2_ws/build/cons_pkg -- -j8 -l8
+Invoked command in '/home/fortunato/ros2_ws/build/cons_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fortunato/ros2_ws/build/cons_pkg -- -j8 -l8
+Invoking command in '/home/fortunato/ros2_ws/build/cons_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fortunato/ros2_ws/build/cons_pkg
+Invoked command in '/home/fortunato/ros2_ws/build/cons_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fortunato/ros2_ws/build/cons_pkg

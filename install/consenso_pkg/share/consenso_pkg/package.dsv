@@ -1,0 +1,8 @@
+source;share/consenso_pkg/hook/cmake_prefix_path.ps1
+source;share/consenso_pkg/hook/cmake_prefix_path.dsv
+source;share/consenso_pkg/hook/cmake_prefix_path.sh
+source;share/consenso_pkg/local_setup.bash
+source;share/consenso_pkg/local_setup.dsv
+source;share/consenso_pkg/local_setup.ps1
+source;share/consenso_pkg/local_setup.sh
+source;share/consenso_pkg/local_setup.zsh

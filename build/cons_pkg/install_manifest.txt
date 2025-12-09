@@ -1,0 +1,17 @@
+/home/fortunato/ros2_ws/install/cons_pkg/lib/cons_pkg/nodo
+/home/fortunato/ros2_ws/install/cons_pkg/share/cons_pkg/launch/consenso_launch.launch
+/home/fortunato/ros2_ws/install/cons_pkg/share/ament_index/resource_index/package_run_dependencies/cons_pkg
+/home/fortunato/ros2_ws/install/cons_pkg/share/ament_index/resource_index/parent_prefix_path/cons_pkg
+/home/fortunato/ros2_ws/install/cons_pkg/share/cons_pkg/environment/ament_prefix_path.sh
+/home/fortunato/ros2_ws/install/cons_pkg/share/cons_pkg/environment/ament_prefix_path.dsv
+/home/fortunato/ros2_ws/install/cons_pkg/share/cons_pkg/environment/path.sh
+/home/fortunato/ros2_ws/install/cons_pkg/share/cons_pkg/environment/path.dsv
+/home/fortunato/ros2_ws/install/cons_pkg/share/cons_pkg/local_setup.bash
+/home/fortunato/ros2_ws/install/cons_pkg/share/cons_pkg/local_setup.sh
+/home/fortunato/ros2_ws/install/cons_pkg/share/cons_pkg/local_setup.zsh
+/home/fortunato/ros2_ws/install/cons_pkg/share/cons_pkg/local_setup.dsv
+/home/fortunato/ros2_ws/install/cons_pkg/share/cons_pkg/package.dsv
+/home/fortunato/ros2_ws/install/cons_pkg/share/ament_index/resource_index/packages/cons_pkg
+/home/fortunato/ros2_ws/install/cons_pkg/share/cons_pkg/cmake/cons_pkgConfig.cmake
+/home/fortunato/ros2_ws/install/cons_pkg/share/cons_pkg/cmake/cons_pkgConfig-version.cmake
+/home/fortunato/ros2_ws/install/cons_pkg/share/cons_pkg/package.xml

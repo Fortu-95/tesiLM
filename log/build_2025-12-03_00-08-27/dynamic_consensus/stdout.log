@@ -1,0 +1,6 @@
+[35m[1mConsolidate compiler generated dependencies of target nodo[0m
+[ 20%] Built target average_calc_node
+[ 30%] [32mBuilding CXX object CMakeFiles/nodo.dir/src/nodo.cpp.o[0m
+[ 50%] Built target signal_generator_node
+[ 80%] Built target consensus_node
+[ 90%] Built target traj_generator

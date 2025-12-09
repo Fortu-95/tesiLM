@@ -1,6 +1,9 @@
+/home/fortunato/ros2_ws/install/dynamic_consensus/lib/dynamic_consensus/nodo
 /home/fortunato/ros2_ws/install/dynamic_consensus/lib/dynamic_consensus/consensus_node
 /home/fortunato/ros2_ws/install/dynamic_consensus/lib/dynamic_consensus/signal_generator_node
 /home/fortunato/ros2_ws/install/dynamic_consensus/lib/dynamic_consensus/average_calc_node
+/home/fortunato/ros2_ws/install/dynamic_consensus/lib/dynamic_consensus/traj_generator
+/home/fortunato/ros2_ws/install/dynamic_consensus/share/dynamic_consensus/launch/consenso_launch.launch
 /home/fortunato/ros2_ws/install/dynamic_consensus/share/dynamic_consensus/launch/consensus_system_launch.launch
 /home/fortunato/ros2_ws/install/dynamic_consensus/share/ament_index/resource_index/package_run_dependencies/dynamic_consensus
 /home/fortunato/ros2_ws/install/dynamic_consensus/share/ament_index/resource_index/parent_prefix_path/dynamic_consensus

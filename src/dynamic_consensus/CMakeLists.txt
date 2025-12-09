@@ -5,6 +5,7 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(Eigen3 REQUIRED)
+find_package(example_interfaces REQUIRED)
 
 
 add_executable(consensus_node src/consensus_node.cpp)
@@ -18,13 +19,20 @@ add_executable(average_calc_node src/average_calc_node.cpp)
 ament_target_dependencies(average_calc_node rclcpp std_msgs)
 
 
+add_executable(nodo src/nodo.cpp)
+ament_target_dependencies(nodo rclcpp example_interfaces Eigen3)
+
+add_executable(traj_generator src/traj_generator.cpp)
+ament_target_dependencies(traj_generator rclcpp example_interfaces)
 
 
 
 install(TARGETS
+  nodo
   consensus_node
   signal_generator_node
   average_calc_node
+  traj_generator
   DESTINATION lib/${PROJECT_NAME}
 )
 

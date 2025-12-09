@@ -1,0 +1,16 @@
+[35m[1mConsolidate compiler generated dependencies of target nodo[0m
+[ 20%] Built target average_calc_node
+[ 30%] [32mBuilding CXX object CMakeFiles/nodo.dir/src/nodo.cpp.o[0m
+[ 50%] Built target signal_generator_node
+[ 80%] Built target consensus_node
+[ 90%] Built target traj_generator
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/nodo.cpp:[m[K In member function ‘[01m[Kvoid NodoConsenso::icf3()[m[K’:
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/nodo.cpp:212:37:[m[K [01;31m[Kerror: [m[K‘[01m[KV_prev_[m[K’ was not declared in this scope
+  212 |         QV_ += kP_ * somm_V + (V_ - [01;31m[KV_prev_[m[K);
+      |                                     [01;31m[K^~~~~~~[m[K
+[01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/nodo.cpp:213:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kv_prev_[m[K’ was not declared in this scope
+  213 |         Qv_ += kP_ * somm_v + (v_ - [01;31m[Kv_prev_[m[K);
+      |                                     [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/nodo.dir/build.make:76: CMakeFiles/nodo.dir/src/nodo.cpp.o] Errore 1
+gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/nodo.dir/all] Errore 2
+gmake: *** [Makefile:146: all] Errore 2

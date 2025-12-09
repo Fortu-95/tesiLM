@@ -236,6 +236,32 @@ average_calc_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/average_calc_node.dir/build.make CMakeFiles/average_calc_node.dir/build
 .PHONY : average_calc_node/fast
 
+#=============================================================================
+# Target rules for targets named nodo
+
+# Build rule for target.
+nodo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nodo
+.PHONY : nodo
+
+# fast build rule for target.
+nodo/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nodo.dir/build.make CMakeFiles/nodo.dir/build
+.PHONY : nodo/fast
+
+#=============================================================================
+# Target rules for targets named traj_generator
+
+# Build rule for target.
+traj_generator: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 traj_generator
+.PHONY : traj_generator
+
+# fast build rule for target.
+traj_generator/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/traj_generator.dir/build.make CMakeFiles/traj_generator.dir/build
+.PHONY : traj_generator/fast
+
 src/average_calc_node.o: src/average_calc_node.cpp.o
 .PHONY : src/average_calc_node.o
 
@@ -284,6 +310,30 @@ src/consensus_node.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/consensus_node.dir/build.make CMakeFiles/consensus_node.dir/src/consensus_node.cpp.s
 .PHONY : src/consensus_node.cpp.s
 
+src/nodo.o: src/nodo.cpp.o
+.PHONY : src/nodo.o
+
+# target to build an object file
+src/nodo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nodo.dir/build.make CMakeFiles/nodo.dir/src/nodo.cpp.o
+.PHONY : src/nodo.cpp.o
+
+src/nodo.i: src/nodo.cpp.i
+.PHONY : src/nodo.i
+
+# target to preprocess a source file
+src/nodo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nodo.dir/build.make CMakeFiles/nodo.dir/src/nodo.cpp.i
+.PHONY : src/nodo.cpp.i
+
+src/nodo.s: src/nodo.cpp.s
+.PHONY : src/nodo.s
+
+# target to generate assembly for a file
+src/nodo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nodo.dir/build.make CMakeFiles/nodo.dir/src/nodo.cpp.s
+.PHONY : src/nodo.cpp.s
+
 src/signal_generator_node.o: src/signal_generator_node.cpp.o
 .PHONY : src/signal_generator_node.o
 
@@ -308,6 +358,30 @@ src/signal_generator_node.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/signal_generator_node.dir/build.make CMakeFiles/signal_generator_node.dir/src/signal_generator_node.cpp.s
 .PHONY : src/signal_generator_node.cpp.s
 
+src/traj_generator.o: src/traj_generator.cpp.o
+.PHONY : src/traj_generator.o
+
+# target to build an object file
+src/traj_generator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/traj_generator.dir/build.make CMakeFiles/traj_generator.dir/src/traj_generator.cpp.o
+.PHONY : src/traj_generator.cpp.o
+
+src/traj_generator.i: src/traj_generator.cpp.i
+.PHONY : src/traj_generator.i
+
+# target to preprocess a source file
+src/traj_generator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/traj_generator.dir/build.make CMakeFiles/traj_generator.dir/src/traj_generator.cpp.i
+.PHONY : src/traj_generator.cpp.i
+
+src/traj_generator.s: src/traj_generator.cpp.s
+.PHONY : src/traj_generator.s
+
+# target to generate assembly for a file
+src/traj_generator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/traj_generator.dir/build.make CMakeFiles/traj_generator.dir/src/traj_generator.cpp.s
+.PHONY : src/traj_generator.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -325,16 +399,24 @@ help:
 	@echo "... uninstall"
 	@echo "... average_calc_node"
 	@echo "... consensus_node"
+	@echo "... nodo"
 	@echo "... signal_generator_node"
+	@echo "... traj_generator"
 	@echo "... src/average_calc_node.o"
 	@echo "... src/average_calc_node.i"
 	@echo "... src/average_calc_node.s"
 	@echo "... src/consensus_node.o"
 	@echo "... src/consensus_node.i"
 	@echo "... src/consensus_node.s"
+	@echo "... src/nodo.o"
+	@echo "... src/nodo.i"
+	@echo "... src/nodo.s"
 	@echo "... src/signal_generator_node.o"
 	@echo "... src/signal_generator_node.i"
 	@echo "... src/signal_generator_node.s"
+	@echo "... src/traj_generator.o"
+	@echo "... src/traj_generator.i"
+	@echo "... src/traj_generator.s"
 .PHONY : help
 
 

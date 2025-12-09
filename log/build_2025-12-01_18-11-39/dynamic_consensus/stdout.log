@@ -1,0 +1,4 @@
+[ 37%] [32mBuilding CXX object CMakeFiles/nodo.dir/src/nodo.cpp.o[0m
+[ 37%] Built target consensus_node
+[ 62%] Built target signal_generator_node
+[ 87%] Built target average_calc_node

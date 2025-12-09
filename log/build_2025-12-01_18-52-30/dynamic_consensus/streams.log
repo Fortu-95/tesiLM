@@ -1,0 +1,30 @@
+[0.012s] Invoking command in '/home/fortunato/ros2_ws/build/dynamic_consensus': CMAKE_PREFIX_PATH=/home/fortunato/ros2_ws/install/dynamic_consensus:/opt/ros/humble:/home/fortunato/ros2_ws/install/consenso_pkg:/home/fortunato/ros2_ws/install/cons_pkg /usr/bin/cmake --build /home/fortunato/ros2_ws/build/dynamic_consensus -- -j8 -l8
+[0.063s] [35m[1mConsolidate compiler generated dependencies of target nodo[0m
+[0.068s] [ 20%] Built target signal_generator_node
+[0.073s] [ 60%] Built target consensus_node
+[0.074s] [ 60%] Built target traj_generator
+[0.077s] [ 80%] Built target average_calc_node
+[0.089s] [ 90%] [32mBuilding CXX object CMakeFiles/nodo.dir/src/nodo.cpp.o[0m
+[2.947s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/nodo.cpp:[m[K In lambda function:
+[2.947s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/nodo.cpp:108:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_priori_initialized_[m[K’ is not captured
+[2.947s]   108 |                 if (![01;31m[Kx_priori_initialized_[m[K)
+[2.947s]       |                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.947s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/nodo.cpp:104:18:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[2.947s]   104 |             [this[01;36m[K][m[K(const example_interfaces::msg::Float64MultiArray::SharedPtr msg)
+[2.947s]       |                  [01;36m[K^[m[K
+[2.947s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/nodo.cpp:98:14:[m[K [01;36m[Knote: [m[K‘[01m[Kbool x_priori_initialized_[m[K’ declared here
+[2.947s]    98 |         bool [01;36m[Kx_priori_initialized_[m[K = false; // nel private
+[2.948s]       |              [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.948s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/nodo.cpp:111:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_priori_initialized_[m[K’ is not captured
+[2.948s]   111 |                     [01;31m[Kx_priori_initialized_[m[K = true;
+[2.948s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.948s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/nodo.cpp:104:18:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[2.948s]   104 |             [this[01;36m[K][m[K(const example_interfaces::msg::Float64MultiArray::SharedPtr msg)
+[2.948s]       |                  [01;36m[K^[m[K
+[2.948s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/nodo.cpp:98:14:[m[K [01;36m[Knote: [m[K‘[01m[Kbool x_priori_initialized_[m[K’ declared here
+[2.948s]    98 |         bool [01;36m[Kx_priori_initialized_[m[K = false; // nel private
+[2.948s]       |              [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[11.565s] gmake[2]: *** [CMakeFiles/nodo.dir/build.make:76: CMakeFiles/nodo.dir/src/nodo.cpp.o] Errore 1
+[11.565s] gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/nodo.dir/all] Errore 2
+[11.565s] gmake: *** [Makefile:146: all] Errore 2
+[11.568s] Invoked command in '/home/fortunato/ros2_ws/build/dynamic_consensus' returned '2': CMAKE_PREFIX_PATH=/home/fortunato/ros2_ws/install/dynamic_consensus:/opt/ros/humble:/home/fortunato/ros2_ws/install/consenso_pkg:/home/fortunato/ros2_ws/install/cons_pkg /usr/bin/cmake --build /home/fortunato/ros2_ws/build/dynamic_consensus -- -j8 -l8

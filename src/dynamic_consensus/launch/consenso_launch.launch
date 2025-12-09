@@ -1,0 +1,33 @@
+from launch import LaunchDescription
+from launch_ros.actions import Node
+
+def generate_launch_description():
+    N = 5  # numero di nodi nella rete
+    nodi = []
+
+    for i in range(N):
+        nodi.append(
+            Node(
+                package="dynamic_consensus",
+                executable="nodo",
+                name=f"nodo_{i}",
+                parameters=[{
+                    "id": i,
+                    "N": N
+                }]
+            )
+        )
+
+    traj_generator = Node(
+        package='dynamic_consensus',
+        executable='traj_generator',
+        name='traj_generator',
+        output='screen'
+    )
+
+    # unpack della lista nodi
+    return LaunchDescription([
+        *nodi,
+        traj_generator
+    ])
+

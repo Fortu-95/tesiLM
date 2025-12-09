@@ -1,0 +1,18 @@
+[0.014s] Invoking command in '/home/fortunato/ros2_ws/build/dynamic_consensus': CMAKE_PREFIX_PATH=/home/fortunato/ros2_ws/install/dynamic_consensus:/opt/ros/humble:/home/fortunato/ros2_ws/install/consenso_pkg:/home/fortunato/ros2_ws/install/cons_pkg /usr/bin/cmake --build /home/fortunato/ros2_ws/build/dynamic_consensus -- -j8 -l8
+[0.142s] [35m[1mConsolidate compiler generated dependencies of target nodo[0m
+[0.175s] [ 20%] Built target average_calc_node
+[0.176s] [ 30%] [32mBuilding CXX object CMakeFiles/nodo.dir/src/nodo.cpp.o[0m
+[0.177s] [ 50%] Built target signal_generator_node
+[0.178s] [ 80%] Built target consensus_node
+[0.178s] [ 90%] Built target traj_generator
+[3.360s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/nodo.cpp:[m[K In member function ‘[01m[Kvoid NodoConsenso::icf3()[m[K’:
+[3.361s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/nodo.cpp:212:37:[m[K [01;31m[Kerror: [m[K‘[01m[KV_prev_[m[K’ was not declared in this scope
+[3.361s]   212 |         QV_ += kP_ * somm_V + (V_ - [01;31m[KV_prev_[m[K);
+[3.361s]       |                                     [01;31m[K^~~~~~~[m[K
+[3.382s] [01m[K/home/fortunato/ros2_ws/src/dynamic_consensus/src/nodo.cpp:213:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kv_prev_[m[K’ was not declared in this scope
+[3.382s]   213 |         Qv_ += kP_ * somm_v + (v_ - [01;31m[Kv_prev_[m[K);
+[3.382s]       |                                     [01;31m[K^~~~~~~[m[K
+[9.371s] gmake[2]: *** [CMakeFiles/nodo.dir/build.make:76: CMakeFiles/nodo.dir/src/nodo.cpp.o] Errore 1
+[9.372s] gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/nodo.dir/all] Errore 2
+[9.372s] gmake: *** [Makefile:146: all] Errore 2
+[9.374s] Invoked command in '/home/fortunato/ros2_ws/build/dynamic_consensus' returned '2': CMAKE_PREFIX_PATH=/home/fortunato/ros2_ws/install/dynamic_consensus:/opt/ros/humble:/home/fortunato/ros2_ws/install/consenso_pkg:/home/fortunato/ros2_ws/install/cons_pkg /usr/bin/cmake --build /home/fortunato/ros2_ws/build/dynamic_consensus -- -j8 -l8

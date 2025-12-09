@@ -1,0 +1,310 @@
+[0.020s] Invoking command in '/home/fortunato/ros2_ws/build/consenso_pkg': /usr/bin/cmake --build /home/fortunato/ros2_ws/build/consenso_pkg -- -j8 -l8
+[0.062s] [35m[1mConsolidate compiler generated dependencies of target nodo[0m
+[0.082s] [ 50%] [32mBuilding CXX object CMakeFiles/nodo.dir/src/nodo.cpp.o[0m
+[2.547s] [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:170:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid_[m[K’ does not name a type; did you mean ‘[01m[Kvoid[m[K’?
+[2.547s]   170 |     [01;31m[Kvoid_[m[K icf12(){
+[2.547s]       |     [01;31m[K^~~~~[m[K
+[2.547s]       |     [32m[Kvoid[m[K
+[2.548s] [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:174:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid_[m[K’ does not name a type; did you mean ‘[01m[Kvoid[m[K’?
+[2.548s]   174 |     [01;31m[Kvoid_[m[K icf3(){
+[2.548s]       |     [01;31m[K^~~~~[m[K
+[2.548s]       |     [32m[Kvoid[m[K
+[2.551s] [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:[m[K In constructor ‘[01m[KNodoConsenso::NodoConsenso()[m[K’:
+[2.551s] [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:17:19:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kclear[m[K’ in ‘[01m[K((NodoConsenso*)this)->NodoConsenso::neighbors[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[2.551s]    17 |         neighbors.[01;31m[Kclear[m[K();
+[2.551s]       |                   [01;31m[K^~~~~[m[K
+[2.551s] [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:20:34:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kint[m[K’ in assignment
+[2.551s]    20 |             neighbors = {N - 1, 1[01;31m[K}[m[K;
+[2.551s]       |                                  [01;31m[K^[m[K
+[2.552s] [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:24:34:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kint[m[K’ in assignment
+[2.552s]    24 |             neighbors = {N - 2, 0[01;31m[K}[m[K;
+[2.552s]       |                                  [01;31m[K^[m[K
+[2.552s] [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:28:42:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kint[m[K’ in assignment
+[2.552s]    28 |             neighbors = {id_ - 1, id_ + 1[01;31m[K}[m[K;
+[2.552s]       |                                          [01;31m[K^[m[K
+[2.555s] [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:30:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kidl[m[K’ was not declared in this scope; did you mean ‘[01m[Kid_[m[K’?
+[2.556s]    30 |         [01;31m[Kidl[m[K = neighbors[0];
+[2.556s]       |         [01;31m[K^~~[m[K
+[2.556s]       |         [32m[Kid_[m[K
+[2.556s] [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:30:24:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+[2.556s]    30 |         idl = neighbors[01;31m[K[[m[K0];
+[2.556s]       |                        [01;31m[K^[m[K
+[2.560s] [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:31:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kidr[m[K’ was not declared in this scope; did you mean ‘[01m[Kid_[m[K’?
+[2.560s]    31 |         [01;31m[Kidr[m[K = neighbors[1];
+[2.560s]       |         [01;31m[K^~~[m[K
+[2.560s]       |         [32m[Kid_[m[K
+[2.560s] [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:31:24:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+[2.560s]    31 |         idr = neighbors[01;31m[K[[m[K1];
+[2.560s]       |                        [01;31m[K^[m[K
+[2.560s] [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:32:60:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+[2.560s]    32 |         auto V_topicl = "/node_" + std::to_string(neighbors[01;31m[K[[m[K0]) + "/V";
+[2.560s]       |                                                            [01;31m[K^[m[K
+[2.560s] [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:33:60:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+[2.560s]    33 |         auto v_topicl = "/node_" + std::to_string(neighbors[01;31m[K[[m[K0]) + "/v";
+[2.560s]       |                                                            [01;31m[K^[m[K
+[2.560s] [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:34:60:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+[2.560s]    34 |         auto V_topicr = "/node_" + std::to_string(neighbors[01;31m[K[[m[K1]) + "/V";
+[2.560s]       |                                                            [01;31m[K^[m[K
+[2.560s] [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:35:60:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+[2.560s]    35 |         auto v_topicr = "/node_" + std::to_string(neighbors[01;31m[K[[m[K1]) + "/v";
+[2.561s]       |                                                            [01;31m[K^[m[K
+[2.562s] [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:[m[K In lambda function:
+[2.562s] [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:43:40:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[KEigen::MatrixXd[m[K’ {aka ‘[01m[KEigen::Matrix<double, -1, -1>[m[K’} and ‘[01m[Kexample_interfaces::msg::Float64MultiArray_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’})
+[2.562s]    43 |                     neighbor_Vl = msg->[01;31m[Kdata[m[K;
+[2.562s]       |                                        [01;31m[K^~~~[m[K
+[2.562s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:295[m[K,
+[2.562s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[2.562s]                  from [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:3[m[K:
+[2.562s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1][m[K’
+[2.562s]   223 |     EIGEN_STRONG_INLINE Matrix& [01;36m[Koperator[m[K=(const DenseBase<OtherDerived>& other)
+[2.562s]       |                                 [01;36m[K^~~~~~~~[m[K
+[2.563s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.563s] [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:43:40:[m[K [01;36m[Knote: [m[K  ‘[01m[Kexample_interfaces::msg::Float64MultiArray_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’} is not derived from ‘[01m[Kconst Eigen::DenseBase<Derived>[m[K’
+[2.563s]    43 |                     neighbor_Vl = msg->[01;36m[Kdata[m[K;
+[2.563s]       |                                        [01;36m[K^~~~[m[K
+[2.563s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:295[m[K,
+[2.563s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[2.563s]                  from [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:3[m[K:
+[2.563s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1][m[K’
+[2.563s]   236 |     EIGEN_STRONG_INLINE Matrix& [01;36m[Koperator[m[K=(const EigenBase<OtherDerived> &other)
+[2.563s]       |                                 [01;36m[K^~~~~~~~[m[K
+[2.563s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.563s] [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:43:40:[m[K [01;36m[Knote: [m[K  ‘[01m[Kexample_interfaces::msg::Float64MultiArray_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’} is not derived from ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’
+[2.564s]    43 |                     neighbor_Vl = msg->[01;36m[Kdata[m[K;
+[2.565s]       |                                        [01;36m[K^~~~[m[K
+[2.565s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:295[m[K,
+[2.565s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[2.565s]                  from [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:3[m[K:
+[2.565s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::ReturnByValue<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1][m[K’
+[2.565s]   243 |     EIGEN_STRONG_INLINE Matrix& [01;36m[Koperator[m[K=(const ReturnByValue<OtherDerived>& func)
+[2.565s]       |                                 [01;36m[K^~~~~~~~[m[K
+[2.565s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.565s] [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:43:40:[m[K [01;36m[Knote: [m[K  ‘[01m[Kexample_interfaces::msg::Float64MultiArray_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’} is not derived from ‘[01m[Kconst Eigen::ReturnByValue<Derived>[m[K’
+[2.565s]    43 |                     neighbor_Vl = msg->[01;36m[Kdata[m[K;
+[2.565s]       |                                        [01;36m[K^~~~[m[K
+[2.565s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:295[m[K,
+[2.565s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[2.566s]                  from [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:3[m[K:
+[2.566s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:438:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::RotationBase<OtherDerived, Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1][m[K’
+[2.566s]   438 |     Matrix& [01;36m[Koperator[m[K=(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+[2.566s]       |             [01;36m[K^~~~~~~~[m[K
+[2.566s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:438:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.566s] [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:43:40:[m[K [01;36m[Knote: [m[K  ‘[01m[Kexample_interfaces::msg::Float64MultiArray_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’} is not derived from ‘[01m[Kconst Eigen::RotationBase<OtherDerived, -1>[m[K’
+[2.566s]    43 |                     neighbor_Vl = msg->[01;36m[Kdata[m[K;
+[2.566s]       |                                        [01;36m[K^~~~[m[K
+[2.566s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:295[m[K,
+[2.566s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[2.566s]                  from [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:3[m[K:
+[2.566s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1][m[K’
+[2.566s]   206 |     EIGEN_STRONG_INLINE Matrix& [01;36m[Koperator[m[K=(const Matrix& other)
+[2.566s]       |                                 [01;36m[K^~~~~~~~[m[K
+[2.566s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:57:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kexample_interfaces::msg::Float64MultiArray_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’} to ‘[01m[Kconst Eigen::Matrix<double, -1, -1>&[m[K’
+[2.566s]   206 |     EIGEN_STRONG_INLINE Matrix& operator=([01;36m[Kconst Matrix& other[m[K)
+[2.566s]       |                                           [01;36m[K~~~~~~~~~~~~~~^~~~~[m[K
+[2.566s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:279:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&&) [with _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1][m[K’
+[2.566s]   279 |     Matrix& [01;36m[Koperator[m[K=(Matrix&& other) EIGEN_NOEXCEPT_IF(std::is_nothrow_move_assignable<Scalar>::value)
+[2.566s]       |             [01;36m[K^~~~~~~~[m[K
+[2.566s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:279:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kexample_interfaces::msg::Float64MultiArray_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’} to ‘[01m[KEigen::Matrix<double, -1, -1>&&[m[K’
+[2.567s]   279 |     Matrix& operator=([01;36m[KMatrix&& other[m[K) EIGEN_NOEXCEPT_IF(std::is_nothrow_move_assignable<Scalar>::value)
+[2.567s]       |                       [01;36m[K~~~~~~~~~^~~~~[m[K
+[2.567s] [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:[m[K In lambda function:
+[2.567s] [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:53:40:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[KEigen::MatrixXd[m[K’ {aka ‘[01m[KEigen::Matrix<double, -1, -1>[m[K’} and ‘[01m[Kexample_interfaces::msg::Float64MultiArray_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’})
+[2.567s]    53 |                     neighbor_vl = msg->[01;31m[Kdata[m[K;
+[2.567s]       |                                        [01;31m[K^~~~[m[K
+[2.567s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:295[m[K,
+[2.567s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[2.567s]                  from [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:3[m[K:
+[2.567s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1][m[K’
+[2.567s]   223 |     EIGEN_STRONG_INLINE Matrix& [01;36m[Koperator[m[K=(const DenseBase<OtherDerived>& other)
+[2.567s]       |                                 [01;36m[K^~~~~~~~[m[K
+[2.567s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.567s] [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:53:40:[m[K [01;36m[Knote: [m[K  ‘[01m[Kexample_interfaces::msg::Float64MultiArray_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’} is not derived from ‘[01m[Kconst Eigen::DenseBase<Derived>[m[K’
+[2.567s]    53 |                     neighbor_vl = msg->[01;36m[Kdata[m[K;
+[2.567s]       |                                        [01;36m[K^~~~[m[K
+[2.567s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:295[m[K,
+[2.567s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[2.567s]                  from [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:3[m[K:
+[2.567s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1][m[K’
+[2.567s]   236 |     EIGEN_STRONG_INLINE Matrix& [01;36m[Koperator[m[K=(const EigenBase<OtherDerived> &other)
+[2.568s]       |                                 [01;36m[K^~~~~~~~[m[K
+[2.568s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.568s] [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:53:40:[m[K [01;36m[Knote: [m[K  ‘[01m[Kexample_interfaces::msg::Float64MultiArray_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’} is not derived from ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’
+[2.568s]    53 |                     neighbor_vl = msg->[01;36m[Kdata[m[K;
+[2.568s]       |                                        [01;36m[K^~~~[m[K
+[2.568s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:295[m[K,
+[2.568s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[2.568s]                  from [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:3[m[K:
+[2.568s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::ReturnByValue<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1][m[K’
+[2.568s]   243 |     EIGEN_STRONG_INLINE Matrix& [01;36m[Koperator[m[K=(const ReturnByValue<OtherDerived>& func)
+[2.568s]       |                                 [01;36m[K^~~~~~~~[m[K
+[2.568s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.568s] [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:53:40:[m[K [01;36m[Knote: [m[K  ‘[01m[Kexample_interfaces::msg::Float64MultiArray_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’} is not derived from ‘[01m[Kconst Eigen::ReturnByValue<Derived>[m[K’
+[2.568s]    53 |                     neighbor_vl = msg->[01;36m[Kdata[m[K;
+[2.568s]       |                                        [01;36m[K^~~~[m[K
+[2.568s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:295[m[K,
+[2.568s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[2.568s]                  from [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:3[m[K:
+[2.568s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:438:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::RotationBase<OtherDerived, Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1][m[K’
+[2.568s]   438 |     Matrix& [01;36m[Koperator[m[K=(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+[2.568s]       |             [01;36m[K^~~~~~~~[m[K
+[2.569s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:438:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.569s] [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:53:40:[m[K [01;36m[Knote: [m[K  ‘[01m[Kexample_interfaces::msg::Float64MultiArray_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’} is not derived from ‘[01m[Kconst Eigen::RotationBase<OtherDerived, -1>[m[K’
+[2.569s]    53 |                     neighbor_vl = msg->[01;36m[Kdata[m[K;
+[2.569s]       |                                        [01;36m[K^~~~[m[K
+[2.569s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:295[m[K,
+[2.569s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[2.569s]                  from [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:3[m[K:
+[2.569s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1][m[K’
+[2.569s]   206 |     EIGEN_STRONG_INLINE Matrix& [01;36m[Koperator[m[K=(const Matrix& other)
+[2.569s]       |                                 [01;36m[K^~~~~~~~[m[K
+[2.569s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:57:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kexample_interfaces::msg::Float64MultiArray_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’} to ‘[01m[Kconst Eigen::Matrix<double, -1, -1>&[m[K’
+[2.569s]   206 |     EIGEN_STRONG_INLINE Matrix& operator=([01;36m[Kconst Matrix& other[m[K)
+[2.569s]       |                                           [01;36m[K~~~~~~~~~~~~~~^~~~~[m[K
+[2.569s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:279:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&&) [with _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1][m[K’
+[2.569s]   279 |     Matrix& [01;36m[Koperator[m[K=(Matrix&& other) EIGEN_NOEXCEPT_IF(std::is_nothrow_move_assignable<Scalar>::value)
+[2.569s]       |             [01;36m[K^~~~~~~~[m[K
+[2.569s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:279:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kexample_interfaces::msg::Float64MultiArray_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’} to ‘[01m[KEigen::Matrix<double, -1, -1>&&[m[K’
+[2.569s]   279 |     Matrix& operator=([01;36m[KMatrix&& other[m[K) EIGEN_NOEXCEPT_IF(std::is_nothrow_move_assignable<Scalar>::value)
+[2.569s]       |                       [01;36m[K~~~~~~~~~^~~~~[m[K
+[2.569s] [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:[m[K In lambda function:
+[2.569s] [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:62:40:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[KEigen::MatrixXd[m[K’ {aka ‘[01m[KEigen::Matrix<double, -1, -1>[m[K’} and ‘[01m[Kexample_interfaces::msg::Float64MultiArray_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’})
+[2.570s]    62 |                     neighbor_Vr = msg->[01;31m[Kdata[m[K;
+[2.570s]       |                                        [01;31m[K^~~~[m[K
+[2.570s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:295[m[K,
+[2.570s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[2.570s]                  from [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:3[m[K:
+[2.570s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1][m[K’
+[2.570s]   223 |     EIGEN_STRONG_INLINE Matrix& [01;36m[Koperator[m[K=(const DenseBase<OtherDerived>& other)
+[2.570s]       |                                 [01;36m[K^~~~~~~~[m[K
+[2.570s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.570s] [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:62:40:[m[K [01;36m[Knote: [m[K  ‘[01m[Kexample_interfaces::msg::Float64MultiArray_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’} is not derived from ‘[01m[Kconst Eigen::DenseBase<Derived>[m[K’
+[2.570s]    62 |                     neighbor_Vr = msg->[01;36m[Kdata[m[K;
+[2.570s]       |                                        [01;36m[K^~~~[m[K
+[2.570s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:295[m[K,
+[2.570s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[2.570s]                  from [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:3[m[K:
+[2.570s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1][m[K’
+[2.570s]   236 |     EIGEN_STRONG_INLINE Matrix& [01;36m[Koperator[m[K=(const EigenBase<OtherDerived> &other)
+[2.570s]       |                                 [01;36m[K^~~~~~~~[m[K
+[2.570s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.570s] [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:62:40:[m[K [01;36m[Knote: [m[K  ‘[01m[Kexample_interfaces::msg::Float64MultiArray_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’} is not derived from ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’
+[2.571s]    62 |                     neighbor_Vr = msg->[01;36m[Kdata[m[K;
+[2.571s]       |                                        [01;36m[K^~~~[m[K
+[2.571s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:295[m[K,
+[2.571s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[2.571s]                  from [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:3[m[K:
+[2.571s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::ReturnByValue<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1][m[K’
+[2.571s]   243 |     EIGEN_STRONG_INLINE Matrix& [01;36m[Koperator[m[K=(const ReturnByValue<OtherDerived>& func)
+[2.571s]       |                                 [01;36m[K^~~~~~~~[m[K
+[2.571s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.571s] [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:62:40:[m[K [01;36m[Knote: [m[K  ‘[01m[Kexample_interfaces::msg::Float64MultiArray_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’} is not derived from ‘[01m[Kconst Eigen::ReturnByValue<Derived>[m[K’
+[2.571s]    62 |                     neighbor_Vr = msg->[01;36m[Kdata[m[K;
+[2.571s]       |                                        [01;36m[K^~~~[m[K
+[2.571s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:295[m[K,
+[2.571s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[2.571s]                  from [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:3[m[K:
+[2.571s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:438:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::RotationBase<OtherDerived, Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1][m[K’
+[2.571s]   438 |     Matrix& [01;36m[Koperator[m[K=(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+[2.571s]       |             [01;36m[K^~~~~~~~[m[K
+[2.571s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:438:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.571s] [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:62:40:[m[K [01;36m[Knote: [m[K  ‘[01m[Kexample_interfaces::msg::Float64MultiArray_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’} is not derived from ‘[01m[Kconst Eigen::RotationBase<OtherDerived, -1>[m[K’
+[2.571s]    62 |                     neighbor_Vr = msg->[01;36m[Kdata[m[K;
+[2.572s]       |                                        [01;36m[K^~~~[m[K
+[2.572s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:295[m[K,
+[2.572s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[2.572s]                  from [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:3[m[K:
+[2.572s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1][m[K’
+[2.572s]   206 |     EIGEN_STRONG_INLINE Matrix& [01;36m[Koperator[m[K=(const Matrix& other)
+[2.572s]       |                                 [01;36m[K^~~~~~~~[m[K
+[2.572s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:57:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kexample_interfaces::msg::Float64MultiArray_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’} to ‘[01m[Kconst Eigen::Matrix<double, -1, -1>&[m[K’
+[2.572s]   206 |     EIGEN_STRONG_INLINE Matrix& operator=([01;36m[Kconst Matrix& other[m[K)
+[2.572s]       |                                           [01;36m[K~~~~~~~~~~~~~~^~~~~[m[K
+[2.572s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:279:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&&) [with _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1][m[K’
+[2.572s]   279 |     Matrix& [01;36m[Koperator[m[K=(Matrix&& other) EIGEN_NOEXCEPT_IF(std::is_nothrow_move_assignable<Scalar>::value)
+[2.572s]       |             [01;36m[K^~~~~~~~[m[K
+[2.572s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:279:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kexample_interfaces::msg::Float64MultiArray_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’} to ‘[01m[KEigen::Matrix<double, -1, -1>&&[m[K’
+[2.572s]   279 |     Matrix& operator=([01;36m[KMatrix&& other[m[K) EIGEN_NOEXCEPT_IF(std::is_nothrow_move_assignable<Scalar>::value)
+[2.572s]       |                       [01;36m[K~~~~~~~~~^~~~~[m[K
+[2.572s] [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:[m[K In lambda function:
+[2.572s] [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:72:40:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[KEigen::MatrixXd[m[K’ {aka ‘[01m[KEigen::Matrix<double, -1, -1>[m[K’} and ‘[01m[Kexample_interfaces::msg::Float64MultiArray_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’})
+[2.572s]    72 |                     neighbor_vr = msg->[01;31m[Kdata[m[K;
+[2.572s]       |                                        [01;31m[K^~~~[m[K
+[2.573s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:295[m[K,
+[2.573s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[2.573s]                  from [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:3[m[K:
+[2.573s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1][m[K’
+[2.573s]   223 |     EIGEN_STRONG_INLINE Matrix& [01;36m[Koperator[m[K=(const DenseBase<OtherDerived>& other)
+[2.573s]       |                                 [01;36m[K^~~~~~~~[m[K
+[2.573s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.573s] [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:72:40:[m[K [01;36m[Knote: [m[K  ‘[01m[Kexample_interfaces::msg::Float64MultiArray_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’} is not derived from ‘[01m[Kconst Eigen::DenseBase<Derived>[m[K’
+[2.573s]    72 |                     neighbor_vr = msg->[01;36m[Kdata[m[K;
+[2.573s]       |                                        [01;36m[K^~~~[m[K
+[2.573s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:295[m[K,
+[2.573s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[2.573s]                  from [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:3[m[K:
+[2.573s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1][m[K’
+[2.573s]   236 |     EIGEN_STRONG_INLINE Matrix& [01;36m[Koperator[m[K=(const EigenBase<OtherDerived> &other)
+[2.573s]       |                                 [01;36m[K^~~~~~~~[m[K
+[2.573s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.574s] [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:72:40:[m[K [01;36m[Knote: [m[K  ‘[01m[Kexample_interfaces::msg::Float64MultiArray_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’} is not derived from ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’
+[2.574s]    72 |                     neighbor_vr = msg->[01;36m[Kdata[m[K;
+[2.574s]       |                                        [01;36m[K^~~~[m[K
+[2.574s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:295[m[K,
+[2.574s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[2.574s]                  from [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:3[m[K:
+[2.574s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::ReturnByValue<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1][m[K’
+[2.574s]   243 |     EIGEN_STRONG_INLINE Matrix& [01;36m[Koperator[m[K=(const ReturnByValue<OtherDerived>& func)
+[2.574s]       |                                 [01;36m[K^~~~~~~~[m[K
+[2.574s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.574s] [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:72:40:[m[K [01;36m[Knote: [m[K  ‘[01m[Kexample_interfaces::msg::Float64MultiArray_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’} is not derived from ‘[01m[Kconst Eigen::ReturnByValue<Derived>[m[K’
+[2.574s]    72 |                     neighbor_vr = msg->[01;36m[Kdata[m[K;
+[2.574s]       |                                        [01;36m[K^~~~[m[K
+[2.574s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:295[m[K,
+[2.574s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[2.574s]                  from [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:3[m[K:
+[2.574s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:438:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::RotationBase<OtherDerived, Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1][m[K’
+[2.574s]   438 |     Matrix& [01;36m[Koperator[m[K=(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+[2.574s]       |             [01;36m[K^~~~~~~~[m[K
+[2.574s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:438:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.575s] [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:72:40:[m[K [01;36m[Knote: [m[K  ‘[01m[Kexample_interfaces::msg::Float64MultiArray_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’} is not derived from ‘[01m[Kconst Eigen::RotationBase<OtherDerived, -1>[m[K’
+[2.575s]    72 |                     neighbor_vr = msg->[01;36m[Kdata[m[K;
+[2.575s]       |                                        [01;36m[K^~~~[m[K
+[2.575s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:295[m[K,
+[2.575s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[2.575s]                  from [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:3[m[K:
+[2.575s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1][m[K’
+[2.575s]   206 |     EIGEN_STRONG_INLINE Matrix& [01;36m[Koperator[m[K=(const Matrix& other)
+[2.575s]       |                                 [01;36m[K^~~~~~~~[m[K
+[2.575s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:57:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kexample_interfaces::msg::Float64MultiArray_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’} to ‘[01m[Kconst Eigen::Matrix<double, -1, -1>&[m[K’
+[2.575s]   206 |     EIGEN_STRONG_INLINE Matrix& operator=([01;36m[Kconst Matrix& other[m[K)
+[2.575s]       |                                           [01;36m[K~~~~~~~~~~~~~~^~~~~[m[K
+[2.575s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:279:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&&) [with _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1][m[K’
+[2.575s]   279 |     Matrix& [01;36m[Koperator[m[K=(Matrix&& other) EIGEN_NOEXCEPT_IF(std::is_nothrow_move_assignable<Scalar>::value)
+[2.575s]       |             [01;36m[K^~~~~~~~[m[K
+[2.575s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:279:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kexample_interfaces::msg::Float64MultiArray_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’} to ‘[01m[KEigen::Matrix<double, -1, -1>&&[m[K’
+[2.575s]   279 |     Matrix& operator=([01;36m[KMatrix&& other[m[K) EIGEN_NOEXCEPT_IF(std::is_nothrow_move_assignable<Scalar>::value)
+[2.575s]       |                       [01;36m[K~~~~~~~~~^~~~~[m[K
+[2.575s] [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:[m[K In constructor ‘[01m[KNodoConsenso::NodoConsenso()[m[K’:
+[2.575s] [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:77:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::Subscription<example_interfaces::msg::Float64MultiArray_<std::allocator<void> > > >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<rclcpp::Subscription<example_interfaces::msg::Float64MultiArray_<std::allocator<void> > > >[m[K’} has no member named ‘[01m[Kpush_back[m[K’
+[2.576s]    77 |         V_subs.[01;31m[Kpush_back[m[K(V_subl);
+[2.576s]       |                [01;31m[K^~~~~~~~~[m[K
+[2.576s] [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:78:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::Subscription<example_interfaces::msg::Float64MultiArray_<std::allocator<void> > > >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<rclcpp::Subscription<example_interfaces::msg::Float64MultiArray_<std::allocator<void> > > >[m[K’} has no member named ‘[01m[Kpush_back[m[K’
+[2.576s]    78 |         v_subs.[01;31m[Kpush_back[m[K(v_subl);
+[2.576s]       |                [01;31m[K^~~~~~~~~[m[K
+[2.576s] [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:79:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::Subscription<example_interfaces::msg::Float64MultiArray_<std::allocator<void> > > >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<rclcpp::Subscription<example_interfaces::msg::Float64MultiArray_<std::allocator<void> > > >[m[K’} has no member named ‘[01m[Kpush_back[m[K’
+[2.576s]    79 |         V_subs.[01;31m[Kpush_back[m[K(V_subr);
+[2.576s]       |                [01;31m[K^~~~~~~~~[m[K
+[2.576s] [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:80:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::Subscription<example_interfaces::msg::Float64MultiArray_<std::allocator<void> > > >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<rclcpp::Subscription<example_interfaces::msg::Float64MultiArray_<std::allocator<void> > > >[m[K’} has no member named ‘[01m[Kpush_back[m[K’
+[2.576s]    80 |         v_subs.[01;31m[Kpush_back[m[K(v_subr);
+[2.576s]       |                [01;31m[K^~~~~~~~~[m[K
+[2.576s] [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:90:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kinput_sub[m[K’ was not declared in this scope
+[2.576s]    90 |         [01;31m[Kinput_sub[m[K = this->create_subscription<example_interfaces::msg::Float64MultiArray>(
+[2.576s]       |         [01;31m[K^~~~~~~~~[m[K
+[2.577s] [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:91:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kid[m[K’ was not declared in this scope; did you mean ‘[01m[Kid_[m[K’?
+[2.577s]    91 |             "/node_" + std::to_string([01;31m[Kid[m[K) + "/input",
+[2.577s]       |                                       [01;31m[K^~[m[K
+[2.577s]       |                                       [32m[Kid_[m[K
+[3.080s] gmake[2]: *** [CMakeFiles/nodo.dir/build.make:76: CMakeFiles/nodo.dir/src/nodo.cpp.o] Errore 1
+[3.080s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/nodo.dir/all] Errore 2
+[3.080s] gmake: *** [Makefile:146: all] Errore 2
+[3.082s] Invoked command in '/home/fortunato/ros2_ws/build/consenso_pkg' returned '2': /usr/bin/cmake --build /home/fortunato/ros2_ws/build/consenso_pkg -- -j8 -l8

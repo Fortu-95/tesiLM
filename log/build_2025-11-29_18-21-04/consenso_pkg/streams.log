@@ -1,0 +1,11 @@
+[0.023s] Invoking command in '/home/fortunato/ros2_ws/build/consenso_pkg': /usr/bin/cmake --build /home/fortunato/ros2_ws/build/consenso_pkg -- -j8 -l8
+[0.096s] [35m[1mConsolidate compiler generated dependencies of target nodo[0m
+[0.118s] [ 50%] [32mBuilding CXX object CMakeFiles/nodo.dir/src/nodo.cpp.o[0m
+[0.401s] [01m[K/home/fortunato/ros2_ws/src/consenso/src/nodo.cpp:3:10:[m[K [01;31m[Kfatal error: [m[KEigen/Dense: File o directory non esistente
+[0.401s]     3 | #include [01;31m[K<Eigen/Dense>[m[K
+[0.401s]       |          [01;31m[K^~~~~~~~~~~~~[m[K
+[0.401s] compilation terminated.
+[0.404s] gmake[2]: *** [CMakeFiles/nodo.dir/build.make:76: CMakeFiles/nodo.dir/src/nodo.cpp.o] Errore 1
+[0.404s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/nodo.dir/all] Errore 2
+[0.404s] gmake: *** [Makefile:146: all] Errore 2
+[0.406s] Invoked command in '/home/fortunato/ros2_ws/build/consenso_pkg' returned '2': /usr/bin/cmake --build /home/fortunato/ros2_ws/build/consenso_pkg -- -j8 -l8

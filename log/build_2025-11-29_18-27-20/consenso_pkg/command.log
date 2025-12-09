@@ -1,0 +1,2 @@
+Invoking command in '/home/fortunato/ros2_ws/build/consenso_pkg': /usr/bin/cmake /home/fortunato/ros2_ws/src/consenso -DCMAKE_INSTALL_PREFIX=/home/fortunato/ros2_ws/install/consenso_pkg
+Invoked command in '/home/fortunato/ros2_ws/build/consenso_pkg' returned '1': /usr/bin/cmake /home/fortunato/ros2_ws/src/consenso -DCMAKE_INSTALL_PREFIX=/home/fortunato/ros2_ws/install/consenso_pkg

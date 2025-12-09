@@ -1,0 +1,27 @@
+[0.024s] Invoking command in '/home/fortunato/ros2_ws/build/consenso_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fortunato/ros2_ws/build/consenso_pkg -- -j8 -l8
+[0.088s] [ 50%] [32mBuilding CXX object CMakeFiles/nodo.dir/src/nodo.cpp.o[0m
+[10.937s] [100%] [32m[1mLinking CXX executable nodo[0m
+[11.401s] [100%] Built target nodo
+[11.411s] Invoked command in '/home/fortunato/ros2_ws/build/consenso_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fortunato/ros2_ws/build/consenso_pkg -- -j8 -l8
+[11.413s] Invoking command in '/home/fortunato/ros2_ws/build/consenso_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fortunato/ros2_ws/build/consenso_pkg
+[11.420s] -- Install configuration: ""
+[11.420s] -- Installing: /home/fortunato/ros2_ws/install/consenso_pkg/lib/consenso_pkg/nodo
+[11.424s] -- Set runtime path of "/home/fortunato/ros2_ws/install/consenso_pkg/lib/consenso_pkg/nodo" to ""
+[11.424s] -- Up-to-date: /home/fortunato/ros2_ws/install/consenso_pkg/share/consenso_pkg/launch
+[11.424s] -- Up-to-date: /home/fortunato/ros2_ws/install/consenso_pkg/share/consenso_pkg/launch/consenso_launch.launch
+[11.424s] -- Up-to-date: /home/fortunato/ros2_ws/install/consenso_pkg/share/ament_index/resource_index/package_run_dependencies/consenso_pkg
+[11.424s] -- Up-to-date: /home/fortunato/ros2_ws/install/consenso_pkg/share/ament_index/resource_index/parent_prefix_path/consenso_pkg
+[11.424s] -- Up-to-date: /home/fortunato/ros2_ws/install/consenso_pkg/share/consenso_pkg/environment/ament_prefix_path.sh
+[11.425s] -- Up-to-date: /home/fortunato/ros2_ws/install/consenso_pkg/share/consenso_pkg/environment/ament_prefix_path.dsv
+[11.425s] -- Up-to-date: /home/fortunato/ros2_ws/install/consenso_pkg/share/consenso_pkg/environment/path.sh
+[11.425s] -- Up-to-date: /home/fortunato/ros2_ws/install/consenso_pkg/share/consenso_pkg/environment/path.dsv
+[11.425s] -- Up-to-date: /home/fortunato/ros2_ws/install/consenso_pkg/share/consenso_pkg/local_setup.bash
+[11.425s] -- Up-to-date: /home/fortunato/ros2_ws/install/consenso_pkg/share/consenso_pkg/local_setup.sh
+[11.425s] -- Up-to-date: /home/fortunato/ros2_ws/install/consenso_pkg/share/consenso_pkg/local_setup.zsh
+[11.425s] -- Up-to-date: /home/fortunato/ros2_ws/install/consenso_pkg/share/consenso_pkg/local_setup.dsv
+[11.425s] -- Up-to-date: /home/fortunato/ros2_ws/install/consenso_pkg/share/consenso_pkg/package.dsv
+[11.425s] -- Up-to-date: /home/fortunato/ros2_ws/install/consenso_pkg/share/ament_index/resource_index/packages/consenso_pkg
+[11.425s] -- Up-to-date: /home/fortunato/ros2_ws/install/consenso_pkg/share/consenso_pkg/cmake/consenso_pkgConfig.cmake
+[11.426s] -- Up-to-date: /home/fortunato/ros2_ws/install/consenso_pkg/share/consenso_pkg/cmake/consenso_pkgConfig-version.cmake
+[11.426s] -- Up-to-date: /home/fortunato/ros2_ws/install/consenso_pkg/share/consenso_pkg/package.xml
+[11.427s] Invoked command in '/home/fortunato/ros2_ws/build/consenso_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fortunato/ros2_ws/build/consenso_pkg

@@ -1,0 +1,22 @@
+from launch import LaunchDescription
+from launch_ros.actions import Node
+
+def generate_launch_description():
+    N = 8  # numero di nodi nella rete
+    nodi = []
+
+    for i in range(N):
+        nodi.append(
+            Node(
+                package="consenso_pkg",
+                executable="nodo",   # nome del target compilato (lo stesso che lanci con ros2 run)
+                name=f"nodo_{i}",
+                parameters=[{
+                    "id": i,
+                    "N": N
+                }]
+            )
+        )
+
+    return LaunchDescription(nodi)
+

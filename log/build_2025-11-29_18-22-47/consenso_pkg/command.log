@@ -1,0 +1,4 @@
+Invoking command in '/home/fortunato/ros2_ws/build/consenso_pkg': /usr/bin/cmake --build /home/fortunato/ros2_ws/build/consenso_pkg -- -j8 -l8
+Invoked command in '/home/fortunato/ros2_ws/build/consenso_pkg' returned '0': /usr/bin/cmake --build /home/fortunato/ros2_ws/build/consenso_pkg -- -j8 -l8
+Invoking command in '/home/fortunato/ros2_ws/build/consenso_pkg': /usr/bin/cmake --install /home/fortunato/ros2_ws/build/consenso_pkg
+Invoked command in '/home/fortunato/ros2_ws/build/consenso_pkg' returned '0': /usr/bin/cmake --install /home/fortunato/ros2_ws/build/consenso_pkg
